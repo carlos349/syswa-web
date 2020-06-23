@@ -138,7 +138,7 @@
 
 				<div class="col-lg-6 v_slider_section_image">
 					<div class="v_slider_image">
-						<img src="views/images/sistema.png" alt="">
+						<img src="views/images/homepage.jpeg" alt="">
 					</div>
 				</div>
 
@@ -200,7 +200,7 @@
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title">
-						<h1 style="color: black">KorWa. Nosotros haremos crecer tu negocio</h1>
+						<h1 style="color: black">SYSWA. Nosotros haremos crecer tu negocio</h1>
 						<span>Explora nuestros servicios</span>
 					</div>
 				</div>
@@ -362,7 +362,7 @@
 	<!-- Call to action -->
 
 	<div class="cta">
-		<div class="cta_background" style="background-image:url(views/images/cta_background.jpg)"></div>
+		<div class="cta_background" ></div>
 		
 		<div class="container">
 			<div class="row">
@@ -375,7 +375,8 @@
 
 				<div class="col-lg-6 offset-lg-1 order-lg-2 order-1">
 					<div class="cta_image d-flex flex-column justify-content-end">
-						<img src="views/images/cta.png" alt="image by https://unsplash.com/@heysupersimi">
+						<a href="http://birdingfest.net/index">birdingfest.net</a>
+						<img src="views/images/pagebirding.jpeg" alt="image by https://unsplash.com/@heysupersimi">
 					</div>
 				</div>
 			</div>

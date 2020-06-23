@@ -64,7 +64,7 @@
 
 	<!-- Vertical Slider Section -->
 
-	<div class="v_slider_section" style="background-color: #1b0d37;">
+	<div class="v_slider_section" style="background-color: #172b4d;">
 		<div class="container fill_height">
 			<div class="row fill_height">
 

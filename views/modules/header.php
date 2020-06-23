@@ -4,7 +4,7 @@
 		
 		<!-- Logo -->
 		<div class="logo mr-auto">
-			<a href="#">K<span>Wua</span></a>
+			<a href="#" style="font-weight: 800;">[SYSWA]</a>
 		</div>
 
 		<!-- Navigation -->
@@ -18,7 +18,7 @@
 			</ul>
 			
 			<!-- Search -->
-			<div class="search">
+			<!-- <div class="search">
 				<div class="search_content d-flex flex-column align-items-center justify-content-center">
 					<div class="search_button d-flex flex-column align-items-center justify-content-center">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -61,7 +61,7 @@
 					</form>
 
 				</div>
-			</div>
+			</div> -->
 		</nav>
 
 		<!-- Hamburger -->

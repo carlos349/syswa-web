@@ -1,6 +1,6 @@
 <!-- Footer -->
 
-	<footer class="footer" style="background-color:#1b0d37 ">
+	<footer class="footer" style="background-color:black ">
 		<div class="container" >
 			<div class="row">
 				
@@ -11,7 +11,7 @@
 
 						<!-- Logo -->
 						<div class="logo footer_logo">
-							<a href="#">K<span>Wua</span></a>
+							<a href="#" style="font-weight: 800;">[SYSWA]</a>
 						</div>
 
 						<p>Hacer crecer a nuestros clientes, es nuestro compromiso.</p>
