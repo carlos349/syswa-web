@@ -2,9 +2,6 @@
 <link rel="stylesheet" type="text/css" href="views/css/about_styles.css">
 <link rel="stylesheet" type="text/css" href="views/css/about_responsive.css">
 
-	
-
-
 <div class="super_container">
 	<input class="findHome" type="text" value="nhome" hidden >
 	

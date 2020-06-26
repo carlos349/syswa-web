@@ -161,7 +161,7 @@
 									</div>
 									<div class="person_meta">
 										<div class="person_name">Carlos Capacho</div>
-										<div class="person_title">Gerente</div>
+										<div class="person_title">Desarrollador</div>
 									</div>
 								</div>
 							</div>
@@ -179,10 +179,11 @@
 									</div>
 									<div class="person_meta">
 										<div class="person_name">Cristians Sanchez</div>
-										<div class="person_title">Developer</div>
+										<div class="person_title">Desarrollador</div>
 									</div>
 								</div>
 							</div>
+							
 
 							
 						</div>

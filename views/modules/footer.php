@@ -1,6 +1,6 @@
 <!-- Footer -->
 
-	<footer class="footer" style="background-color:black ">
+	<footer class="footer" >
 		<div class="container" >
 			<div class="row">
 				
@@ -11,10 +11,12 @@
 
 						<!-- Logo -->
 						<div class="logo footer_logo">
-							<a href="#" style="font-weight: 800;">[SYSWA]</a>
+							<a href="#" >
+								<img style="width: 200px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
+							</a>
 						</div>
 
-						<p>Hacer crecer a nuestros clientes, es nuestro compromiso.</p>
+						<p>Digitaliza tu idea.</p>
 						
 						<!-- Social -->
 						<div class="footer_social">
@@ -47,15 +49,6 @@ Copyright &copy;Todos los derechos reservados
 							<li><a href="services">Blogs</a></li>
 						</ul>
 					</div>
-					
-					<div class="footer_col">
-						<div class="footer_col_title">Adicionales</div>
-						<ul>
-							<li><a href="services">Creación de plantillas</a></li>
-							<li><a href="services">Diseño gráfico</a></li>
-							
-						</ul>
-					</div>
 
 				</div>
 
@@ -86,6 +79,19 @@ Copyright &copy;Todos los derechos reservados
 							<li><a href="contact">Suporte</a></li>
 						</ul>
 					</div>
+
+				</div>
+				<div class="col-lg-2">
+
+					<div class="footer_col">
+						<div class="footer_col_title">Adicionales</div>
+						<ul>
+							<li><a href="services">Creación de plantillas</a></li>
+							<li><a href="services">Diseño gráfico</a></li>
+							
+						</ul>
+					</div>
+					
 
 				</div>
 
