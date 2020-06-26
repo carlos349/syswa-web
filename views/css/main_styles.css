@@ -286,9 +286,6 @@ section
 	text-transform: uppercase;
 	color: white;
 }
-.button a:hover{
-	color: #172b4d !important;
-}
 .prlx_parent
 {
 	overflow: hidden;
@@ -322,11 +319,9 @@ section
 {
 	width: 100%;
 	height: 100%;
-	
-	  
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*********************************
@@ -346,7 +341,7 @@ section
 .header.scrolled
 {
 	height: 80px;
-	background: rgba(255, 255, 255, 0.863);
+	background: rgba(255, 255, 255, 0.980);
 }
 
 /*********************************
@@ -606,7 +601,7 @@ section
 .hero_side_text_container
 {
 	position: absolute;
-	top: 0;
+	top: -20%;
 	right: 285px;
 	width: 865px;
 	height: 236px;
@@ -630,7 +625,7 @@ section
 .hero_side_text h2
 {
 	display: block;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 300;
 	color: #172b4d;
 }
@@ -657,6 +652,7 @@ section
 	-o-transform: translateY(-5px);
 	transform: translateY(-5px);
 	cursor: pointer;
+	height: 40px;
 }
 .double_arrow i
 {
@@ -1318,7 +1314,7 @@ section
 .features_button:hover a,
 .features_button_2:hover a
 {
-	color: #FFFFFF;
+	color: #172b4d;
 }
 .features_button_2
 {
@@ -1372,7 +1368,6 @@ section
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 100%;
 }
 .cta_image img
 {

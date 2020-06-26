@@ -9,7 +9,7 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(views/images/home_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url(views/images/slider_background.jpg)"></div>
 		</div>
 		
 		<div class="home_title">
@@ -26,102 +26,295 @@
 
 	<!-- Service Boxes -->
 
-	<div class="service_boxes">
+	<div class="service_boxes" style="margin-top:-20px;">
 
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Conoce nuestras tarifas</h1>
+					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;text-decoration: underline;">Tarifas de SYSWA WEB</h1>
 				</div>
 				<div class="col-lg-4 service_col">
-	
-					<div class="card">
-						<div class="cabecera" style="background-color: #ff9900;"><h3>Plan bronce</h3></div>
-						<div class="cuerpo">
-							<h2>$ 80USD</h2>
-							<p>Anual</p><br>
+					<div class="flip-card-container" style="--hue: 220">
+						<div class="flip-card">
+							<div class="card-front-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-2.png" alt="Brohm Lake">
+									<figcaption>Página landing - <span class="badge badge-dark" style="font-size: 1.2em;">150$</span> </figcaption>
+								</figure>
 
-							<span></span><p>Diseño de la página</p>
-							<hr>
-							<span></span><p>Desarrollo de la página</p>
-							<hr>
-							<span></span><p>300 MB de almacenamiento</p>
-							<hr>
-							<span></span><p>5 Cuentas de Correo</p>
-							<hr>
-							<span></span><p>3 Subdominios</p>
-							<hr>
-							<span></span><p>Integración de Chat</p>
-							<center>
-								<div class="button devices_button">
-									<a href="planBronce">Contratar</a>
+								<ul class="card-ul-flip">
+									<li class="card-li-flip">1 Pagina de inicio</li>
+									<li class="card-li-flip">1 Correo</li>
+									<li class="card-li-flip">Dominio Gratis</li>
+									<li class="card-li-flip">Hosting un año</li>
+									<li class="card-li-flip">Ancho de banda limitado (100 GB)</li>
+									<li class="card-li-flip">Certificado SSL gratis</li>
+									<li class="card-li-flip">Caché LiteSpeed</li>
+									<li class="card-li-flip">Soporte 24/7/365</li>
+									<li class="card-li-flip">Copias de seguridad semanales</li>
+								</ul>
+							</div>
+							<div class="card-back-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-2.png" alt="Brohm Lake">
+								</figure>
+								<button class="button-card-flip">Pedir</button>
+								<div class="design-container-flip">
+									<span class="design-flip design--1"></span>
+									<span class="design-flip design--2"></span>
+									<span class="design-flip design--3"></span>
+									<span class="design-flip design--4"></span>
+									<span class="design-flip design--5"></span>
+									<span class="design-flip design--6"></span>
+									<span class="design-flip design--7"></span>
+									<span class="design-flip design--8"></span>
 								</div>
-							</center>
+							</div>
+
 						</div>
 					</div>
-
-				</div>
-
-				<div class="col-lg-4 service_col">
-					
-					<div class="card">
-						<div class="cabecera" style="background-color: #c2d6d6"><h3>Plan plata</h3></div>
-						<div class="cuerpo">
-							<h2>$ 100USD</h2>
-							<p>Anual</p><br>
-
-							<span></span><p>Diseño de la página</p>
-							<hr>
-							<span></span><p>Desarrollo de la página</p>
-							<hr>
-							<span></span><p>1 GB de almacenamiento</p>
-							<hr>
-							<span></span><p>20 Cuentas de Correo</p>
-							<hr>
-							<span></span><p>10 Subdominios</p>
-							<hr>
-							<span></span><p>Integración de Chat</p>
-							<center>
-								<div class="button devices_button">
-									<a href="#">Contratar</a>
-								</div>
-							</center>
-						</div>
-					</div>
-
 				</div>
 
 				<div class="col-lg-4 service_col">
+					<div class="flip-card-container" style="--hue: 220">
+						<div class="flip-card">
+							<div class="card-front-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-1.png" alt="Brohm Lake">
+									<figcaption>Sitio web - <span class="badge badge-dark" style="font-size: 1.2em;">
+										350$</span></figcaption>
+								</figure>
 
-					<div class="card">
-						<div class="cabecera" style="background-color: #ffcc00"><h3>Plan oro</h3></div>
-						<div class="cuerpo">
-							<h2>$ 150USD</h2>
-							<p>Anual</p><br>
-
-							<span></span><p>Diseño de la página</p>
-							<hr>
-							<span></span><p>Desarrollo de la página</p>
-							<hr>
-							<span></span><p>500 MB de almacenamiento</p>
-							<hr>
-							<span></span><p>10 Cuentas de Correo</p>
-							<hr>
-							<span></span><p>5 Subdominios</p>
-							<hr>
-							<span></span><p>Integración de Chat</p>
-							<center>
-								<div class="button devices_button">
-									<a href="#">Contratar</a>
+								<ul class="card-ul-flip">
+									<li class="card-li-flip">5 Secciones</li>
+									<li class="card-li-flip">Cuentas de correos ilimitados</li>
+									<li class="card-li-flip">Dominio Gratis</li>
+									<li class="card-li-flip">Hosting un año</li>
+									<li class="card-li-flip">2 Subdominios</li>
+									<li class="card-li-flip">Ancho de banda ilimitado</li>
+									<li class="card-li-flip">Certificado SSL gratis</li>
+									<li class="card-li-flip">Caché LiteSpeed</li>
+									<li class="card-li-flip">Soporte 24/7/365</li>
+									<li class="card-li-flip">Copias de seguridad semanales</li>
+								</ul>
+							</div>
+							<div class="card-back-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-1.png" alt="Brohm Lake">
+								</figure>
+								<button class="button-card-flip">Pedir</button>
+								<div class="design-container-flip">
+									<span class="design-flip design--1"></span>
+									<span class="design-flip design--2"></span>
+									<span class="design-flip design--3"></span>
+									<span class="design-flip design--4"></span>
+									<span class="design-flip design--5"></span>
+									<span class="design-flip design--6"></span>
+									<span class="design-flip design--7"></span>
+									<span class="design-flip design--8"></span>
 								</div>
-							</center>
+							</div>
+
 						</div>
 					</div>
+				</div>
 
+				<div class="col-lg-4 service_col">
+					<div class="flip-card-container" style="--hue: 220">
+						<div class="flip-card">
+							<div class="card-front-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-3.png" alt="Brohm Lake">
+									<figcaption>E-Commerce - <span class="badge badge-dark" style="font-size: 1.2em;">500$</span></figcaption>
+								</figure>
+
+								<ul class="card-ul-flip">
+									<li class="card-li-flip">4 Secciones</li>
+									<li class="card-li-flip">Cuentas de correos ilimitados</li>
+									<li class="card-li-flip">Dominio Gratis</li>
+									<li class="card-li-flip">Hosting un año</li>
+									<li class="card-li-flip">2 Subdominios</li>
+									<li class="card-li-flip">Carrito de venta</li>
+									<li class="card-li-flip">Pasarela de pago</li>
+									<li class="card-li-flip">Sección administrativa</li>
+									<li class="card-li-flip">Ancho de banda ilimitado</li>
+									<li class="card-li-flip">Certificado SSL gratis</li>
+									<li class="card-li-flip">Soporte 24/7/365</li>
+								</ul>
+							</div>
+							<div class="card-back-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-3.png" alt="Brohm Lake">
+								</figure>
+								<button class="button-card-flip">Pedir</button>
+								<div class="design-container-flip">
+									<span class="design-flip design--1"></span>
+									<span class="design-flip design--2"></span>
+									<span class="design-flip design--3"></span>
+									<span class="design-flip design--4"></span>
+									<span class="design-flip design--5"></span>
+									<span class="design-flip design--6"></span>
+									<span class="design-flip design--7"></span>
+									<span class="design-flip design--8"></span>
+								</div>
+							</div>
+
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;text-decoration: underline;">Tarifas de SYSWA GESTIÓN</h1>
+				</div>
+				<div class="col-lg-4 service_col">
+					<div class="flip-card-container" style="--hue: 220">
+						<div class="flip-card">
+							<div class="card-front-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-4.png" alt="Brohm Lake">
+									<figcaption>Plan básico - <span class="badge badge-dark" style="font-size: 1.2em;">60$</span></figcaption>
+								</figure>
+
+								<ul class="card-ul-flip">
+									<li class="card-li-flip">Suscripción 270$</li>
+									<li class="card-li-flip">Sección de Métricas</li>
+									<li class="card-li-flip">Sección de Ventas</li>
+									<li class="card-li-flip">Sección de Servicios</li>
+									<li class="card-li-flip">Sección de Profesionales</li>
+									<li class="card-li-flip">Sección de clientes</li>
+									<li class="card-li-flip">Sección de Gastos</li>
+									<li class="card-li-flip">Sección de Agendamiento</li>
+									<li class="card-li-flip">Sección de Caja</li>
+									<li class="card-li-flip">Sin inventario</li>
+									<li class="card-li-flip">Sin sitio web</li>
+								</ul>
+							</div>
+							<div class="card-back-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-4.png" alt="Brohm Lake">
+								</figure>
+								<button class="button-card-flip">Pedir</button>
+								<div class="design-container-flip">
+									<span class="design-flip design--1"></span>
+									<span class="design-flip design--2"></span>
+									<span class="design-flip design--3"></span>
+									<span class="design-flip design--4"></span>
+									<span class="design-flip design--5"></span>
+									<span class="design-flip design--6"></span>
+									<span class="design-flip design--7"></span>
+									<span class="design-flip design--8"></span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 service_col">
+					<div class="flip-card-container" style="--hue: 220">
+						<div class="flip-card">
+							<div class="card-front-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-6.png" alt="Brohm Lake">
+									<figcaption>Plan control de inventario - <span class="badge badge-dark" style="font-size: 1.2em;">70$</span></figcaption>
+								</figure>
+
+								<ul class="card-ul-flip">
+									<li class="card-li-flip">Suscripción 300$</li>
+									<li class="card-li-flip">Sección de Métricas</li>
+									<li class="card-li-flip">Sección de Ventas</li>
+									<li class="card-li-flip">Sección de Servicios</li>
+									<li class="card-li-flip">Sección de Profesionales</li>
+									<li class="card-li-flip">Sección de clientes</li>
+									<li class="card-li-flip">Sección de Gastos</li>
+									<li class="card-li-flip">Sección de Agendamiento</li>
+									<li class="card-li-flip">Sección de Caja</li>
+									<li class="card-li-flip">Seccion de inventario</li>
+									<li class="card-li-flip">Sin sitio web</li>
+								</ul>
+							</div>
+							<div class="card-back-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-6.png" alt="Brohm Lake">
+								</figure>
+								<button class="button-card-flip">Pedir</button>
+								<div class="design-container-flip">
+									<span class="design-flip design--1"></span>
+									<span class="design-flip design--2"></span>
+									<span class="design-flip design--3"></span>
+									<span class="design-flip design--4"></span>
+									<span class="design-flip design--5"></span>
+									<span class="design-flip design--6"></span>
+									<span class="design-flip design--7"></span>
+									<span class="design-flip design--8"></span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 service_col">
+					<div class="flip-card-container" style="--hue: 220">
+						<div class="flip-card">
+							<div class="card-front-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-5.png" alt="Brohm Lake">
+									<figcaption>Plan gestión - WEB - <span class="badge badge-dark" style="font-size: 1.2em;">70$</span></figcaption>
+								</figure>
+
+								<ul class="card-ul-flip">
+									<li class="card-li-flip">Suscripción 450$</li>
+									<li class="card-li-flip">Sección de Métricas</li>
+									<li class="card-li-flip">Sección de Ventas</li>
+									<li class="card-li-flip">Sección de Servicios</li>
+									<li class="card-li-flip">Sección de Profesionales</li>
+									<li class="card-li-flip">Sección de clientes</li>
+									<li class="card-li-flip">Sección de Gastos</li>
+									<li class="card-li-flip">Sección de Agendamiento</li>
+									<li class="card-li-flip">Sección de Caja</li>
+									<li class="card-li-flip">Seccion de inventario</li>
+									<li class="card-li-flip">Sitio web</li>
+								</ul>
+							</div>
+							<div class="card-back-flip">
+								<figure class="card-figure-flip">
+									<div class="img-bg"></div>
+									<img class="card-img-flip" src="views/images/bg-card-5.png" alt="Brohm Lake">
+								</figure>
+								<button class="button-card-flip">Pedir</button>
+								<div class="design-container-flip">
+									<span class="design-flip design--1"></span>
+									<span class="design-flip design--2"></span>
+									<span class="design-flip design--3"></span>
+									<span class="design-flip design--4"></span>
+									<span class="design-flip design--5"></span>
+									<span class="design-flip design--6"></span>
+									<span class="design-flip design--7"></span>
+									<span class="design-flip design--8"></span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Device -->
@@ -131,9 +324,9 @@
 		<div class="container">
 			<div class="row">
 				
-				<div class="col-lg-6 order-lg-1 order-2">
+				<div class="col-lg-6 order-lg-1 order-2 pt-5">
 					<div class="device_content">
-						<h1>Contamos con un equipo altamente capacitado</h1>
+						<h2>Contamos con un equipo altamente capacitado</h2>
 
 						<ul class="device_items">
 							<li class="device_item clearfix">
@@ -150,9 +343,10 @@
 							</li>
 						</ul>
 
-						<div class="button devices_button">
-							<a href="contact.html">Contactanos</a>
+						<div class="mt-5">
+							<a class="devices_button" href="contact">Contáctanos</a>
 						</div>
+						
 
 					</div>
 				</div>
@@ -175,7 +369,7 @@
 
 	<div class="cta_2">
 		<!-- image by: https://unsplash.com/@tentides -->
-		<div class="cta_2_background" style="background-image:url(images/cta_2.png)"></div>
+		<div class="cta_2_background"></div>
 		<div class="container">
 			<div class="row">
 				
@@ -188,8 +382,8 @@
 
 				<div class="col-lg-3">
 					<div class="cta_2_button_container">
-						<div class="button cta_2_button">
-							<a href="contact.html">Contáctenos</a>
+						<div class="mt-2">
+							<a class="devices_button" href="contact">Contáctanos</a>
 						</div>
 					</div>
 				</div>

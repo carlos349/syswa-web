@@ -76,22 +76,9 @@ Copyright &copy;Todos los derechos reservados
 						<ul>
 							<li><a href="about">Nuestro equipo</a></li>
 							<li><a href="about">Historia</a></li>
-							<li><a href="contact">Suporte</a></li>
+							<li><a href="contact">Soporte</a></li>
 						</ul>
 					</div>
-
-				</div>
-				<div class="col-lg-2">
-
-					<div class="footer_col">
-						<div class="footer_col_title">Adicionales</div>
-						<ul>
-							<li><a href="services">Creación de plantillas</a></li>
-							<li><a href="services">Diseño gráfico</a></li>
-							
-						</ul>
-					</div>
-					
 
 				</div>
 

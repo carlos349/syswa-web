@@ -325,14 +325,14 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 128px;
-	background: rgba(27, 11, 51, 0.52);
+	height: 68px;
+	background: rgba(255, 255, 255, 0.8);
 	z-index: 10;
 }
 .header.scrolled
 {
 	height: 80px;
-	background: rgba(27, 11, 51, 0.92);
+	background: rgba(255, 255, 255, .980);
 }
 
 /*********************************
@@ -392,7 +392,7 @@ section
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 40.51px;
-	color: #FFFFFF;
+	color: #172b4d;
 }
 .main_nav ul li.active a
 {
@@ -699,7 +699,7 @@ section
 	border: none;
 	text-indent: -9999px;
 	cursor: pointer;
-	background: #fafbfb;
+	background: #172b4d;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -716,7 +716,7 @@ section
 {
 	width: 18px;
 	height: 18px;
-	background: #452b78;
+	background: #0b172c;
 }
 .portfolio_content
 {
@@ -783,7 +783,7 @@ section
 	width: 100%;
 	background: #f6f4f9;
 	padding-top: 54px;
-	padding-left: 116px;
+	padding-left: 60px;
 	padding-bottom: 25px;
 	margin-top: -33px;
 }

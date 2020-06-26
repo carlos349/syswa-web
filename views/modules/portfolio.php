@@ -9,7 +9,7 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(views/images/portfolio_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url(views/images/slider_background.jpg)"></div>
 		</div>
 		
 		<div class="home_title">
@@ -35,10 +35,8 @@
 					<div class="portfolio_categories button-group filters-button-group">
 						<ul>
 							<li class="portfolio_category active is-checked" data-filter="*">Todos</li>
-							<li class="portfolio_category" data-filter=".desarrollo">Desarrollo web</li>
-							<li class="portfolio_category" data-filter=".disenoweb">Diseño web</li>
-							<li class="portfolio_category" data-filter=".grafico">Diseño gráfico</li>
-							<li class="portfolio_category" data-filter=".logos">Logos</li>
+							<li class="portfolio_category" data-filter=".desarrollo">SYSWA Web</li>
+							<li class="portfolio_category" data-filter=".disenoweb">SYSWA Gestión</li>
 						</ul>
 					</div>
 				</div>
@@ -53,58 +51,76 @@
 						<!-- Portfolio Item -->
 						<div class="card desarrollo">
 							<div class="card_image">
-								<img class="card-img-top" src="views/images/portafolio1.png" alt="image by https://unsplash.com/@heysupersimi">
+								<img style="height:50vh;" class="card-img-top" src="views/images/portfolio1.png" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
 								<div class="card-header">Desarrollo Web</div>
-								<div class="card-title">Creamos el código de tu sitio web</div>
-								<div class="card-text">Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul.  Nec odio vestibulum est mattis.</div>
-								<div class="card-link"><a href="item">Saber más</a></div>
+								<div class="card-title">kkprettynails.cl</div>
+								<div class="card-text">Desarrollo de un sitio web.</div>
+								<div class="card-link"><a href="kkprettynails">Saber más</a></div>
 							</div>
 						</div>
+
+						<!-- Portfolio Item -->
+						<div class="card desarrollo">
+							<div class="card_image">
+								<img class="card-img-top" src="views/images/portfolio2.png" alt="image by https://unsplash.com/@heysupersimi">
+							</div>
+							
+							<div class="card-body">
+								<div class="card-header">Desarrollo web</div>
+								<div class="card-title">albaven.com</div>
+								<div class="card-text">Desarrollo de un sitio web.</div>
+								<div class="card-link"><a href="albaven">Saber más</a></div>
+							</div>
+						</div>
+
+						<!-- Portfolio Item -->
+						<!-- <div class="card desarrollo">
+							<div class="card_image">
+								<img style="height:50vh;" class="card-img-top" src="views/images/portfolio3.png" alt="image by https://unsplash.com/@anthonydelanoix">
+							</div>
+							
+							<div class="card-body">
+								<div class="card-header">Desarrollo web</div>
+								<div class="card-title">guvenca.com.ve</div>
+								<div class="card-text">Desarrollo de un sitio web.</div>
+								<div class="card-link"><a href="miningllc">Saber más</a></div>
+							</div>
+						</div> -->
 
 						<!-- Portfolio Item -->
 						<div class="card disenoweb">
 							<div class="card_image">
-								<img class="card-img-top" src="views/images/portafolio2.png" alt="image by https://unsplash.com/@anthonydelanoix">
+								<img style="height:50vh;" class="card-img-top" src="views/images/portfolio4.png" alt="image by https://unsplash.com/@anthonydelanoix">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">Diseño web</div>
-								<div class="card-title">Creamos diseño de tu sitio web.</div>
-								<div class="card-text">Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul.  Nec odio vestibulum est mattis.</div>
-								<div class="card-link"><a href="item">Saber más</a></div>
+								<div class="card-header">Sistema SYSWA Gestión</div>
+								<div class="card-title">tuempresa.syswa.net</div>
+								<div class="card-text">
+									Sistema administrativo, para negocios orientados a afrecer servicios. <br> 
+									Sistema de agendamiento y gestion de horarios para los profesionales de tu negocio. <br>
+									Sistema de inventario y venta totalmente intuitivo, para que gestiones tu negocio como todo un profesional.
+								</div>
+								<div class="card-link"><a href="gestion">Saber más</a></div>
 							</div>
 						</div>
 
 						<!-- Portfolio Item -->
-						<div class="card grafico">
-							<div class="card_image">
-								<img class="card-img-top" src="views/images/portafolio3.png" alt="image by https://unsplash.com/@heysupersimi">
-							</div>
-							
-							<div class="card-body">
-								<div class="card-header">Diseño gráfico</div>
-								<div class="card-title">Creamos los diseños que desees</div>
-								<div class="card-text">Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul.  Nec odio vestibulum est mattis.</div>
-								<div class="card-link"><a href="item">Saber más</a></div>
-							</div>
-						</div>
-
-						<!-- Portfolio Item -->
-						<div class="card logos">
+						<!-- <div class="card desarrollo">
 							<div class="card_image">
 								<img class="card-img-top" src="views/images/portafolio2.png" alt="image by https://unsplash.com/@anthonydelanoix">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">Logo</div>
-								<div class="card-title">Creacion de logos</div>
-								<div class="card-text">Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul.  Nec odio vestibulum est mattis.</div>
+								<div class="card-header">Desarrollo web</div>
+								<div class="card-title">guvenca.com.ve</div>
+								<div class="card-text">Desarrollo de un sitio web.</div>
 								<div class="card-link"><a href="item">Saber más</a></div>
 							</div>
-						</div>
+						</div> -->
 
 					
 
@@ -116,19 +132,3 @@
 	</div>
 
 	<?php include ("footer.php") ?>
-
-<script src="views/js/jquery-3.2.1.min.js"></script>
-<script src="views/css/bootstrap4/popper.js"></script>
-<script src="views/css/bootstrap4/bootstrap.min.js"></script>
-<script src="views/plugins/greensock/TweenMax.min.js"></script>
-<script src="views/plugins/greensock/TimelineMax.min.js"></script>
-<script src="views/plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="views/plugins/greensock/animation.gsap.min.js"></script>
-<script src="views/plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="views/plugins/slick-1.8.0/slick.js"></script>
-<script src="views/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="views/plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="views/plugins/easing/easing.js"></script>
-<script src="views/js/custom.js"></script>
-<script src="views/plugins/Isotope/isotope.pkgd.min.js"></script>
-<script src="views/js/portfolio_custom.js"></script>

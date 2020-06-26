@@ -325,16 +325,15 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 128px;
-	background: #172b4d;
+	height: 68px;
+	background: rgba(255, 255, 255, 0.8);
 	z-index: 10;
 }
 .header.scrolled
 {
 	height: 80px;
-	background: #172b4d;
+	background: rgba(255, 255, 255, 0.980);
 }
-
 /*********************************
 3.1.1 Logo
 *********************************/
@@ -392,7 +391,7 @@ section
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 40.51px;
-	color: #FFFFFF;
+	color: #172b4d;
 }
 .main_nav ul li.active a
 {
@@ -678,7 +677,7 @@ section
 }
 .card:hover .card_image::after
 {
-	background: rgba(69, 43, 120, 0.8);
+	background: #172b4d98;
 }
 .card-body
 {

@@ -15,7 +15,7 @@
 <link href="views/plugins/icon-font/styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="views/css/main_styles.css">
 <link rel="stylesheet" type="text/css" href="views/css/responsive.css">
-
+<link rel="icon" href="views/images/icons/favicon.ico" type="image/ico">
 </head>
 
 <body>
@@ -26,8 +26,22 @@
     ?>
 
 
-
-
+<script src="views/js/jquery-3.2.1.min.js"></script>
+<script src="views/css/bootstrap4/popper.js"></script>
+<script src="views/css/bootstrap4/bootstrap.min.js"></script>
+<script src="views/plugins/greensock/TweenMax.min.js"></script>
+<script src="views/plugins/greensock/TimelineMax.min.js"></script>
+<script src="views/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="views/plugins/greensock/animation.gsap.min.js"></script>
+<script src="views/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="views/plugins/slick-1.8.0/slick.js"></script>
+<script src="views/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="views/plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="views/plugins/easing/easing.js"></script>
+<script src="views/js/custom.js"></script>
+<script src="views/plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="views/js/portfolio_custom.js"></script>
+<script src="views/js/portfolio_item_custom.js"></script>
 </body>
 
 </html>

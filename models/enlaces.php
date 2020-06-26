@@ -9,8 +9,10 @@ class EnlacesModels{
 			$enlaces == "contact" ||
 			$enlaces == "about" ||
 			$enlaces == "portfolio" ||
-			$enlaces == "planBronce" ||
-			$enlaces == "item"
+			$enlaces == "miningllc" ||
+			$enlaces == "albaven" ||
+			$enlaces == "kkprettynails" ||
+			$enlaces == "gestion" 
 			 ){
 
 			$module = "views/modules/".$enlaces.".php";

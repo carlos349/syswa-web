@@ -83,7 +83,7 @@
 
 	<!-- Icon Boxes -->
 
-	<div class="icon_boxes paralaxx">
+	<div class="icon_boxes paralaxx" style="margin-top:-30px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
@@ -138,7 +138,7 @@
 
 				<div class="col-lg-6 v_slider_section_image">
 					<div class="v_slider_image">
-						<img src="views/images/homepage.jpeg" alt="">
+						<img style="height: 580px;" src="views/images/portfolio6.png" alt="">
 					</div>
 				</div>
 
@@ -333,7 +333,7 @@
 						<img src="views/images/features.png" alt="">
 					</div>
 					<div class="button features_button trans_200">
-						<a href="#" class="trans_200">Descubre más</a>
+						<a href="services" class="trans_200">Descubre más</a>
 					</div>
 				</div>
 
@@ -376,8 +376,8 @@
 
 				<div class="col-lg-6 offset-lg-1 order-lg-2 order-1">
 					<div class="cta_image d-flex flex-column justify-content-end">
-						<a href="http://birdingfest.net/index">birdingfest.net</a>
-						<img src="views/images/pagebirding.jpeg" alt="image by https://unsplash.com/@heysupersimi">
+						<a href="http://kkprettynails.cl" target="_blank">K&K Pretty Nails</a>
+						<img  src="views/images/kkprettynails.png" alt="image by https://unsplash.com/@heysupersimi">
 					</div>
 				</div>
 			</div>
@@ -424,16 +424,3 @@
 	
 
 <?php include ("footer.php") ?>
-<script src="views/js/jquery-3.2.1.min.js"></script>
-<script src="views/css/bootstrap4/popper.js"></script>
-<script src="views/css/bootstrap4/bootstrap.min.js"></script>
-<script src="views/plugins/greensock/TweenMax.min.js"></script>
-<script src="views/plugins/greensock/TimelineMax.min.js"></script>
-<script src="views/plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="views/plugins/greensock/animation.gsap.min.js"></script>
-<script src="views/plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="views/plugins/slick-1.8.0/slick.js"></script>
-<script src="views/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="views/plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="views/plugins/easing/easing.js"></script>
-<script src="views/js/custom.js"></script>

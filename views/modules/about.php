@@ -12,7 +12,7 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(views/images/home_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url(views/images/slider_background.jpg)"></div>
 		</div>
 		
 		<div class="home_title">
@@ -32,26 +32,35 @@
 	<div class="icon_boxes">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-6">
 					<div class="icon_box_title">
-						<h1 style="color: black;margin-top: 50px;">Un equipo fuerte con un fondo fuerte.</h1>
+						<h1 style="color: black;margin-bottom: 40px;">Un equipo fuerte con un fondo fuerte.</h1>
 					</div>
-									</div>
-
-				<div class="col-lg-4 icon_box_col">
-
-					<!-- Icon Box Item -->
 					<div class="icon_box_paragraph">
-						<p>Somos una compañía formada en Venezuela, por programadores empredores, que tienen la fortalezas de hacer crecer empresas, hacer crecer un país y confiar en nuestros clientes. <br><br>Por que, cuando Venezuela salga adelante, necesitará apoyo y quien mas que los mismos jovenes emprendedores.</p>
+						<p>
+							Somos programadores y desarrolladores web, realizamos sitios web especializándonos en los
+							procesos creativos para plasmar los diseños e ideas que tengas en mente. <br> <br>
+							De igual manera somos una empresa muy completa y capacitada en diferentes lenguajes de
+							programación lo que nos llevó a diseñar software de gestión y ventas que sería el complemento
+							perfecto para optimizar el funcionamiento de tu negocio. <br><br>
+						</p>
 					</div>
-
 				</div>
 
-				<div class="col-lg-4 icon_box_col">
+				<div class="col-lg-6 icon_box_col">
 
 					<!-- Icon Box Item -->
 					<div class="icon_box_paragraph">
-						<p>Pensamos que podemos ayudar, a todas esas empresas que a pesar de las adversidades, siguen avanzando, luchando y queriendo impulsar este país. </p>
+						<p>
+							Además de nuestras capacidades en programación y desarrollo web, tenemos alto compromiso con
+							nuestros clientes, no sólo buscamos entregar un servicio de calidad, lo que nos interesa es hacer
+							crecer tu negocio. Además, generar confianza para mantener una relación a largo plazo. <br><br>
+							Llevamos a nuestros clientes a encontrar su máximo potencial en la red, aportando a su crecimiento
+							y presencia para alcanzar sus objetivos.  <br><br> 
+							En nosotros encontrarás personas que en cada proyecto buscan innovar y el crecimiento profesional
+							en este medio. Cada día que trabajamos tratamos de mejorar. Ponemos todo nuestro esfuerzo en
+							conseguir los objetivos de nuestros clientes y todo ello hacerlo de manera que podamos disfrutarlo.
+						</p>
 					</div>
 					
 				</div>
@@ -92,8 +101,8 @@
 										<img src="views/images/person_1.png" alt="">
 									</div>
 									<div class="person_meta">
-										<div class="person_name" style="color: #fff;">Paulo Gomes</div>
-										<div class="person_title" >Taller venezuela</div>
+										<div class="person_name" style="color: #fff;">Katriel Capacho</div>
+										<div class="person_title" >K&K Pretty Nails</div>
 									</div>
 								</div>
 							</div>
@@ -143,46 +152,59 @@
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1 text-lg-center text-left team_title">
 					<h1>Conoce a nuestro equipo</h1>
-					<p>Este será el equipo que te ayudará en todo el proceso de creación y diseño de tu sitio web. Conocelo y familiarízate.  </p>
+					<p class="text-center">Este será el equipo que te ayudará en todo el proceso de creación, diseño y soporte de cualquier servicio que te podamos ofrecer. Conocelo y familiarízate.  </p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row offset-xl-1">
 				
 				<!-- Team Item -->
-				<div class="col-xl-3 col-lg-4 offset-xl-1 team_col">
+				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
 						<div class="team_member_image"><img src="views/images/team_3.jpg" alt=""></div>
 						<div class="team_member_content">
-							<div class="team_member_name">Carlos Capacho</div>
-							<div class="team_member_title">Desarrollador</div>
-							<p>Desarrollador, experimentado con mas de 2 años de experiencia.</p>
-							<div class="team_member_link"><a href="#">Leer más</a></div>
+							<div class="team_member_name">Miguel Polanco</div>
+							<div class="team_member_title">Jefe de Proyecto</div>
+							<p>Encargado de liderar y gestionar proyectos tecnológicos, para los servicios de la empresa como para los servicios del negocio.</p>
+							<div class="team_member_link"><a href="#">Saber más</a></div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<!-- Team Item -->
+				<div class="col-lg-3 col-md-6 team_col">
+					<div class="team_container trans_200">
+						<div class="team_member_image"><img src="views/images/team_1.jpg" alt=""></div>
+						<div class="team_member_content">
+							<div class="team_member_name">Simon Andres</div>
+							<div class="team_member_title">Jefe de Área TI</div>
+							<p>Garantizar el cumplimiento de todos los niveles de servicio, dirigir adecuadamente los esfuerzos del personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
+							<div class="team_member_link"><a href="#">Saber más</a></div>
 						</div>
 					</div>
 				</div>
 				
 				<!-- Team Item -->
-				<div class="col-xl-3 col-lg-4 offset-xl-1 team_col">
+				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
 						<div class="team_member_image"><img src="views/images/team_2.jpg" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Cristians Sanchez</div>
 							<div class="team_member_title">Desarrollador</div>
-							<p>Desarrollador, experimentado con mas de 2 años de experiencia.</p>
-							<div class="team_member_link"><a href="#">Leer más</a></div>
+							<p>Desarrollador de sorftware, experimentado con mas de 4 años de experiencia.</p>
+							<div class="team_member_link"><a href="#">Saber más</a></div>
 						</div>
 					</div>
 				</div>
-				
 				<!-- Team Item -->
-				<div class="col-xl-3 col-lg-4 offset-xl-1 team_col">
+				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_1.jpg" alt=""></div>
+						<div class="team_member_image"><img src="views/images/team_3.jpg" alt=""></div>
 						<div class="team_member_content">
-							<div class="team_member_name">Andrea Hernandez</div>
-							<div class="team_member_title">Diseñadora</div>
-							<p>Diseñadora, experimentado con mas de 2 años de experiencia.</p>
-							<div class="team_member_link"><a href="#">Leer más</a></div>
+							<div class="team_member_name">Carlos Capacho</div>
+							<div class="team_member_title">Desarrollador</div>
+							<p>Desarrollador de sorftware, experimentado con mas de 4 años de experiencia. </p>
+							<div class="team_member_link"><a href="#">Saber más</a></div>
 						</div>
 					</div>
 				</div>
@@ -272,17 +294,3 @@
 	</div>
 
 	<?php include ("footer.php") ?>
-	
-	<script src="views/js/jquery-3.2.1.min.js"></script>
-<script src="views/css/bootstrap4/popper.js"></script>
-<script src="views/css/bootstrap4/bootstrap.min.js"></script>
-<script src="views/plugins/greensock/TweenMax.min.js"></script>
-<script src="views/plugins/greensock/TimelineMax.min.js"></script>
-<script src="views/plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="views/plugins/greensock/animation.gsap.min.js"></script>
-<script src="views/plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="views/plugins/slick-1.8.0/slick.js"></script>
-<script src="views/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="views/plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="views/plugins/easing/easing.js"></script>
-<script src="views/js/custom.js"></script>

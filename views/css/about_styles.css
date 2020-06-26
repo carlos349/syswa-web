@@ -74,10 +74,11 @@ ul
 p
 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 18px;
-	line-height: 1.86;
+	font-size: 1em;
+	line-height: 1.5;
 	font-weight: 400;
-	color: #909090;
+	text-align:justify;
+	color: #545454;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -335,7 +336,7 @@ section
 .header.scrolled
 {
 	height: 80px;
-	background: rgba(255, 255, 255, 0.863);
+	background: rgba(255, 255, 255, 0.980);
 }
 
 /*********************************
@@ -821,7 +822,7 @@ section
 }
 .team_title
 {
-	margin-bottom: 186px;
+	margin-bottom: 156px;
 }
 .team_title h1
 {
@@ -864,8 +865,8 @@ section
 }
 .team_member_content
 {
-	padding-left: 40px;
-	padding-right: 30px;
+	padding-left: 20px;
+	padding-right: 10px;
 	margin-top: -50px;
 	padding-bottom: 25px;
 }

@@ -9,7 +9,7 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background" style="background-image:url(views/images/blog_background.jpg)"></div>
+			<div class="home_background" style="background-image:url(views/images/slider_background.jpg)"></div>
 		</div>
 		
 		<div class="home_title">
@@ -85,7 +85,7 @@
 						<div class="contact_info_container">
 
 							<div class="logo contact_logo" >
-								<a style="background-color: #1b0d37;padding-right: 15px;padding-left: 15px;" href="#">K<span>Wua</span></a>
+								<img style="width: 200px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
 							</div>
 							<p>Apenas te comuniques con nosotros te llegará un correo, respondiendo tus inquietudes.</p>
 
@@ -93,10 +93,12 @@
 								<div class="contact_info_icon">i</div>
 								<div class="contact_info_content">
 									<ul>
+									<li class="email">syswa@gmail.com</li>
+										<li class="city">Aragua, venezuela</li>
+										<li class="phone">+54 0424 320 3108</li><br>
+										<li class="city">Santiago, Chile</li>
+										<li class="phone">+56 9 320 3108</li>
 										
-										<li class="city">Cagua, aragua</li>
-										<li class="phone">0424 320 3108</li>
-										<li class="email">info@korwa.com</li>
 									</ul>									
 								</div>
 							</div>
