@@ -19,7 +19,7 @@ class EnlacesModels{
 
 		}
 		else if($enlaces == "index"){
-			$module = "views/modules/home.php";
+			$module = "views/modules/services.php";
 		}else if ($enlaces == "accesoNoPermitido") {
 			$module = "views/modules/accesoNoPermitido.html";
 		}else{
