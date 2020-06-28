@@ -1,8 +1,7 @@
-<link rel="stylesheet" type="text/css" href="views/css/portfolio_item_styles.css">
-<link rel="stylesheet" type="text/css" href="views/css/portfolio_item_responsive.css">
-<div class="super_container">
-    <input class="findHome" type="text" value="nohome" hidden >
-	<?php include ("header.php"); ?>
+<?php include ("header.php"); ?>
+	<link rel="stylesheet" type="text/css" href="views/css/portfolio_item_styles.css">
+	<link rel="stylesheet" type="text/css" href="views/css/portfolio_item_responsive.css">
+	<input class="findHome" type="text" value="nohome" hidden >
 
     <!-- Home -->
 

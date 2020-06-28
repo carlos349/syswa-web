@@ -1,9 +1,7 @@
-<link rel="stylesheet" type="text/css" href="views/css/contact_styles.css">
-<link rel="stylesheet" type="text/css" href="views/css/contact_responsive.css">
-
-<div class="super_container">
+<?php include ("header.php"); ?>
+	<link rel="stylesheet" type="text/css" href="views/css/contact_styles.css">
+	<link rel="stylesheet" type="text/css" href="views/css/contact_responsive.css">
 	<input class="findHome" type="text" value="nohome" hidden >
-	<?php include ("header.php"); ?>
 
 	<!-- Home -->
 

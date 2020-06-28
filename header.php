@@ -1,5 +1,25 @@
 <!-- Header -->
+<!DOCTYPE html>
+	<html lang="es">
+	<head>
+		<title>Syswa - Digitaliza tu idea</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="RanGO Project">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="views/css/bootstrap4/bootstrap.min.css">
+		<link href="views/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="views/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="views/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+		<link rel="stylesheet" type="text/css" href="views/plugins/OwlCarousel2-2.2.1/animate.css">
+		<link rel="stylesheet" type="text/css" href="views/plugins/slick-1.8.0/slick.css">
+		<link href="views/plugins/icon-font/styles.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="views/css/main_styles.css">
+		<link rel="stylesheet" type="text/css" href="views/css/responsive.css">	
+		<link rel="icon" href="views/images/icons/favicon.ico" type="image/ico">
+	</head>
 
+	<body>
 	<header class="header d-flex flex-row justify-content-end align-items-center trans_200">
 		
 		<!-- Logo -->
@@ -12,11 +32,11 @@
 		<!-- Navigation -->
 		<nav class="main_nav justify-self-end text-right">
 			<ul>
-				<li class="active"><a href="home">Inicio</a></li>
-				<li><a href="about">Nosotros</a></li>
-				<li><a href="services">Servicios</a></li>
-				<li><a href="portfolio">Portafolio</a></li>
-				<li><a href="contact">Contacto</a></li>
+				<li class="active"><a href="index.php">Inicio</a></li>
+				<li><a href="about.php">Nosotros</a></li>
+				<li><a href="services.php">Servicios</a></li>
+				<li><a href="portfolio.php">Portafolio</a></li>
+				<li><a href="contact.php">Contacto</a></li>
 			</ul>
 			
 			<!-- Search -->

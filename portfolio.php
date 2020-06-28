@@ -1,9 +1,8 @@
+
+<?php include ("header.php"); ?>
 <link rel="stylesheet" type="text/css" href="views/css/portfolio_styles.css">
 <link rel="stylesheet" type="text/css" href="views/css/portfolio_responsive.css">
-
-<div class="super_container">
-	<input class="findHome" type="text" value="nohome" hidden >
-	<?php include ("header.php"); ?>
+<input class="findHome" type="text" value="nohome" hidden >
 
 	<!-- Home -->
 
@@ -58,7 +57,7 @@
 								<div class="card-header">Desarrollo Web</div>
 								<div class="card-title">kkprettynails.cl</div>
 								<div class="card-text">Desarrollo de un sitio web.</div>
-								<div class="card-link"><a href="kkprettynails">Saber más</a></div>
+								<div class="card-link"><a href="kkprettynails.php">Saber más</a></div>
 							</div>
 						</div>
 
@@ -72,7 +71,7 @@
 								<div class="card-header">Desarrollo web</div>
 								<div class="card-title">albaven.com</div>
 								<div class="card-text">Desarrollo de un sitio web.</div>
-								<div class="card-link"><a href="albaven">Saber más</a></div>
+								<div class="card-link"><a href="albaven.php">Saber más</a></div>
 							</div>
 						</div>
 
@@ -104,7 +103,7 @@
 									Sistema de agendamiento y gestion de horarios para los profesionales de tu negocio. <br>
 									Sistema de inventario y venta totalmente intuitivo, para que gestiones tu negocio como todo un profesional.
 								</div>
-								<div class="card-link"><a href="gestion">Saber más</a></div>
+								<div class="card-link"><a href="gestion.php">Saber más</a></div>
 							</div>
 						</div>
 

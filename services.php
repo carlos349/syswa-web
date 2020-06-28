@@ -1,10 +1,8 @@
-<link rel="stylesheet" type="text/css" href="views/css/services_styles.css">
-<link rel="stylesheet" type="text/css" href="views/css/services_responsive.css">
-
-<div class="super_container">
+<?php include ("header.php"); ?>
+	<link rel="stylesheet" type="text/css" href="views/css/services_styles.css">
+	<link rel="stylesheet" type="text/css" href="views/css/services_responsive.css">
 	<input class="findHome" type="text" value="nohome" hidden >
 	
-<?php include ("header.php"); ?>
 	<!-- Home -->
 
 	<div class="home">
