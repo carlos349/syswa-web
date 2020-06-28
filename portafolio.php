@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="views/css/portfolio_styles.css">
 <link rel="stylesheet" type="text/css" href="views/css/portfolio_responsive.css">
 <input class="findHome" type="text" value="nohome" hidden >
-
+<div class="super_container">
 	<!-- Home -->
 
 	<div class="home">

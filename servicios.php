@@ -2,7 +2,7 @@
 	<link rel="stylesheet" type="text/css" href="views/css/services_styles.css">
 	<link rel="stylesheet" type="text/css" href="views/css/services_responsive.css">
 	<input class="findHome" type="text" value="nohome" hidden >
-	
+<div class="super_container">
 	<!-- Home -->
 
 	<div class="home">

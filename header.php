@@ -32,11 +32,11 @@
 		<!-- Navigation -->
 		<nav class="main_nav justify-self-end text-right">
 			<ul>
-				<li class="active"><a href="index.php">Inicio</a></li>
-				<li><a href="about.php">Nosotros</a></li>
-				<li><a href="services.php">Servicios</a></li>
-				<li><a href="portfolio.php">Portafolio</a></li>
-				<li><a href="contact.php">Contacto</a></li>
+				<li class="active"><a href="index">Inicio</a></li>
+				<li><a href="nosotros">Nosotros</a></li>
+				<li><a href="servicios">Servicios</a></li>
+				<li><a href="portafolio">Portafolio</a></li>
+				<li><a href="contacto">Contacto</a></li>
 			</ul>
 			
 			<!-- Search -->
@@ -99,11 +99,11 @@
 		<div class="menu menu_mm text-right">
 			<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
 			<ul class="menu_mm">
-				<li class="menu_mm active"><a href="#">Inicio</a></li>
-				<li class="menu_mm"><a href="about">Nosotros</a></li>
-				<li class="menu_mm"><a href="services">Servicios</a></li>
-				<li class="menu_mm"><a href="portfolio">Portfolio</a></li>
-				<li class="menu_mm"><a href="contact">Contacto</a></li>
+				<li class="menu_mm active"><a href="index">Inicio</a></li>
+				<li class="menu_mm"><a href="nosotros">Nosotros</a></li>
+				<li class="menu_mm"><a href="servicios">Servicios</a></li>
+				<li class="menu_mm"><a href="portafolio">Portafolio</a></li>
+				<li class="menu_mm"><a href="contacto">Contacto</a></li>
 			</ul>
 		</div>
 	</div>
