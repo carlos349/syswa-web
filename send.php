@@ -30,10 +30,10 @@ class Mails {
             //Server settings
             $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $mail->isSMTP();                                            // Send using SMTP
-            $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
+            $mail->Host       = 'ses-smtp-user.20200701-173634';                    // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username   = 'syswainfo@gmail.com';                     // SMTP username
-            $mail->Password   = 'l26151369';                               // SMTP password
+            $mail->Username   = 'AKIA3PQB77VV744RUZEU';                     // SMTP username
+            $mail->Password   = 'BDlDydRxcHML6fDvoaCHLYsgwEf8OrLXZ8cB+3anDD/s';                               // SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -59,7 +59,9 @@ class Mails {
                     hideClass: {
                     popup: "animate__animated animate__fadeOutUp"
                     }
-                }).then((result) => {})
+                }).then((result) => {
+                    window.location="http://syswa.net";
+                })
             </script>';
         } catch (Exception $e) {
             echo '
@@ -74,7 +76,9 @@ class Mails {
                     hideClass: {
                     popup: "animate__animated animate__fadeOutUp"
                     }
-                }).then((result) => {})
+                }).then((result) => {
+                    window.location="http://syswa.net";
+                })
             </script>';
         }
     }
