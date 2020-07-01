@@ -25,7 +25,7 @@
 		<!-- Logo -->
 		<div class="logo mr-auto">
 			<a href="#" >
-				<img style="width: 200px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
+				<img style="width: 70px;height:70px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);" src="views/images/syswa-isotipo.png" alt="Logo syswa">
 			</a>
 		</div>
 

@@ -21,9 +21,8 @@
 						<!-- Social -->
 						<div class="footer_social">
 							<ul>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="https://www.instagram.com/syswanet/?hl=es-la"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
 
 							</ul>
 						</div>
@@ -43,10 +42,10 @@ Copyright &copy;Todos los derechos reservados
 					<div class="footer_col">
 						<div class="footer_col_title">Servicios</div>
 						<ul>
-							<li><a href="services">Desarrollo Web</a></li>
-							<li><a href="services">Redes sociales</a></li>
-							<li><a href="services">Diseño web</a></li>
-							<li><a href="services">Blogs</a></li>
+							<li><a href="servicios">Desarrollo Web</a></li>
+							<li><a href="servicios">Redes sociales</a></li>
+							<li><a href="servicios">Diseño web</a></li>
+							<li><a href="servicios">Blogs</a></li>
 						</ul>
 					</div>
 
@@ -59,10 +58,10 @@ Copyright &copy;Todos los derechos reservados
 						<div class="footer_col_title">Menu</div>
 						<ul>
 							<li><a href="home">Inicio</a></li>
-							<li><a href="about">Nosotros</a></li>
-							<li><a href="services">Servicios</a></li>
-							<li><a href="portfolio">Portfolio</a></li>
-							<li><a href="contact">Contacto</a></li>
+							<li><a href="nosotros">Nosotros</a></li>
+							<li><a href="servicios">Servicios</a></li>
+							<li><a href="portafolio">Portfolio</a></li>
+							<li><a href="contacto">Contacto</a></li>
 						</ul>
 					</div>
 
@@ -74,9 +73,9 @@ Copyright &copy;Todos los derechos reservados
 					<div class="footer_col">
 						<div class="footer_col_title">Nosotros</div>
 						<ul>
-							<li><a href="about">Nuestro equipo</a></li>
-							<li><a href="about">Historia</a></li>
-							<li><a href="contact">Soporte</a></li>
+							<li><a href="nosotros">Nuestro equipo</a></li>
+							<li><a href="nosotros">Historia</a></li>
+							<li><a href="contacto">Soporte</a></li>
 						</ul>
 					</div>
 

@@ -52,12 +52,12 @@
 							
 							<!-- Reply Form -->
 
-							<form id="reply_form" action="post">
+							<form id="reply_form" action="send.php" method="post">
 								<div>
-									<input id="reply_form_name" class="input_field reply_form_name" type="text" placeholder="Nombre" required="required" data-error="Name is required.">
-									<input id="reply_form_email" class="input_field reply_form_email" type="email" placeholder="Correo" required="required" data-error="Valid email is required.">
-									<input id="reply_form_subject" class="input_field reply_form_subject" type="text" placeholder="Asunto" required="required" data-error="Subject is required.">
-									<textarea id="reply_form_message" class="text_field reply_form_message" name="message"  placeholder="Mansaje" rows="4" required data-error="Please, write us a message."></textarea>
+									<input id="reply_form_name" class="input_field reply_form_name" type="text" placeholder="Nombre" required="required" data-error="Nombre es requerido." name="nombre">
+									<input id="reply_form_email" class="input_field reply_form_email" type="email" placeholder="Correo" required="required" data-error="Correo valido es requerido." name="correo">
+									<input id="reply_form_subject" class="input_field reply_form_subject" type="text" placeholder="Asunto" required="required" data-error="Asunto es requerido." name="asunto">
+									<textarea id="reply_form_message" class="text_field reply_form_message" name="mensaje"  placeholder="Mansaje" rows="4" required data-error="Es requerido, redactar un mensaje." name="mensaje"></textarea>
 								</div>
 								<div>
 									<button id="reply_form_submit" type="submit" class="reply_submit_btn trans_300" value="Submit">
@@ -91,11 +91,11 @@
 								<div class="contact_info_icon">i</div>
 								<div class="contact_info_content">
 									<ul>
-									<li class="email">syswa@gmail.com</li>
+									<li class="email">syswa@gmail.com</li><br>
 										<li class="city">Aragua, venezuela</li>
-										<li class="phone">+54 0424 320 3108</li><br>
+										<li class="city">+54 0424 320 3108</li><br>
 										<li class="city">Santiago, Chile</li>
-										<li class="phone">+56 9 320 3108</li>
+										<li class="city">+56 9 8582 6974</li>
 										
 									</ul>									
 								</div>

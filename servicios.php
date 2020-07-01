@@ -58,7 +58,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-2.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Pedir</button>
+								<button class="button-card-flip">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -104,7 +104,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-1.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Pedir</button>
+								<button class="button-card-flip">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -150,7 +150,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-3.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Pedir</button>
+								<button class="button-card-flip">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -181,7 +181,8 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-4.png" alt="Brohm Lake">
-									<figcaption>Plan básico - <span class="badge badge-dark" style="font-size: 1.2em;">60$</span></figcaption>
+									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 60$</span></figcaption>
+									<figcaption class="mt-2">Plan básico</span></figcaption>
 								</figure>
 
 								<ul class="card-ul-flip">
@@ -203,7 +204,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-4.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Pedir</button>
+								<button class="button-card-flip">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -227,7 +228,8 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-6.png" alt="Brohm Lake">
-									<figcaption>Plan control de inventario - <span class="badge badge-dark" style="font-size: 1.2em;">70$</span></figcaption>
+									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 70$</span></figcaption>
+									<figcaption class="mt-2">Plan control de inventario</span></figcaption>
 								</figure>
 
 								<ul class="card-ul-flip">
@@ -249,7 +251,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-6.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Pedir</button>
+								<button class="button-card-flip">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -273,7 +275,8 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-5.png" alt="Brohm Lake">
-									<figcaption>Plan gestión - WEB - <span class="badge badge-dark" style="font-size: 1.2em;">70$</span></figcaption>
+									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 70$</span></figcaption>
+									<figcaption class="mt-2">Plan gestión - WEB</span></figcaption>
 								</figure>
 
 								<ul class="card-ul-flip">
@@ -295,7 +298,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-5.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Pedir</button>
+								<button class="button-card-flip">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -329,7 +332,7 @@
 						<ul class="device_items">
 							<li class="device_item clearfix">
 								<span>01.</span>
-								<p>Comunicate con nosotros, informate sobre nuestro servicio (Responderemos de inmediato).</p>
+								<p>Comunícate con nosotros, infórmate sobre nuestros servicios (Responderemos de inmediato).</p>
 							</li>
 							<li class="device_item clearfix">
 								<span>02.</span>
@@ -337,7 +340,7 @@
 							</li>
 							<li class="device_item clearfix">
 								<span>03.</span>
-								<p>En muy poco tiempo, tendras un sitio web, que hará crecer tu compañía.</p>
+								<p>En muy poco tiempo, tendrás un sitio web, que hará crecer tu compañía.</p>
 							</li>
 						</ul>
 

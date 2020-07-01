@@ -286,6 +286,7 @@ section
 	text-transform: uppercase;
 	color: white;
 }
+
 .prlx_parent
 {
 	overflow: hidden;
@@ -1478,7 +1479,7 @@ section
 .newsletter_submit_button:hover
 {
 	background: white;
-	color: #172b4d !important;
+	color: #172b4d;
 }
 .newsletter_submit_button:focus
 {

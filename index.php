@@ -38,7 +38,7 @@
 					<span></span>
 					<span></span>
 					<span>HEY</span>
-					<span>¡Obtén tu sitio web ahora!</span>
+					<span>¡Es hora de que tu marca esté en linea!</span>
 				</div>
 
 			</div>
@@ -58,19 +58,6 @@
 			</div>
 
 		</div>
-
-		<div class="hero_side_text_container">
-			<div class="double_arrow_container d-flex flex-column align-items-center justify-content-center">
-				<div class="double_arrow nav_links" data-scroll-to=".icon_boxes">
-					<i class="fas fa-chevron-left trans_200"></i>
-					<i class="fas fa-chevron-left trans_200"></i>
-				</div>
-			</div>
-			<div class="hero_side_text">
-				<h2>Diseños modernos, fácil de usar.</h2>
-				<p>Si no sabes administrar una página, nuestros "Webmaster" te ayudarán en todo lo necesario.</p>
-			</div>
-		</div>
 		
 		<div class="next_section_scroll">
 			<div class="next_section nav_links" data-scroll-to=".icon_boxes">
@@ -83,15 +70,15 @@
 
 	<!-- Icon Boxes -->
 
-	<div class="icon_boxes paralaxx" style="margin-top:-30px;">
+	<div class="icon_boxes paralaxx" style="margin-top:-20px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="icon_box_title">
-						<h1>Construye tu sitio por completo en minutos.</h1>
+						<h1>Construimos sitios a tu medida. Gestionamos tu negocio.</h1>
 					</div>
-					<div class="button icon_box_button trans_200">
-						<a href="#" class="trans_200">Descubre más</a>
+					<div class="button features_button trans_200">
+						<a href="servicios" class="trans_200">Descubre más</a>
 					</div>
 				</div>
 
@@ -100,13 +87,13 @@
 					<!-- Icon Box Item -->
 					<div class="icon_box_item">
 						<h2>Excelente equipo</h2>
-						<p>Tenemos un equipo totalmente capacitado, que no solo desarrollará tu página, también hará tus ideas realidad.</p>
+						<p>Somos un grupo de profesionales capaces de desarrollar tus ideas de forma creativa y eficaz.</p>
 					</div>
 
 					<!-- Icon Box Item -->
 					<div class="icon_box_item">
-						<h2>Diseños modernos</h2>
-						<p>Combinamos tus ideas con los diseños de vanguardia, para así crear para ti lo mejor.</p>
+						<h2>Diseños</h2>
+						<p>Tenemos el criterio para aplicar los diseños de vanguardia enfocados en las necesidades de tu negocio.</p>
 					</div>
 
 				</div>
@@ -115,14 +102,14 @@
 
 					<!-- Icon Box Item -->
 					<div class="icon_box_item">
-						<h2>Mercadeo en linea</h2>
-						<p>Obten una pagina de ventas en linea, no solo vendas en un area local. <br> ¡Vende en todo tu país!.</p>
+						<h2>Presencia digital</h2>
+						<p>Aplicamos las herramientas para generar la presencia de tu negocio en los medios digitales.</p>
 					</div>
 
 					<!-- Icon Box Item -->
 					<div class="icon_box_item">
 						<h2>Fácil de usar</h2>
-						<p>Con nuestro sistema de manejo de contenido, no te complicas administrando el contenido de tu página.</p>
+						<p>Enfocamos nuestro sistema de contenido facilitando la administración de tu página.</p>
 					</div>
 					
 				</div>
@@ -223,9 +210,9 @@
 									</div>
 									<h2>Increibles servicios</h2>
 								</div>
-								<p>Ofrecemos para ti, un estandar un alto estadar en todo lo referido al desarrollo web, estrategias de mercadeo en linea y diseño.</p>
+								<p>En todos nuestros servicios tenemos un alto estandar, en las estrategias de desarrollo web, mercado en linea y diseño.</p>
 								<div class="button service_item_button trans_200">
-									<a href="services" class="trans_200">Descubre más</a>
+									<a href="servicios" class="trans_200">Descubre más</a>
 								</div>
 							</div>
 						</div>
@@ -241,9 +228,9 @@
 									</div>
 									<h2>Administracion</h2>
 								</div>
-								<p>No hay razón para llevar un negocio con papel y lapiz, explora nuestro servicio de sistemas administrativos para hacer que tu negocio crezca.</p>
+								<p>Aporte para el crecimiento de tu negocio con nuestro software de gestión y ventas.</p>
 								<div class="button service_item_button trans_200">
-									<a href="services" class="trans_200">Descubre más</a>
+									<a href="servicios" class="trans_200">Descubre más</a>
 								</div>
 							</div>
 						</div>
@@ -261,9 +248,9 @@
 									</div>
 									<h2>Evaluacion</h2>
 								</div>
-								<p>Si tu negocio no cuentas con estadisticas que te ayuden a encontrar tus ganancias, es hora se avanzar, nuestros sistemas incluyen secciones estadisticas para reflejar tu avances y perdidas.</p>
+								<p>En nuestro software de gestión tendrás a tu mano secciones de estadísticas para evaluar el rendimiento de tu negocio en tiempo real.</p>
 								<div class="button service_item_button trans_200">
-									<a href="services" class="trans_200">Descubre más</a>
+									<a href="servicios" class="trans_200">Descubre más</a>
 								</div>
 							</div>
 						</div>
@@ -279,9 +266,9 @@
 									</div>
 									<h2>Excelente equipo</h2>
 								</div>
-								<p>No dudes en que nuestro equipo calificado te asesore, no solo vendemos nuestro producto, nos encargamos de que con el tu negocio crezca.</p>
+								<p>Somos un grupo de profesionales capaces de desarrollar tus ideas de forma creativa y eficaz.</p>
 								<div class="button service_item_button trans_200">
-									<a href="services" class="trans_200">Descubre más</a>
+									<a href="servicios" class="trans_200">Descubre más</a>
 								</div>
 							</div>
 						</div>
@@ -322,7 +309,7 @@
 
 					<!-- Features Item-->
 					<div class="features_item">
-						<h2>Codigo limpio</h2>
+						<h2>Código limpio</h2>
 						<p>Tu sitio web estará libre de riesgos, por un mal desarrollo de la misma.</p>
 					</div>
 
@@ -333,7 +320,7 @@
 						<img src="views/images/features.png" alt="">
 					</div>
 					<div class="button features_button trans_200">
-						<a href="services" class="trans_200">Descubre más</a>
+						<a href="servicios" class="trans_200">Descubre más</a>
 					</div>
 				</div>
 
@@ -350,9 +337,9 @@
 						<h2>Excelente equipo</h2>
 						<p>Alta capacidad y rendimiento eficiente, respecto a nuestro gran equipo de trabajo.</p>
 					</div>
-
+					
 					<div class="button features_button_2 trans_200">
-						<a href="#" class="trans_200">Descubre más</a>
+						<a href="servicios" class="trans_200">Descubre más</a>
 					</div>
 
 				</div>
@@ -376,7 +363,7 @@
 
 				<div class="col-lg-6 offset-lg-1 order-lg-2 order-1">
 					<div class="cta_image d-flex flex-column justify-content-end">
-						<a href="http://kkprettynails.cl" target="_blank">K&K Pretty Nails</a>
+						<a href="https://kkprettynails.cl" target="_blank">K&K Pretty Nails</a>
 						<img  src="views/images/kkprettynails.png" alt="image by https://unsplash.com/@heysupersimi">
 					</div>
 				</div>

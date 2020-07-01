@@ -30,7 +30,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="icon_box_title">
-						<h1 style="color: black;margin-bottom: 40px;">Un equipo fuerte con un fondo fuerte.</h1>
+						<h1 style="color: black;margin-bottom: 40px;">Sobre nosotros.</h1>
 					</div>
 					<div class="icon_box_paragraph">
 						<p>
@@ -91,7 +91,7 @@
 							<!-- Vertical Slider Item -->
 							<div class="v_slider_item">
 								<span style="color: #fff;">“</span>
-								<p style="color: #fff;">Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut. Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut.</p>
+								<p style="color: #fff;">En K&K Pretty Nails estamos absolutamente satisfechos con el trabajo realizado por el equipo de Syswa fueron súper receptivos con nuestras solicitudes y las plasmaron perfectamenteen nuestro sitio web. En cuanto al tiempo de respuesta fueron muy eficientes en las entragas. <br> <br>Además estam,os encantdos con el diseño que aplicaron al sitio web, puesto que captaron la esencia de nuestra empresa enteramente. <br><br>Los recomiento encarecidamente, son garantía de calidad en sus servicios.</p>
 								<div class="person d-flex flex-row">
 									<div class="person_image">
 										<img src="views/images/person_1.png" alt="">
@@ -117,22 +117,7 @@
 									</div>
 								</div>
 							</div>
-
-							<!-- Vertical Slider Item -->
-							<div class="v_slider_item">
-								<span style="color: #fff;">“</span>
-								<p style="color: #fff;">Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut. Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut.</p>
-								<div class="person d-flex flex-row">
-									<div class="person_image">
-										<img src="views/images/person_1.png" alt="">
-									</div>
-									<div class="person_meta">
-										<div class="person_name" style="color: #fff;">Miguel Polanco</div>
-										<div class="person_title" >Serigrafia</div>
-									</div>
-								</div>
-							</div>
-
+							
 						</div>
 					</div>
 				</div>
@@ -148,7 +133,7 @@
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1 text-lg-center text-left team_title">
 					<h1>Conoce a nuestro equipo</h1>
-					<p class="text-center">Este será el equipo que te ayudará en todo el proceso de creación, diseño y soporte de cualquier servicio que te podamos ofrecer. Conocelo y familiarízate.  </p>
+					<p class="text-center">Este es el equipo de Syswa, ellos son los encargados de ayudarte en el proceso de creación, diseño y soporte en cada uno de los productos que tenemos para ofrecerte, Conócelos y familiarízate. </p>
 				</div>
 			</div>
 			<div class="row offset-xl-1">
@@ -161,7 +146,9 @@
 							<div class="team_member_name">Miguel Polanco</div>
 							<div class="team_member_title">Jefe de Proyecto</div>
 							<p>Encargado de liderar y gestionar proyectos tecnológicos, para los servicios de la empresa como para los servicios del negocio.</p>
-							<div class="team_member_link"><a href="#">Saber más</a></div>
+							<center>
+								<div class="team_member_link"><a href="#">Saber más</a></div>
+							</center>
 						</div>
 					</div>
 				</div>
@@ -174,8 +161,24 @@
 						<div class="team_member_content">
 							<div class="team_member_name">Simon Andres</div>
 							<div class="team_member_title">Jefe de Área TI</div>
-							<p>Garantizar el cumplimiento de todos los niveles de servicio, dirigir adecuadamente los esfuerzos del personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
+							<p>Garantizar el cumplimiento de servicios, dirigir adecuadamente al personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
+							<center>
+								<div class="team_member_link"><a href="#">Saber más</a></div>
+							</center>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6 team_col">
+					<div class="team_container trans_200">
+						<div class="team_member_image"><img src="views/images/team_3.jpg" alt=""></div>
+						<div class="team_member_content">
+							<div class="team_member_name">Carlos Capacho</div>
+							<div class="team_member_title">Desarrollador</div>
+							<p>Desarrollador de sorftware, experimentado con mas de 4 años de experiencia. </p>
+							<center>
 							<div class="team_member_link"><a href="#">Saber más</a></div>
+							</center>
 						</div>
 					</div>
 				</div>
@@ -188,22 +191,13 @@
 							<div class="team_member_name">Cristians Sanchez</div>
 							<div class="team_member_title">Desarrollador</div>
 							<p>Desarrollador de sorftware, experimentado con mas de 4 años de experiencia.</p>
+							<center>
 							<div class="team_member_link"><a href="#">Saber más</a></div>
+							</center>
 						</div>
 					</div>
 				</div>
 				<!-- Team Item -->
-				<div class="col-lg-3 col-md-6 team_col">
-					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_3.jpg" alt=""></div>
-						<div class="team_member_content">
-							<div class="team_member_name">Carlos Capacho</div>
-							<div class="team_member_title">Desarrollador</div>
-							<p>Desarrollador de sorftware, experimentado con mas de 4 años de experiencia. </p>
-							<div class="team_member_link"><a href="#">Saber más</a></div>
-						</div>
-					</div>
-				</div>
 
 			</div>
 		</div>
