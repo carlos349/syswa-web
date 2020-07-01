@@ -52,7 +52,7 @@
 							
 							<!-- Reply Form -->
 
-							<form id="reply_form" action="send.php" method="post">
+							<form id="reply_form" method="post">
 								<div>
 									<input id="reply_form_name" class="input_field reply_form_name" type="text" placeholder="Nombre" required="required" data-error="Nombre es requerido." name="nombre">
 									<input id="reply_form_email" class="input_field reply_form_email" type="email" placeholder="Correo" required="required" data-error="Correo valido es requerido." name="correo">
@@ -66,7 +66,12 @@
 								</div>
 
 							</form>
-
+							<?php
+								if (isset($_POST['asunto'])) {
+									$envio = new Mails();
+									$respuesta = $envio -> contactMail();
+								}
+							?>
 						</div>
 					</div>
 

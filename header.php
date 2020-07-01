@@ -1,3 +1,4 @@
+<?php require_once 'send.php'; ?>
 <!-- Header -->
 <!DOCTYPE html>
 	<html lang="es">
@@ -17,6 +18,8 @@
 		<link rel="stylesheet" type="text/css" href="views/css/main_styles.css">
 		<link rel="stylesheet" type="text/css" href="views/css/responsive.css">	
 		<link rel="icon" href="views/images/icons/favicon.ico" type="image/ico">
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+		<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 	</head>
 
 	<body>
