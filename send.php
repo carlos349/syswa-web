@@ -30,11 +30,11 @@ class Mails {
             //Server settings
             $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $mail->isSMTP();                                            // Send using SMTP
-            $mail->Host       = 'ses-smtp-user.20200701-173634';                    // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
             $mail->Username   = 'AKIA3PQB77VV744RUZEU';                     // SMTP username
+            $mail->Host       = 'email-smtp.sa-east-1.amazonaws.com';                    // Set the SMTP server to send through
             $mail->Password   = 'BDlDydRxcHML6fDvoaCHLYsgwEf8OrLXZ8cB+3anDD/s';                               // SMTP password
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+            $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
             //Recipients
