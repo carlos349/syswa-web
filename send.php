@@ -60,7 +60,7 @@ class Mails {
                     popup: "animate__animated animate__fadeOutUp"
                     }
                 }).then((result) => {
-                    window.location="http://syswa.net";
+                    //window.location="http://syswa.net";
                 })
             </script>';
         } catch (Exception $e) {
@@ -77,7 +77,7 @@ class Mails {
                     popup: "animate__animated animate__fadeOutUp"
                     }
                 }).then((result) => {
-                    window.location="http://syswa.net";
+                    //window.location="http://syswa.net";
                 })
             </script>';
         }
