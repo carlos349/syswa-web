@@ -131,8 +131,9 @@
 <script src="views/plugins/scrollTo/jquery.scrollTo.min.js"></script>
 <script src="views/plugins/easing/easing.js"></script>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDohfngoQ65h9UDcqjkHqLXX2Y616sqS7s&callback=initMap"
-  type="text/javascript"></script>
+<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDohfngoQ65h9UDcqjkHqLXX2Y616sqS7s&callback=initMap"
+  type="text/javascript"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDohfngoQ65h9UDcqjkHqLXX2Y616sqS7s"></script>
 <script src="views/js/CustomGoogleMapMarker.js"></script>
 <script src="views/js/contact_custom.js"></script>
 
