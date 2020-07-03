@@ -21,7 +21,7 @@
 				<div class="owl-item hero_slider_item item_1 d-flex flex-column align-items-center justify-content-center">
 					<span></span>
 					<span></span>
-					<span>HEY</span>
+					<span>SYSWA</span>
 					<span>¡Obtén tu sitio web ahora!</span>
 				</div>
 
@@ -29,7 +29,7 @@
 				<div class="owl-item hero_slider_item item_1 d-flex flex-column align-items-center justify-content-center">
 					<span></span>
 					<span></span>
-					<span>HEY</span>
+					<span>SYSWA</span>
 					<span>¡Obtén con nosotros tu sitio web ahora!</span>
 				</div>
 
@@ -37,7 +37,7 @@
 				<div class="owl-item hero_slider_item item_1 d-flex flex-column align-items-center justify-content-center">
 					<span></span>
 					<span></span>
-					<span>HEY</span>
+					<span>SYSWA</span>
 					<span>¡Es hora de que tu marca esté en linea!</span>
 				</div>
 
@@ -395,10 +395,9 @@
 								<div class="input-group">
 									<input type="email" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
-										Suscribete
+										Suscríbete
 									</button>
 								</div>
-									
 							</form>
 						</div>
 

@@ -77,7 +77,6 @@ p
 	font-size: 1em;
 	line-height: 1.5;
 	font-weight: 400;
-	text-align:center;
 	color: #545454;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -989,7 +988,7 @@ section
 	padding-left: 30px;
 	width: calc(100% - 174px - 26px);
 	margin-right: 22px;
-	color: #FFFFFF;
+	color: #28262d;
 }
 .newsletter_email:focus
 {

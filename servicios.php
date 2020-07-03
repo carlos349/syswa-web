@@ -22,6 +22,61 @@
 	
 	</div>
 
+	<!-- Modal -->
+	<div class="modal fade" id="contractModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Complete este formulario.</h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body pt-3 pb-3 ">
+					<form id="reply_form" method="post">
+						<div class="row pl-3 pr-3">
+							<div class="col-md-6">
+								<input class="input_field reply_form_name w-100" type="text" placeholder="Nombre" required="required" data-error="Nombre es requerido." name="firtName">
+							</div>
+							<div class="col-md-6">
+								<input class="input_field reply_form_name w-100" type="text" placeholder="Apellido" required="required" data-error="Apellido es requerido." name="lastName">
+							</div>
+							<div class="col-12">
+								<input class="input_field reply_form_email w-100" type="email" placeholder="Correo" required="required" data-error="Correo valido es requerido." name="mail">
+							</div>
+							<div class="col-12">
+								<div class="w-100" style="display: inline-block;">
+									<select name="code" id="" class="styleSelect" style="width:25%;">
+										<option value="+56">+56</option>
+										<option value="+58">+58</option>
+										<option value="+55">+55</option>
+										<option value="+54">+54</option>
+									</select>
+									<input class="input_field reply_form_subject" autocomplete="address-line1" style="width:73%" type="number" placeholder="Teléfono" name="number">
+								</div>
+							</div>
+							<input type="hidden" id="typeContract" name="type">
+							<input type="hidden" id="ifsuscription" name="ifsuscription" value="false">
+						</div>
+						<div class="display:inline-block">
+							<input class="form-check-input ml-3" onclick="document.getElementById('ifsuscription').value = 'true'" style="width: 20px;height: 20px; cursor:pointer;margin-top:2.3rem !important;"  type="checkbox" id="gridCheck">
+							<label class="form-check-label ml-4" style="margin-top:2.3rem !important;" for="gridCheck">
+								Suscribirme al boletín informativo
+							</label>
+							<button type="submit" class="button-contract-service mr-3">Enviar</button>
+						</div>
+					</form>
+					<?php
+						if (isset($_POST['firtName'])) {
+							$envio = new Mails();
+							$respuesta = $envio -> constractMail();
+						}
+					?>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- Service Boxes -->
 
 	<div class="service_boxes" style="margin-top:-20px;">
@@ -40,7 +95,6 @@
 									<img class="card-img-flip" src="views/images/bg-card-2.png" alt="Brohm Lake">
 									<figcaption>Página landing - <span class="badge badge-dark" style="font-size: 1.2em;">150$</span> </figcaption>
 								</figure>
-
 								<ul class="card-ul-flip">
 									<li class="card-li-flip">1 Pagina de inicio</li>
 									<li class="card-li-flip">1 Correo</li>
@@ -58,7 +112,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-2.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Contratar</button>
+								<button class="button-card-flip" data-toggle="modal" data-target="#contractModal" onclick="selectContract('Página landing')">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -85,7 +139,6 @@
 									<figcaption>Sitio web - <span class="badge badge-dark" style="font-size: 1.2em;">
 										350$</span></figcaption>
 								</figure>
-
 								<ul class="card-ul-flip">
 									<li class="card-li-flip">5 Secciones</li>
 									<li class="card-li-flip">Cuentas de correos ilimitados</li>
@@ -104,7 +157,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-1.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Contratar</button>
+								<button class="button-card-flip" data-toggle="modal" data-target="#contractModal" onclick="selectContract('Sitio web')">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -130,7 +183,6 @@
 									<img class="card-img-flip" src="views/images/bg-card-3.png" alt="Brohm Lake">
 									<figcaption>E-Commerce - <span class="badge badge-dark" style="font-size: 1.2em;">500$</span></figcaption>
 								</figure>
-
 								<ul class="card-ul-flip">
 									<li class="card-li-flip">4 Secciones</li>
 									<li class="card-li-flip">Cuentas de correos ilimitados</li>
@@ -150,7 +202,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-3.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Contratar</button>
+								<button class="button-card-flip" data-toggle="modal" data-target="#contractModal" onclick="selectContract('E-Commerce')">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -184,9 +236,7 @@
 									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 60$</span></figcaption>
 									<figcaption class="mt-2">Plan básico</span></figcaption>
 								</figure>
-
 								<ul class="card-ul-flip">
-									<li class="card-li-flip">Suscripción 270$</li>
 									<li class="card-li-flip">Sección de Métricas</li>
 									<li class="card-li-flip">Sección de Ventas</li>
 									<li class="card-li-flip">Sección de Servicios</li>
@@ -204,7 +254,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-4.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Contratar</button>
+								<button class="button-card-flip" data-toggle="modal" data-target="#contractModal" onclick="selectContract('Plan básico')">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -231,9 +281,7 @@
 									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 70$</span></figcaption>
 									<figcaption class="mt-2">Plan control de inventario</span></figcaption>
 								</figure>
-
 								<ul class="card-ul-flip">
-									<li class="card-li-flip">Suscripción 300$</li>
 									<li class="card-li-flip">Sección de Métricas</li>
 									<li class="card-li-flip">Sección de Ventas</li>
 									<li class="card-li-flip">Sección de Servicios</li>
@@ -251,7 +299,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-6.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Contratar</button>
+								<button class="button-card-flip" data-toggle="modal" data-target="#contractModal" onclick="selectContract('Plan control de inventario')">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -278,9 +326,7 @@
 									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 70$</span></figcaption>
 									<figcaption class="mt-2">Plan gestión - WEB</span></figcaption>
 								</figure>
-
 								<ul class="card-ul-flip">
-									<li class="card-li-flip">Suscripción 450$</li>
 									<li class="card-li-flip">Sección de Métricas</li>
 									<li class="card-li-flip">Sección de Ventas</li>
 									<li class="card-li-flip">Sección de Servicios</li>
@@ -298,7 +344,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-5.png" alt="Brohm Lake">
 								</figure>
-								<button class="button-card-flip">Contratar</button>
+								<button class="button-card-flip" data-toggle="modal" data-target="#contractModal" onclick="selectContract('Plan gestión - WEB')">Contratar</button>
 								<div class="design-container-flip">
 									<span class="design-flip design--1"></span>
 									<span class="design-flip design--2"></span>
@@ -459,7 +505,7 @@
 								<div class="input-group">
 									<input type="email" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
-										Suscribete
+										Suscríbete
 									</button>
 								</div>
 									

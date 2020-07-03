@@ -21,16 +21,16 @@
 						<!-- Social -->
 						<div class="footer_social">
 							<ul>
-								<li><a href="https://www.instagram.com/syswanet/?hl=es-la"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="https://www.instagram.com/syswanet/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/syswa" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 
 							</ul>
 						</div>
 						
 						<!-- Copyright -->
 						<div class="footer_cr">
-Copyright &copy;Todos los derechos reservados 
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+							Copyright &copy;Todos los derechos reservados 
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 
 					</div>
 
@@ -105,5 +105,11 @@ Copyright &copy;Todos los derechos reservados
 	<script src="views/plugins/Isotope/isotope.pkgd.min.js"></script>
 	<script src="views/js/portfolio_custom.js"></script>
 	<script src="views/js/portfolio_item_custom.js"></script>
+	<script>
+		function selectContract (plain){
+			console.log(plain)
+			document.getElementById('typeContract').value = plain
+		}
+	</script>
 </div>
 

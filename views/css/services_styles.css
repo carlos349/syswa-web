@@ -921,7 +921,7 @@ section
 	padding-left: 30px;
 	width: calc(100% - 174px - 26px);
 	margin-right: 22px;
-	color: #FFFFFF;
+	color: #28262d;
 }
 .newsletter_email:focus
 {
@@ -1254,6 +1254,9 @@ section
 	cursor: pointer;
   }
   
+  .button-card-flip:focus{
+	  outline:none;
+  }
   .button-card-flip:hover,
   .button-card-flip:focus {
 	color: #fff;
@@ -1379,4 +1382,60 @@ section
 	color: hsla(0, 0%, 100%, .6);
 	font-size: 16px;
 	font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.input_field{
+	height: 45px;
+    border: none;
+    border-bottom: solid 1px #e1e1e1;
+	color: #172b4d;
+	padding-left: 10px;
+	letter-spacing: .08em;
+}
+.input_field::placeholder{
+	color: #172b4d !important;
+	font-size: 12px !important;
+}
+.input_field:focus{
+	outline: none !important;
+    border-bottom: solid 1px #172b4d;
+}
+.button-contract-service{
+	border:none;
+	border: solid 1px #172b4d;
+	background-color: #fff;
+	color: #172b4d;
+	font-size: 14px !important;
+	cursor: pointer;
+	padding: 8px 40px;
+	transition: all 0.5s ease-out;
+	border-radius: 20px;
+	margin-top: 20px;
+	float: right;
+}
+.button-contract-service:hover{
+	background-color: #172b4d;
+	color: #fff;
+}
+.styleSelect{
+	border: none;
+	border-bottom: solid 1px #e1e1e1;
+	height: 45px;
+	color: #172b4d;
+}
+.styleSelect:focus{
+	outline:none;
+}
+.styleSelect option{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }

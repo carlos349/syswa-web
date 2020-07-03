@@ -141,11 +141,11 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_3.jpg" alt=""></div>
+						<div class="team_member_image"><img src="views/images/team_3.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Miguel Polanco</div>
 							<div class="team_member_title">Jefe de Proyecto</div>
-							<p>Encargado de liderar y gestionar proyectos tecnológicos, para los servicios de la empresa como para los servicios del negocio.</p>
+							<p style="text-align:center;">Encargado de liderar y gestionar proyectos tecnológicos, para los servicios de la empresa como para los servicios del negocio.</p>
 							<center>
 								<div class="team_member_link"><a href="#">Saber más</a></div>
 							</center>
@@ -157,11 +157,11 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_1.jpg" alt=""></div>
+						<div class="team_member_image"><img src="views/images/team_1.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Simon Andres</div>
 							<div class="team_member_title">Jefe de Área TI</div>
-							<p>Garantizar el cumplimiento de servicios, dirigir adecuadamente al personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
+							<p style="text-align:center;">Garantizar el cumplimiento de servicios, dirigir adecuadamente al personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
 							<center>
 								<div class="team_member_link"><a href="#">Saber más</a></div>
 							</center>
@@ -171,11 +171,11 @@
 				
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_3.jpg" alt=""></div>
+						<div class="team_member_image"><img src="views/images/team_4.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Carlos Capacho</div>
 							<div class="team_member_title">Desarrollador</div>
-							<p>Desarrollador de sorftware, experimentado con mas de 4 años de experiencia. </p>
+							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web y aplicaciones WPA. </p> <br>
 							<center>
 							<div class="team_member_link"><a href="#">Saber más</a></div>
 							</center>
@@ -186,11 +186,11 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_2.jpg" alt=""></div>
+						<div class="team_member_image"><img src="views/images/team_2.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Cristians Sanchez</div>
 							<div class="team_member_title">Desarrollador</div>
-							<p>Desarrollador de sorftware, experimentado con mas de 4 años de experiencia.</p>
+							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia.</p><br><br>
 							<center>
 							<div class="team_member_link"><a href="#">Saber más</a></div>
 							</center>
@@ -270,7 +270,7 @@
 								<div class="input-group">
 									<input type="email" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
-										Suscribete
+										Suscríbete
 									</button>
 								</div>
 									
