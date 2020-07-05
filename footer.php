@@ -3,45 +3,31 @@
 	<footer class="footer" >
 		<div class="container" >
 			<div class="row">
-				
 				<div class="col-lg-4">
-
 					<!-- Footer Intro -->
 					<div class="footer_intro">
-
 						<!-- Logo -->
 						<div class="logo footer_logo">
 							<a href="#" >
 								<img style="width: 260px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);margin-left:-40px;" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
 							</a>
 						</div>
-
 						<p>Digitaliza tu idea.</p>
-						
 						<!-- Social -->
 						<div class="footer_social">
 							<ul>
-								<li>
-								<a href="https://www.instagram.com/syswanet/?hl=es-la" target="_blank"> <i class="fab fa-instagram"> @syswanet</i> </a>
+								<li><a href="https://www.instagram.com/syswanet/?hl=es-la" target="_blank"> <i class="fab fa-instagram"> @syswanet</i> </a>
 								</li> 
-								
 								<li><a href="https://www.linkedin.com/company/syswa" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-
 							</ul>
 						</div>
-						
 						<!-- Copyright -->
-						<div class="footer_cr">
-							Copyright &copy;Todos los derechos reservados 
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-
+						<div class="footer_cr">Copyright &copy;Todos los derechos reservados </div>
 					</div>
-
 				</div>
 				
 				<!-- Footer Services -->
 				<div class="col-lg-2">
-
 					<div class="footer_col">
 						<div class="footer_col_title">Servicios</div>
 						<ul>
@@ -50,12 +36,10 @@
 							<li><a href="servicios">SYSWA Gestión</a></li>
 						</ul>
 					</div>
-
 				</div>
 
 				<!-- Footer Menu -->
 				<div class="col-lg-2">
-
 					<div class="footer_col">
 						<div class="footer_col_title">Menu</div>
 						<ul>
@@ -66,12 +50,10 @@
 							<li><a href="contacto">Contacto</a></li>
 						</ul>
 					</div>
-
 				</div>
 
 				<!-- Footer About -->
 				<div class="col-lg-2">
-
 					<div class="footer_col">
 						<div class="footer_col_title">Nosotros</div>
 						<ul>
@@ -80,7 +62,20 @@
 							<li><a href="contacto">Soporte</a></li>
 						</ul>
 					</div>
+				</div>
 
+				<!-- Footer About -->
+				<div class="col-lg-2">
+					<div class="footer_col">
+						<div class="footer_col_title">Contacto</div>
+						<ul>
+							<li>syswainfo@gmail.com</li>
+							<li>Aragua, venezuela</li>
+							<li>+54 0424 320 3108</li>
+							<li>Santiago, Chile</li>
+							<li>+56 9 8582 6974</li>
+						</ul>
+					</div>
 				</div>
 
 				<!-- Footer Community -->

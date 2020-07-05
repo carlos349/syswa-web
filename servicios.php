@@ -49,8 +49,16 @@
 									<select name="code" id="" class="styleSelect" style="width:25%;">
 										<option value="+56">+56</option>
 										<option value="+58">+58</option>
-										<option value="+55">+55</option>
+										<option value="+420">+55</option>
 										<option value="+54">+54</option>
+										<option value="+61">+56</option>
+										<option value="+55">+58</option>
+										<option value="+591">+55</option>
+										<option value="+506">+54</option>
+										<option value="+57">+56</option>
+										<option value="+53">+58</option>
+										<option value="+34">+55</option>
+										<option value="+593">+54</option>
 									</select>
 									<input class="input_field reply_form_subject" autocomplete="address-line1" style="width:73%" type="number" placeholder="Teléfono" name="number">
 								</div>
@@ -226,7 +234,7 @@
 				<div class="col-lg-12">
 					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;text-decoration: underline;">Tarifas de SYSWA GESTIÓN</h1>
 				</div>
-				<div class="col-lg-4 service_col">
+				<div class="col-lg-6 service_col">
 					<div class="flip-card-container" style="--hue: 220">
 						<div class="flip-card">
 							<div class="card-front-flip">
@@ -234,9 +242,9 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-4.png" alt="Brohm Lake">
 									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 60$</span></figcaption>
-									<figcaption class="mt-2">Plan básico</span></figcaption>
+									<figcaption class="mt-3">Plan básico</span></figcaption>
 								</figure>
-								<ul class="card-ul-flip">
+								<ul class="card-ul-flip" style="margin-top:-100px !important;">
 									<li class="card-li-flip">Sección de Métricas</li>
 									<li class="card-li-flip">Sección de Ventas</li>
 									<li class="card-li-flip">Sección de Servicios</li>
@@ -246,7 +254,6 @@
 									<li class="card-li-flip">Sección de Agendamiento</li>
 									<li class="card-li-flip">Sección de Caja</li>
 									<li class="card-li-flip">Sin inventario</li>
-									<li class="card-li-flip">Sin sitio web</li>
 								</ul>
 							</div>
 							<div class="card-back-flip">
@@ -271,7 +278,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 service_col">
+				<div class="col-lg-6 service_col">
 					<div class="flip-card-container" style="--hue: 220">
 						<div class="flip-card">
 							<div class="card-front-flip">
@@ -279,9 +286,9 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-6.png" alt="Brohm Lake">
 									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 70$</span></figcaption>
-									<figcaption class="mt-2">Plan control de inventario</span></figcaption>
+									<figcaption class="mt-3">Plan control de inventario</span></figcaption>
 								</figure>
-								<ul class="card-ul-flip">
+								<ul class="card-ul-flip" style="margin-top:-100px !important;">
 									<li class="card-li-flip">Sección de Métricas</li>
 									<li class="card-li-flip">Sección de Ventas</li>
 									<li class="card-li-flip">Sección de Servicios</li>
@@ -291,7 +298,6 @@
 									<li class="card-li-flip">Sección de Agendamiento</li>
 									<li class="card-li-flip">Sección de Caja</li>
 									<li class="card-li-flip">Seccion de inventario</li>
-									<li class="card-li-flip">Sin sitio web</li>
 								</ul>
 							</div>
 							<div class="card-back-flip">
@@ -316,50 +322,6 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 service_col">
-					<div class="flip-card-container" style="--hue: 220">
-						<div class="flip-card">
-							<div class="card-front-flip">
-								<figure class="card-figure-flip">
-									<div class="img-bg"></div>
-									<img class="card-img-flip" src="views/images/bg-card-5.png" alt="Brohm Lake">
-									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 70$</span></figcaption>
-									<figcaption class="mt-2">Plan gestión - WEB</span></figcaption>
-								</figure>
-								<ul class="card-ul-flip">
-									<li class="card-li-flip">Sección de Métricas</li>
-									<li class="card-li-flip">Sección de Ventas</li>
-									<li class="card-li-flip">Sección de Servicios</li>
-									<li class="card-li-flip">Sección de Profesionales</li>
-									<li class="card-li-flip">Sección de clientes</li>
-									<li class="card-li-flip">Sección de Gastos</li>
-									<li class="card-li-flip">Sección de Agendamiento</li>
-									<li class="card-li-flip">Sección de Caja</li>
-									<li class="card-li-flip">Seccion de inventario</li>
-									<li class="card-li-flip">Sitio web</li>
-								</ul>
-							</div>
-							<div class="card-back-flip">
-								<figure class="card-figure-flip">
-									<div class="img-bg"></div>
-									<img class="card-img-flip" src="views/images/bg-card-5.png" alt="Brohm Lake">
-								</figure>
-								<button class="button-card-flip" data-toggle="modal" data-target="#contractModal" onclick="selectContract('Plan gestión - WEB')">Contratar</button>
-								<div class="design-container-flip">
-									<span class="design-flip design--1"></span>
-									<span class="design-flip design--2"></span>
-									<span class="design-flip design--3"></span>
-									<span class="design-flip design--4"></span>
-									<span class="design-flip design--5"></span>
-									<span class="design-flip design--6"></span>
-									<span class="design-flip design--7"></span>
-									<span class="design-flip design--8"></span>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>

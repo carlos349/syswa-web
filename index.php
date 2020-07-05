@@ -75,7 +75,7 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="icon_box_title">
-						<h1 >Construimos sitios a tu medida. Gestionamos tu negocio.</h1>
+						<h1 >Construimos sitios web a tu medida. Gestionamos tu negocio.</h1>
 					</div>
 					<div class="button features_button trans_200">
 						<a href="servicios" class="trans_200">Descubre más</a>

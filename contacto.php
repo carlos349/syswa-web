@@ -87,21 +87,20 @@
 						
 						<div class="contact_info_container">
 
-							<div class="logo contact_logo" >
-								<img style="width: 200px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
-							</div>
 							<p>Apenas te comuniques con nosotros te llegará un correo, respondiendo tus inquietudes.</p>
+							<div class="logo contact_logo" >
+								<img style="width: 260px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);margin-left:100px;" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
+							</div>
 
 							<div class="address_container clearfix">
 								<div class="contact_info_icon">i</div>
 								<div class="contact_info_content">
-									<ul>
-									<li class="email">syswa@gmail.com</li><br>
-										<li class="city">Aragua, venezuela</li>
-										<li class="city">+54 0424 320 3108</li><br>
-										<li class="city">Santiago, Chile</li>
-										<li class="city">+56 9 8582 6974</li>
-										
+									<ul style="float:right;">
+										<li class="email" style="text-align:right;">syswainfo@gmail.com</li><br>
+										<li class="city" style="text-align:right;">Aragua, venezuela</li>
+										<li class="city" style="text-align:right;">+54 0424 320 3108</li>
+										<li class="city" style="text-align:right;">Santiago, Chile</li>
+										<li class="city" style="text-align:right;">+56 9 8582 6974</li>
 									</ul>									
 								</div>
 							</div>

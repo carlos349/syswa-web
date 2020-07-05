@@ -95,7 +95,7 @@
 								<p style="color: #fff;text-align:justify;">En K&K Pretty Nails estamos absolutamente satisfechos con el trabajo realizado por el equipo de Syswa fueron súper receptivos con nuestras solicitudes y las plasmaron perfectamente en nuestro sitio web. En cuanto al tiempo de respuesta fueron muy eficientes en las entragas. <br> <br>Además estamos encantados con el diseño que aplicaron al sitio web, puesto que captaron la esencia de nuestra empresa enteramente. <br><br>Los recomiento encarecidamente, son garantía de calidad en sus servicios.</p>
 								<div class="person d-flex flex-row">
 									<div class="person_image">
-										<img src="views/images/person_1.png" alt="">
+										<img src="views/images/logokk.png" alt="">
 									</div>
 									<div class="person_meta">
 										<div class="person_name" style="color: #fff;">Katriel Capacho</div>
@@ -105,7 +105,7 @@
 							</div>
 
 							<!-- Vertical Slider Item -->
-							<div class="v_slider_item">
+							<!-- <div class="v_slider_item">
 								<span style="color: #fff;">“</span>
 								<p style="color: #fff;">Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut. Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut.</p>
 								<div class="person d-flex flex-row">
@@ -117,7 +117,7 @@
 										<div class="person_title" >Diseños y confecciones ALEO</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							
 						</div>
 					</div>

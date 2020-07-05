@@ -43,7 +43,7 @@ class Mails {
                     <center>
                     <div style="width:60%;">
                         <center>
-                        <p style="text-align:center;font-size:12px;"> +56 9 7262 8949 &nbsp;&nbsp;   syswainfo@gmail.com</p> 
+                        <p style="text-align:center;font-size:12px;"> +56 9 8582 6974 &nbsp;&nbsp;   syswainfo@gmail.com</p> 
                         <p style="text-align:center;font-size:12px;">Te atendemos todos los dias, solo contáctanos.</p>
                         <a href="http://syswa.net" style="color:#172b4d;text-decoration: none;" style="text-align:center;margin-top:12px;"><strong>Syswa.net</strong></a>&nbsp;&nbsp;
                         <a href="https://www.instagram.com/syswanet/" style="color:#172b4d;text-decoration: none;" style="text-align:center;margin-top:12px;"><strong>@syswanet</strong></a>
@@ -107,7 +107,7 @@ class Mails {
                         Swal.fire({
                         icon: "success",
                         title: "¡Listo!",
-                        text: "Pronto te enviaremos, información sobre nuevos productos.",
+                        text: "Pronto te enviaremos información sobre nuevos productos.",
                         showClass: {
                             popup: "animate__animated animate__fadeInDown"
                             },
@@ -205,7 +205,7 @@ class Mails {
                     <center>
                     <div style="width:60%;">
                         <center>
-                        <p style="text-align:center;font-size:12px;"> +56 9 7262 8949 &nbsp;&nbsp;   syswainfo@gmail.com</p> 
+                        <p style="text-align:center;font-size:12px;"> +56 9 8582 6974 &nbsp;&nbsp;   syswainfo@gmail.com</p> 
                         <p style="text-align:center;font-size:12px;">Te atendemos todos los dias, solo contáctanos.</p>
                         <a href="http://syswa.net" style="color:#172b4d;text-decoration: none;" style="text-align:center;margin-top:12px;"><strong>Syswa.net</strong></a>&nbsp;&nbsp;
                         <a href="https://www.instagram.com/syswanet/" style="color:#172b4d;text-decoration: none;" style="text-align:center;margin-top:12px;"><strong>@syswanet</strong></a>
