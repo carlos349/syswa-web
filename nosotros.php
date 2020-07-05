@@ -27,18 +27,22 @@
 
 	<div class="icon_boxes">
 		<div class="container">
+			<div class="icon_box_title">
+				<h1 style="color: black;margin-bottom: 40px;">Sobre nosotros.</h1>
+			</div>
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="icon_box_title">
-						<h1 style="color: black;margin-bottom: 40px;">Sobre nosotros.</h1>
-					</div>
+					
 					<div class="icon_box_paragraph">
-						<p>
+						<p style="text-align:justify;margin-top:7px;">
 							Somos programadores y desarrolladores web, realizamos sitios web especializándonos en los
 							procesos creativos para plasmar los diseños e ideas que tengas en mente. <br> <br>
 							De igual manera somos una empresa muy completa y capacitada en diferentes lenguajes de
 							programación lo que nos llevó a diseñar software de gestión y ventas que sería el complemento
 							perfecto para optimizar el funcionamiento de tu negocio. <br><br>
+							Además de nuestras capacidades en programación y desarrollo web, tenemos alto compromiso con
+							nuestros clientes, no sólo buscamos entregar un servicio de calidad, lo que nos interesa es hacer
+							crecer tu negocio. Además, generar confianza para mantener una relación a largo plazo. <br><br>
 						</p>
 					</div>
 				</div>
@@ -47,10 +51,7 @@
 
 					<!-- Icon Box Item -->
 					<div class="icon_box_paragraph">
-						<p>
-							Además de nuestras capacidades en programación y desarrollo web, tenemos alto compromiso con
-							nuestros clientes, no sólo buscamos entregar un servicio de calidad, lo que nos interesa es hacer
-							crecer tu negocio. Además, generar confianza para mantener una relación a largo plazo. <br><br>
+						<p style="text-align:justify;">
 							Llevamos a nuestros clientes a encontrar su máximo potencial en la red, aportando a su crecimiento
 							y presencia para alcanzar sus objetivos.  <br><br> 
 							En nosotros encontrarás personas que en cada proyecto buscan innovar y el crecimiento profesional
@@ -91,7 +92,7 @@
 							<!-- Vertical Slider Item -->
 							<div class="v_slider_item">
 								<span style="color: #fff;">“</span>
-								<p style="color: #fff;">En K&K Pretty Nails estamos absolutamente satisfechos con el trabajo realizado por el equipo de Syswa fueron súper receptivos con nuestras solicitudes y las plasmaron perfectamenteen nuestro sitio web. En cuanto al tiempo de respuesta fueron muy eficientes en las entragas. <br> <br>Además estam,os encantdos con el diseño que aplicaron al sitio web, puesto que captaron la esencia de nuestra empresa enteramente. <br><br>Los recomiento encarecidamente, son garantía de calidad en sus servicios.</p>
+								<p style="color: #fff;text-align:justify;">En K&K Pretty Nails estamos absolutamente satisfechos con el trabajo realizado por el equipo de Syswa fueron súper receptivos con nuestras solicitudes y las plasmaron perfectamente en nuestro sitio web. En cuanto al tiempo de respuesta fueron muy eficientes en las entragas. <br> <br>Además estamos encantados con el diseño que aplicaron al sitio web, puesto que captaron la esencia de nuestra empresa enteramente. <br><br>Los recomiento encarecidamente, son garantía de calidad en sus servicios.</p>
 								<div class="person d-flex flex-row">
 									<div class="person_image">
 										<img src="views/images/person_1.png" alt="">
@@ -175,7 +176,7 @@
 						<div class="team_member_content">
 							<div class="team_member_name">Carlos Capacho</div>
 							<div class="team_member_title">Desarrollador</div>
-							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web y aplicaciones WPA. </p> <br>
+							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional. </p> 
 							<center>
 							<div class="team_member_link"><a href="#">Saber más</a></div>
 							</center>
@@ -190,7 +191,7 @@
 						<div class="team_member_content">
 							<div class="team_member_name">Cristians Sanchez</div>
 							<div class="team_member_title">Desarrollador</div>
-							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia.</p><br><br>
+							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
 							<center>
 							<div class="team_member_link"><a href="#">Saber más</a></div>
 							</center>
@@ -266,15 +267,20 @@
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
-							<form action="#">
+							<form method="post">
 								<div class="input-group">
-									<input type="email" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
+									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
 										Suscríbete
 									</button>
 								</div>
-									
 							</form>
+							<?php
+								if (isset($_POST['mailSuscription'])) {
+									$envio = new Mails();
+									$respuesta = $envio -> suscriptionMail();
+								}
+							?>
 						</div>
 
 					</div>

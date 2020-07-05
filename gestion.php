@@ -63,9 +63,10 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-8 order-lg-1 order-2">
-						<p class="portfolio_text">Sistema administrativo, para negocios orientados a afrecer servicios. <br> 
-							Sistema de agendamiento y gestion de horarios para los profesionales de tu negocio. <br>
-							Sistema de inventario y venta totalmente intuitivo, para que gestiones tu negocio como todo un profesional. </p>
+						<p class="portfolio_text">
+							<i class="fa fa-check" style="color:green"></i>	 Sistema administrativo, para negocios orientados a afrecer servicios. <br><br>
+							<i class="fa fa-check" style="color:green"></i> Sistema de agendamiento y gestion de horarios para los profesionales de tu negocio. <br><br>
+							<i class="fa fa-check" style="color:green"></i> Sistema de inventario y venta totalmente intuitivo, para que gestiones tu negocio como todo un profesional. </p>
 					</div>
 					<div class="col-lg-4 order-lg-3 order-1">
 						<div class="portfolio_info_box">

@@ -59,7 +59,7 @@
 							<input type="hidden" id="ifsuscription" name="ifsuscription" value="false">
 						</div>
 						<div class="display:inline-block">
-							<input class="form-check-input ml-3" onclick="document.getElementById('ifsuscription').value = 'true'" style="width: 20px;height: 20px; cursor:pointer;margin-top:2.3rem !important;"  type="checkbox" id="gridCheck">
+							<input class="form-check-input ml-3" onclick="document.getElementById('ifsuscription').value = 'true'" style="cursor:pointer;margin-top:2.8rem !important;"  type="checkbox" id="gridCheck">
 							<label class="form-check-label ml-4" style="margin-top:2.3rem !important;" for="gridCheck">
 								Suscribirme al boletín informativo
 							</label>
@@ -103,7 +103,7 @@
 									<li class="card-li-flip">Ancho de banda limitado (100 GB)</li>
 									<li class="card-li-flip">Certificado SSL gratis</li>
 									<li class="card-li-flip">Caché LiteSpeed</li>
-									<li class="card-li-flip">Soporte 24/7/365</li>
+									<li class="card-li-flip">Soporte 24/7</li>
 									<li class="card-li-flip">Copias de seguridad semanales</li>
 								</ul>
 							</div>
@@ -148,7 +148,7 @@
 									<li class="card-li-flip">Ancho de banda ilimitado</li>
 									<li class="card-li-flip">Certificado SSL gratis</li>
 									<li class="card-li-flip">Caché LiteSpeed</li>
-									<li class="card-li-flip">Soporte 24/7/365</li>
+									<li class="card-li-flip">Soporte 24/7</li>
 									<li class="card-li-flip">Copias de seguridad semanales</li>
 								</ul>
 							</div>
@@ -194,7 +194,7 @@
 									<li class="card-li-flip">Sección administrativa</li>
 									<li class="card-li-flip">Ancho de banda ilimitado</li>
 									<li class="card-li-flip">Certificado SSL gratis</li>
-									<li class="card-li-flip">Soporte 24/7/365</li>
+									<li class="card-li-flip">Soporte 24/7</li>
 								</ul>
 							</div>
 							<div class="card-back-flip">
@@ -378,20 +378,20 @@
 						<ul class="device_items">
 							<li class="device_item clearfix">
 								<span>01.</span>
-								<p>Comunícate con nosotros, infórmate sobre nuestros servicios (Responderemos de inmediato).</p>
+								<p>Comunícate con nosotros e infórmate sobre nuestros planes y servicios (Responderemos de inmediato).</p>
 							</li>
 							<li class="device_item clearfix">
 								<span>02.</span>
-								<p>Te enviaremos un presupuesto, depediendo de cual servicio quieras.</p>
+								<p>Te enviaremos un presupuesto, acorde a tus necesidades.</p>
 							</li>
 							<li class="device_item clearfix">
 								<span>03.</span>
-								<p>En muy poco tiempo, tendrás un sitio web, que hará crecer tu compañía.</p>
+								<p>En poco tiempo, tendrás tu sitio web, que hará crecer tu negocio.</p>
 							</li>
 						</ul>
 
 						<div class="mt-5">
-							<a class="devices_button" href="contact">Contáctanos</a>
+							<a class="devices_button" href="contacto">Contáctanos</a>
 						</div>
 						
 
@@ -423,14 +423,14 @@
 				<div class="col-lg-9">
 					<div class="cta_2_content">
 						<h1>¿Que estás esperando?</h1>
-						<span>Tener un sitio web en estos tiempos es de vital interés, nosotros te asesoraremos. </span>
+						<span>Tener un sitio web en estos tiempos es de vital interés, asesórate con nosotros. </span>
 					</div>
 				</div>
 
 				<div class="col-lg-3">
 					<div class="cta_2_button_container">
 						<div class="mt-2">
-							<a class="devices_button" href="contact">Contáctanos</a>
+							<a class="devices_button" href="contacto">Contáctanos</a>
 						</div>
 					</div>
 				</div>
@@ -501,15 +501,20 @@
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
-							<form action="#">
+							<form method="post">
 								<div class="input-group">
-									<input type="email" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
+									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
 										Suscríbete
 									</button>
 								</div>
-									
 							</form>
+							<?php
+								if (isset($_POST['mailSuscription'])) {
+									$envio = new Mails();
+									$respuesta = $envio -> suscriptionMail();
+								}
+							?>
 						</div>
 
 					</div>

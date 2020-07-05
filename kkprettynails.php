@@ -64,7 +64,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-8 order-lg-1 order-2">
-						<p class="portfolio_text">Desarrollo de un sitio web de 6 vistas, siempre adaptandonos a las necesidades de nuestros clientes. Secciones de registros de clientes para la compra de gift cards y implementación de sección de registro de cita, adaptado al sistema interno, de nuestro producto SYSWA GESTIÓN.</p>
+						<p class="portfolio_text" style="text-align: justify;">Desarrollo de un sitio web de 6 vistas, siempre adaptandonos a las necesidades de nuestros clientes. Secciones de registros de clientes para la compra de gift cards e implementación de sección de registro de cita, adaptado al sistema interno, de nuestro producto SYSWA GESTIÓN.</p>
 					</div>
 					<div class="col-lg-4 order-lg-3 order-1">
 						<div class="portfolio_info_box">

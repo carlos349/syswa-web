@@ -75,7 +75,7 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="icon_box_title">
-						<h1>Construimos sitios a tu medida. Gestionamos tu negocio.</h1>
+						<h1 >Construimos sitios a tu medida. Gestionamos tu negocio.</h1>
 					</div>
 					<div class="button features_button trans_200">
 						<a href="servicios" class="trans_200">Descubre más</a>
@@ -139,9 +139,8 @@
 							<div class="v_slider_item">
 								<h1>Soporte rápido</h1>
 								<h1>a todos nuestros</h1>
-								<h1>clientes. solo</h1>
-								<h1> danos un grito</h1>
-								<p>Equipo calificado, con experiencia en el desarrollo de páginas web, que te guiará y hará realidad tu sitio web.</p>
+								<h1>clientes.</h1>
+								<p>Equipo calificado, con experiencia en el desarrollo de páginas web, que te explicará como funcionan nuestros servicios.</p>
 								<div class="person d-flex flex-row">
 									<div class="person_image">
 										<img src="views/images/person_1.png" alt="">
@@ -155,10 +154,9 @@
 
 							<!-- Vertical Slider Item -->
 							<div class="v_slider_item"> 
-								<h1>Soporte rápido</h1>
-								<h1>a todos nuestros</h1>
-								<h1>clientes. solo </h1>
-								<h1>danos un grito</h1>
+								<h1>Soluciones </h1>
+								<h1>rápidas nuestros</h1>
+								<h1>clientes.</h1>
 								<p>Equipo calificado, con experiencia en el desarrollo de páginas web, que te guiará y hará realidad tu sitio web.</p>
 								<div class="person d-flex flex-row">
 									<div class="person_image">
@@ -226,7 +224,7 @@
 									<div class="service_item_icon">
 										<i class="fas fa-calendar-check icon"></i>
 									</div>
-									<h2>Administracion</h2>
+									<h2>Administración</h2>
 								</div>
 								<p>Aporte para el crecimiento de tu negocio con nuestro software de gestión y ventas.</p>
 								<div class="button service_item_button trans_200">
@@ -246,7 +244,7 @@
 									<div class="service_item_icon">
 										<div data-icon="&#xe05e;" class="icon"></div>
 									</div>
-									<h2>Evaluacion</h2>
+									<h2>Evaluación</h2>
 								</div>
 								<p>En nuestro software de gestión tendrás a tu mano secciones de estadísticas para evaluar el rendimiento de tu negocio en tiempo real.</p>
 								<div class="button service_item_button trans_200">
@@ -391,14 +389,20 @@
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
-							<form action="#">
+							<form method="post">
 								<div class="input-group">
-									<input type="email" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
-									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
+									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
+									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200">
 										Suscríbete
 									</button>
 								</div>
 							</form>
+							<?php
+								if (isset($_POST['mailSuscription'])) {
+									$envio = new Mails();
+									$respuesta = $envio -> suscriptionMail();
+								}
+							?>
 						</div>
 
 					</div>

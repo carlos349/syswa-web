@@ -57,7 +57,9 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-8 order-lg-1 order-2">
-						<p class="portfolio_text">Desarrollo de un sitio web de 3 vistas, siempre adaptandonos a las necesidades de nuestros clientes.</p>
+						<p class="portfolio_text" style="text-align: justify;">Desarrollo de un sitio web de 3 vistas, siempre adaptandonos a las necesidades de nuestros clientes. <br><br>
+							Compañía venezolana, proveedora de rodamientos industriales, bandas transportadoras, cauchos, productos navales y de generación eléctrica.
+						</p>
 					</div>
 					<div class="col-lg-4 order-lg-3 order-1">
 						<div class="portfolio_info_box">

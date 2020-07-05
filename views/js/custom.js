@@ -298,8 +298,8 @@ $(document).ready(function()
 				mouseDrag: true,
 				dots: true,
 				autoplay:true,
-    			autoplayTimeout:1500,
-				dotsSpeed: 600,
+    			autoplayTimeout:3500,
+				dotsSpeed: 2500,
 				responsive:
 				{
 					0:

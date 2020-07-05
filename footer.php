@@ -21,7 +21,10 @@
 						<!-- Social -->
 						<div class="footer_social">
 							<ul>
-								<li><a href="https://www.instagram.com/syswanet/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a></li>
+								<li>
+								<a href="https://www.instagram.com/syswanet/?hl=es-la" target="_blank"> <i class="fab fa-instagram"> @syswanet</i> </a>
+								</li> 
+								
 								<li><a href="https://www.linkedin.com/company/syswa" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 
 							</ul>
@@ -45,7 +48,6 @@
 							<li><a href="servicios">Desarrollo Web</a></li>
 							<li><a href="servicios">Redes sociales</a></li>
 							<li><a href="servicios">Diseño web</a></li>
-							<li><a href="servicios">Blogs</a></li>
 						</ul>
 					</div>
 
@@ -57,10 +59,10 @@
 					<div class="footer_col">
 						<div class="footer_col_title">Menu</div>
 						<ul>
-							<li><a href="home">Inicio</a></li>
+							<li><a href="index">Inicio</a></li>
 							<li><a href="nosotros">Nosotros</a></li>
 							<li><a href="servicios">Servicios</a></li>
-							<li><a href="portafolio">Portfolio</a></li>
+							<li><a href="portafolio">Portafolio</a></li>
 							<li><a href="contacto">Contacto</a></li>
 						</ul>
 					</div>
