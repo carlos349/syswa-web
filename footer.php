@@ -46,8 +46,8 @@
 						<div class="footer_col_title">Servicios</div>
 						<ul>
 							<li><a href="servicios">Desarrollo Web</a></li>
-							<li><a href="servicios">Redes sociales</a></li>
 							<li><a href="servicios">Diseño web</a></li>
+							<li><a href="servicios">SYSWA Gestión</a></li>
 						</ul>
 					</div>
 
