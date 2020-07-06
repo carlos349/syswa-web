@@ -1439,3 +1439,8 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+.stylePosition{
+	position: absolute;
+	right:6%;
+	z-index: 100;
+}

@@ -88,7 +88,15 @@
 	<!-- Service Boxes -->
 
 	<div class="service_boxes" style="margin-top:-20px;">
-
+		<div class="btn-group stylePosition" >
+			<button type="button" class="btn btn-dark dropdown-toggle buttonType" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;">
+				USD $
+			</button>
+			<div class="dropdown-menu">
+				<a class="dropdown-item" onclick="changeCLP()" style="cursor:pointer;">CLP $</a>
+			<a class="dropdown-item" onclick="changeUSD()" style="cursor:pointer;">USD $</a>
+			</div>
+		</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -101,7 +109,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-2.png" alt="Brohm Lake">
-									<figcaption>Página landing - <span class="badge badge-dark" style="font-size: 1.2em;">150$</span> </figcaption>
+									<figcaption>Página landing - <span class="badge badge-dark landing" style="font-size: 1.2em;">150$</span> </figcaption>
 								</figure>
 								<ul class="card-ul-flip">
 									<li class="card-li-flip">1 Pagina de inicio</li>
@@ -144,7 +152,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-1.png" alt="Brohm Lake">
-									<figcaption>Sitio web - <span class="badge badge-dark" style="font-size: 1.2em;">
+									<figcaption>Sitio web - <span class="badge badge-dark site" style="font-size: 1.2em;">
 										350$</span></figcaption>
 								</figure>
 								<ul class="card-ul-flip">
@@ -189,7 +197,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-3.png" alt="Brohm Lake">
-									<figcaption>E-Commerce - <span class="badge badge-dark" style="font-size: 1.2em;">500$</span></figcaption>
+									<figcaption>E-Commerce - <span class="badge badge-dark commerce" style="font-size: 1.2em;">500$</span></figcaption>
 								</figure>
 								<ul class="card-ul-flip">
 									<li class="card-li-flip">4 Secciones</li>
@@ -241,7 +249,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-4.png" alt="Brohm Lake">
-									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 60$</span></figcaption>
+									<figcaption><span class="badge badge-dark basic" style="font-size: 1.2em;">Mensual 25$</span></figcaption>
 									<figcaption class="mt-3">Plan básico</span></figcaption>
 								</figure>
 								<ul class="card-ul-flip" style="margin-top:-100px !important;">
@@ -285,7 +293,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-6.png" alt="Brohm Lake">
-									<figcaption><span class="badge badge-dark" style="font-size: 1.2em;">Mensual 70$</span></figcaption>
+									<figcaption><span class="badge badge-dark inventory" style="font-size: 1.2em;">Mensual 30$</span></figcaption>
 									<figcaption class="mt-3">Plan control de inventario</span></figcaption>
 								</figure>
 								<ul class="card-ul-flip" style="margin-top:-100px !important;">

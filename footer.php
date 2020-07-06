@@ -107,6 +107,24 @@
 			console.log(plain)
 			document.getElementById('typeContract').value = plain
 		}
+		function changeCLP(){
+			console.log('clp')
+			$('.landing').text('120.000 CLP')
+			$('.site').text('280.000 CLP')
+			$('.commerce').text('400.000 CLP')
+			$('.basic').text('Mensual 20.000 CL')
+			$('.inventory').text('Mensual 25.000 CLP')
+			$('.buttonType').text('CLP $')
+		}
+		function changeUSD(){
+			console.log('clp')
+			$('.landing').text('150 $')
+			$('.site').text('350 $')
+			$('.commerce').text('500 $')
+			$('.basic').text('Mensual 25 $')
+			$('.inventory').text('Mensual 30 $')
+			$('.buttonType').text('USD $')
+		}
 	</script>
 </div>
 
