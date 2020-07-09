@@ -8,6 +8,7 @@ class Mails {
         require 'PHPMailer/Exception.php';
         require 'PHPMailer/PHPMailer.php';
         require 'PHPMailer/SMTP.php';
+        include 'private/mailCredentials.php'
 
         $mail = $_POST['mailSuscription'];
 
@@ -62,9 +63,9 @@ class Mails {
             $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $mail->isSMTP();                                            // Send using SMTP
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username   = 'AKIA3PQB77VV744RUZEU';                     // SMTP username
+            $mail->Username   = $mailUser;                     // SMTP username
             $mail->Host       = 'email-smtp.sa-east-1.amazonaws.com';                    // Set the SMTP server to send through
-            $mail->Password   = 'BDlDydRxcHML6fDvoaCHLYsgwEf8OrLXZ8cB+3anDD/s';                               // SMTP password
+            $mail->Password   = $mailCredential;                               // SMTP password
             $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -86,9 +87,9 @@ class Mails {
                     $mailTwo->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
                     $mailTwo->isSMTP();                                            // Send using SMTP
                     $mailTwo->SMTPAuth   = true;                                   // Enable SMTP authentication
-                    $mailTwo->Username   = 'AKIA3PQB77VV744RUZEU';                     // SMTP username
+                    $mailTwo->Username   = $mailUser;                     // SMTP username
                     $mailTwo->Host       = 'email-smtp.sa-east-1.amazonaws.com';                    // Set the SMTP server to send through
-                    $mailTwo->Password   = 'BDlDydRxcHML6fDvoaCHLYsgwEf8OrLXZ8cB+3anDD/s';                               // SMTP password
+                    $mailTwo->Password   = $mailCredential;                               // SMTP password
                     $mailTwo->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
                     $mailTwo->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -160,6 +161,7 @@ class Mails {
         require 'PHPMailer/Exception.php';
         require 'PHPMailer/PHPMailer.php';
         require 'PHPMailer/SMTP.php';
+        include 'private/mailCredentials.php'
 
         $firtName = $_POST['firtName'];
         $lastName = $_POST['lastName'];
@@ -224,9 +226,9 @@ class Mails {
             $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $mail->isSMTP();                                            // Send using SMTP
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username   = 'AKIA3PQB77VV744RUZEU';                     // SMTP username
+            $mail->Username   = $mailUser;                     // SMTP username
             $mail->Host       = 'email-smtp.sa-east-1.amazonaws.com';                    // Set the SMTP server to send through
-            $mail->Password   = 'BDlDydRxcHML6fDvoaCHLYsgwEf8OrLXZ8cB+3anDD/s';                               // SMTP password
+            $mail->Password   = '';                               // SMTP password
             $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -248,9 +250,9 @@ class Mails {
                     $mailTwo->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
                     $mailTwo->isSMTP();                                            // Send using SMTP
                     $mailTwo->SMTPAuth   = true;                                   // Enable SMTP authentication
-                    $mailTwo->Username   = 'AKIA3PQB77VV744RUZEU';                     // SMTP username
+                    $mailTwo->Username   = $mailUser;                     // SMTP username
                     $mailTwo->Host       = 'email-smtp.sa-east-1.amazonaws.com';                    // Set the SMTP server to send through
-                    $mailTwo->Password   = 'BDlDydRxcHML6fDvoaCHLYsgwEf8OrLXZ8cB+3anDD/s';                               // SMTP password
+                    $mailTwo->Password   = $mailCredential;                               // SMTP password
                     $mailTwo->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
                     $mailTwo->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -323,7 +325,8 @@ class Mails {
         require 'PHPMailer/Exception.php';
         require 'PHPMailer/PHPMailer.php';
         require 'PHPMailer/SMTP.php';
-
+        include 'private/mailCredentials.php'
+        
         $nombre = $_POST['nombre'];
         $correo = $_POST['correo'];
         $mensaje = $_POST['mensaje'];
@@ -346,9 +349,9 @@ class Mails {
             $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $mail->isSMTP();                                            // Send using SMTP
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username   = 'AKIA3PQB77VV744RUZEU';                     // SMTP username
+            $mail->Username   = $mailUser;                     // SMTP username
             $mail->Host       = 'email-smtp.sa-east-1.amazonaws.com';                    // Set the SMTP server to send through
-            $mail->Password   = 'BDlDydRxcHML6fDvoaCHLYsgwEf8OrLXZ8cB+3anDD/s';                               // SMTP password
+            $mail->Password   = $mailCredential;                               // SMTP password
             $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
