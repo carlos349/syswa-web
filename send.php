@@ -8,7 +8,7 @@ class Mails {
         require 'PHPMailer/Exception.php';
         require 'PHPMailer/PHPMailer.php';
         require 'PHPMailer/SMTP.php';
-        include 'private/mailCredentials.php'
+        include 'private/mailCredentials.php';
 
         $mail = $_POST['mailSuscription'];
 
@@ -161,7 +161,7 @@ class Mails {
         require 'PHPMailer/Exception.php';
         require 'PHPMailer/PHPMailer.php';
         require 'PHPMailer/SMTP.php';
-        include 'private/mailCredentials.php'
+        include 'private/mailCredentials.php';
 
         $firtName = $_POST['firtName'];
         $lastName = $_POST['lastName'];
@@ -325,8 +325,8 @@ class Mails {
         require 'PHPMailer/Exception.php';
         require 'PHPMailer/PHPMailer.php';
         require 'PHPMailer/SMTP.php';
-        include 'private/mailCredentials.php'
-        
+        include 'private/mailCredentials.php';
+
         $nombre = $_POST['nombre'];
         $correo = $_POST['correo'];
         $mensaje = $_POST['mensaje'];
