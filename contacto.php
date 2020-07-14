@@ -52,7 +52,7 @@
 							
 							<!-- Reply Form -->
 
-							<form id="reply_form" method="post">
+							<form id="reply_form" >
 								<div>
 									<input id="reply_form_name" class="input_field reply_form_name" type="text" placeholder="Nombre" required="required" data-error="Nombre es requerido." name="nombre">
 									<input id="reply_form_email" class="input_field reply_form_email" type="email" placeholder="Correo" required="required" data-error="Correo valido es requerido." name="correo">
@@ -60,18 +60,12 @@
 									<textarea id="reply_form_message" class="text_field reply_form_message" name="mensaje"  placeholder="Mansaje" rows="4" required data-error="Es requerido, redactar un mensaje." name="mensaje"></textarea>
 								</div>
 								<div>
-									<button id="reply_form_submit" type="submit" class="reply_submit_btn trans_300" value="Submit">
+									<button id="reply_form_submit" type="button" class="reply_submit_btn trans_300" onclick="sendMail(3)">
 										Enviar 
 									</button>
 								</div>
 
 							</form>
-							<?php
-								if (isset($_POST['asunto'])) {
-									$envio = new Mails();
-									$respuesta = $envio -> contactMail();
-								}
-							?>
 						</div>
 					</div>
 
@@ -98,7 +92,7 @@
 									<ul style="float:right;">
 										<li class="email" style="text-align:right;">syswainfo@gmail.com</li><br>
 										<li class="city" style="text-align:right;">Aragua, venezuela</li>
-										<li class="city" style="text-align:right;">+54 0424 320 3108</li>
+										<li class="city" style="text-align:right;">+58 0424 320 3108</li>
 										<li class="city" style="text-align:right;">Santiago, Chile</li>
 										<li class="city" style="text-align:right;">+56 9 8582 6974</li>
 									</ul>									

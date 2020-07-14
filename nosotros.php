@@ -148,7 +148,7 @@
 							<div class="team_member_title">Jefe de Proyecto</div>
 							<p style="text-align:center;">Encargado de liderar y gestionar proyectos tecnológicos, para los servicios de la empresa como para los servicios del negocio.</p>
 							<center>
-								<div class="team_member_link"><a href="#">Saber más</a></div>
+								<div class="team_member_link"><a href="https://www.linkedin.com/in/miguel-angel-polanco-vilchez-b92a18127/">Saber más</a></div>
 							</center>
 						</div>
 					</div>
@@ -178,7 +178,7 @@
 							<div class="team_member_title">Desarrollador</div>
 							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional. </p> 
 							<center>
-							<div class="team_member_link"><a href="#">Saber más</a></div>
+							<div class="team_member_link"><a href="https://www.linkedin.com/in/carlos-capacho-a53755187">Saber más</a></div>
 							</center>
 						</div>
 					</div>
@@ -267,20 +267,14 @@
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
-							<form method="post">
+							<form>
 								<div class="input-group">
 									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
-									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
+									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscríbete
 									</button>
 								</div>
 							</form>
-							<?php
-								if (isset($_POST['mailSuscription'])) {
-									$envio = new Mails();
-									$respuesta = $envio -> suscriptionMail();
-								}
-							?>
 						</div>
 
 					</div>

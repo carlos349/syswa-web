@@ -33,20 +33,20 @@
 					</button>
 				</div>
 				<div class="modal-body pt-3 pb-3 ">
-					<form id="reply_form" method="post">
+					<form id="reply_form">
 						<div class="row pl-3 pr-3">
 							<div class="col-md-6">
-								<input class="input_field reply_form_name w-100" type="text" placeholder="Nombre" required="required" data-error="Nombre es requerido." name="firtName">
+								<input class="input_field reply_form_firtName w-100" type="text" placeholder="Nombre" required="required" data-error="Nombre es requerido." name="firtName">
 							</div>
 							<div class="col-md-6">
-								<input class="input_field reply_form_name w-100" type="text" placeholder="Apellido" required="required" data-error="Apellido es requerido." name="lastName">
+								<input class="input_field reply_form_lastName w-100" type="text" placeholder="Apellido" required="required" data-error="Apellido es requerido." name="lastName">
 							</div>
 							<div class="col-12">
-								<input class="input_field reply_form_email w-100" type="email" placeholder="Correo" required="required" data-error="Correo valido es requerido." name="mail">
+								<input class="input_field reply_form_mail w-100" type="email" placeholder="Correo" required="required" data-error="Correo valido es requerido." name="mail">
 							</div>
 							<div class="col-12">
 								<div class="w-100" style="display: inline-block;">
-									<select name="code" id="" class="styleSelect" style="width:25%;">
+									<select name="code" id="" class="styleSelect reply_form_code" style="width:25%;">
 										<option value="+56">+56</option>
 										<option value="+58">+58</option>
 										<option value="+420">+55</option>
@@ -60,7 +60,7 @@
 										<option value="+34">+55</option>
 										<option value="+593">+54</option>
 									</select>
-									<input class="input_field reply_form_subject" autocomplete="address-line1" style="width:73%" type="number" placeholder="Teléfono" name="number">
+									<input class="input_field reply_form_number" autocomplete="address-line1" style="width:73%" type="number" placeholder="Teléfono" name="number">
 								</div>
 							</div>
 							<input type="hidden" id="typeContract" name="type">
@@ -71,15 +71,9 @@
 							<label class="form-check-label ml-4" style="margin-top:2.3rem !important;" for="gridCheck">
 								Suscribirme al boletín informativo
 							</label>
-							<button type="submit" class="button-contract-service mr-3">Enviar</button>
+							<button type="button" onclick="sendMail(2)" class="button-contract-service mr-3">Enviar</button>
 						</div>
 					</form>
-					<?php
-						if (isset($_POST['firtName'])) {
-							$envio = new Mails();
-							$respuesta = $envio -> constractMail();
-						}
-					?>
 				</div>
 			</div>
 		</div>
@@ -474,17 +468,11 @@
 							<form method="post">
 								<div class="input-group">
 									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
-									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
+									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscríbete
 									</button>
 								</div>
 							</form>
-							<?php
-								if (isset($_POST['mailSuscription'])) {
-									$envio = new Mails();
-									$respuesta = $envio -> suscriptionMail();
-								}
-							?>
 						</div>
 
 					</div>

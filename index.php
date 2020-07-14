@@ -389,20 +389,14 @@
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
-							<form method="post">
+							<form>
 								<div class="input-group">
 									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
-									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200">
+									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscríbete
 									</button>
 								</div>
 							</form>
-							<?php
-								if (isset($_POST['mailSuscription'])) {
-									$envio = new Mails();
-									$respuesta = $envio -> suscriptionMail();
-								}
-							?>
 						</div>
 
 					</div>

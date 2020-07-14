@@ -8,7 +8,7 @@
 					<div class="footer_intro">
 						<!-- Logo -->
 						<div class="logo footer_logo">
-							<a href="#" >
+							<a href="http://syswa.net" >
 								<img style="width: 260px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);margin-left:-40px;" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
 							</a>
 						</div>
@@ -71,7 +71,7 @@
 						<ul>
 							<li>syswainfo@gmail.com</li>
 							<li>Aragua, venezuela</li>
-							<li>+54 0424 320 3108</li>
+							<li>+58 0424 320 3108</li>
 							<li>Santiago, Chile</li>
 							<li>+56 9 8582 6974</li>
 						</ul>
@@ -125,6 +125,91 @@
 			$('.inventory').text('Mensual 30 $')
 			$('.buttonType').text('USD $')
 		}
+		function sendMail(typeMail){
+			var data = {}
+			var dataOK = 'bad'
+			if (typeMail == 1) {
+				data = {
+					to: $('.newsletter_email').val(),
+					typeMail: typeMail
+				}
+				if ($('.newsletter_email').val() != '') {
+					dataOK = 'ok'
+				}
+			}
+			else if (typeMail == 2) {
+				data = {
+					to: $('.reply_form_mail').val(),
+					typeMail: typeMail,
+					firstName: $('.reply_form_firtName').val(),
+					lastName: $('.reply_form_lastName').val(),
+					number: $('.reply_form_code').val()+ ' '+$('.reply_form_number').val(),
+					type: $('#typeContract').val()
+				}
+				if ($('.reply_form_firtName').val() != '' && $('.reply_form_lastName').val() != '' && $('.reply_form_number').val() != '' && $('.reply_form_mail').val() != '') {
+					dataOK = 'ok'
+				}
+			}
+			else {
+				data = {
+					to: $('.reply_form_email').val(),
+					typeMail: typeMail,
+					Name: $('.reply_form_name').val(),
+					subject: $('.reply_form_subject').val(),
+					message: $('.reply_form_message').val()
+				}
+				if ($('.reply_form_email').val() != '' && $('.reply_form_name').val() != '' && $('.reply_form_subject').val() != '' && $('.reply_form_message').val() != '') {
+					dataOK = 'ok'
+				}
+			}
+			if (dataOK == 'ok') {
+				fetch('http://localhost:4200/clients/sendEmailsSyswa', {
+					method: 'POST',
+					body: JSON.stringify(data),
+					headers:{
+						'Content-Type': 'application/json'
+					}
+				})
+				.then(function(response) {
+					return response.json();
+				})
+				.then(function(myJson) {
+					if (myJson.status == "ok") {
+						Swal.fire({
+							icon: "success",
+							title: "¡Enviado!",
+							text: "Nos pondremos en contacto contigo lo antes posible.",
+							showClass: {
+								popup: "animate__animated animate__fadeInDown"
+							},
+							hideClass: {
+								popup: "animate__animated animate__fadeOutUp"
+							}
+						}).then((result) => {
+							window.location="http://syswa.net/servicios";
+						})
+					}
+				})
+				.catch(err => {
+					console.log(err)
+				})
+			}else{
+				Swal.fire({
+					icon: "error",
+					title: "Por favor, complete el formulario.",
+					text: "Debe llenar todos los campos.",
+					showClass: {
+						popup: "animate__animated animate__fadeInDown"
+					},
+					hideClass: {
+						popup: "animate__animated animate__fadeOutUp"
+					}
+				}).then((result) => {
+
+				})
+			}
+			
+		} 
 	</script>
 </div>
 

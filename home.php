@@ -427,7 +427,7 @@
 							<form action="#">
 								<div class="input-group">
 									<input type="email" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
-									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
+									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscribete
 									</button>
 								</div>
