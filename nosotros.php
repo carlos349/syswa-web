@@ -148,7 +148,7 @@
 							<div class="team_member_title">Jefe de Proyecto</div>
 							<p style="text-align:center;">Encargado de liderar y gestionar proyectos tecnológicos, para los servicios de la empresa como para los servicios del negocio.</p>
 							<center>
-								<div class="team_member_link"><a href="https://www.linkedin.com/in/miguel-angel-polanco-vilchez-b92a18127/">Saber más</a></div>
+								<div class="team_member_link"><a href="https://www.linkedin.com/in/miguel-angel-polanco-vilchez-b92a18127/" target="_blank">Saber más</a></div>
 							</center>
 						</div>
 					</div>
@@ -164,7 +164,7 @@
 							<div class="team_member_title">Jefe de Área TI</div>
 							<p style="text-align:center;">Garantizar el cumplimiento de servicios, dirigir adecuadamente al personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
 							<center>
-								<div class="team_member_link"><a href="#">Saber más</a></div>
+								<div class="team_member_link"><a href="#" target="_blank">Saber más</a></div>
 							</center>
 						</div>
 					</div>
@@ -178,7 +178,7 @@
 							<div class="team_member_title">Desarrollador</div>
 							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional. </p> 
 							<center>
-							<div class="team_member_link"><a href="https://www.linkedin.com/in/carlos-capacho-a53755187">Saber más</a></div>
+							<div class="team_member_link"><a href="https://www.linkedin.com/in/carlos-capacho-a53755187" target="_blank">Saber más</a></div>
 							</center>
 						</div>
 					</div>
@@ -193,7 +193,7 @@
 							<div class="team_member_title">Desarrollador</div>
 							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
 							<center>
-							<div class="team_member_link"><a href="#">Saber más</a></div>
+							<div class="team_member_link"><a href="#" target="_blank">Saber más</a></div>
 							</center>
 						</div>
 					</div>
