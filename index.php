@@ -361,7 +361,7 @@
 
 				<div class="col-lg-6 offset-lg-1 order-lg-2 order-1">
 					<div class="cta_image d-flex flex-column justify-content-end">
-						<a href="https://kkprettynails.cl" target="_blank">K&K Pretty Nails</a>
+						<a href="https://kkprettynails.cl/inicio" target="_blank">K&K Pretty Nails</a>
 						<img  src="views/images/kkprettynails.png" alt="image by https://unsplash.com/@heysupersimi">
 					</div>
 				</div>

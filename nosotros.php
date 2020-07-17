@@ -142,7 +142,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_3.jpg" style="width: 250px;height: 250px;" alt=""></div>
+						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Miguel Polanco</div>
 							<div class="team_member_title">Jefe de Proyecto</div>
@@ -158,7 +158,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_1.jpg" style="width: 250px;height: 250px;" alt=""></div>
+						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Simon Andres</div>
 							<div class="team_member_title">Jefe de Área TI</div>
@@ -172,7 +172,7 @@
 				
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_4.jpg" style="width: 250px;height: 250px;" alt=""></div>
+						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Carlos Capacho</div>
 							<div class="team_member_title">Desarrollador</div>
@@ -187,7 +187,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/team_2.jpg" style="width: 250px;height: 250px;" alt=""></div>
+						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
 							<div class="team_member_name">Cristians Sanchez</div>
 							<div class="team_member_title">Desarrollador</div>
