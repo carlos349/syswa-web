@@ -99,9 +99,9 @@
 								<div class="card-header">Sistema SYSWA Gestión</div>
 								<div class="card-title">tuempresa.syswa.net</div>
 								<div class="card-text">
-									Sistema administrativo, para negocios orientados a afrecer servicios. <br> 
-									Sistema de agendamiento y gestion de horarios para los profesionales de tu negocio. <br>
-									Sistema de inventario y venta totalmente intuitivo, para que gestiones tu negocio como todo un profesional.
+								<i class="fa fa-check" style="color:green"></i> Sistema administrativo, para negocios orientados a afrecer servicios. <br> 
+								<i class="fa fa-check" style="color:green"></i> Sistema de agendamiento y gestion de horarios para los profesionales de tu negocio. <br>
+								<i class="fa fa-check" style="color:green"></i> Sistema de inventario y venta totalmente intuitivo, para que gestiones tu negocio como todo un profesional.
 								</div>
 								<div class="card-link"><a href="gestion">Saber más</a></div>
 							</div>
