@@ -125,6 +125,72 @@
 			$('.inventory').text('Mensual 30 $')
 			$('.buttonType').text('USD $')
 		}
+		function changePlain(){
+			const type = $('.typeService').val()
+			var countBackgrounds = $('.countBackground').val()
+			if (type == 'logo') {
+				if (countBackgrounds == 1 || countBackgrounds == 2) {
+					var count = parseFloat(countBackgrounds)+parseFloat(1)
+					$('.countBackground').val(count)
+					$('.image_section').css({"background-image": "url('views/images/bg_logo_"+count+".png')"})
+				}else{
+					var count = 1
+					$('.countBackground').val(count)
+					$('.image_section').css({"background-image": "url('views/images/bg_logo_"+count+".png')"})
+				}
+			}
+			if (type == 'design') {
+				console.log(countBackgrounds)
+				if (countBackgrounds == 1) {
+					$('.countBackground').val(2)
+					$('.data_section .price_section').text('19,990 CLP')
+					$('.titleDesign').css({'display': 'block'})
+					$('.titleDesigTwo').css({'display': 'none'})
+					$('.titleDesignThree').css({'display': 'none'})
+				}else if(countBackgrounds == 2){
+					$('.countBackground').val(3)
+					$('.data_section .price_section').text('39,990 CLP')
+					$('.titleDesign').css({'display': 'none'})
+					$('.titleDesigTwo').css({'display': 'block'})
+					$('.titleDesignThree').css({'display': 'none'})
+				}else{
+					$('.countBackground').val(1)
+					$('.data_section .price_section').text('79,990 CLP')
+					$('.titleDesign').css({'display': 'none'})
+					$('.titleDesigTwo').css({'display': 'none'})
+					$('.titleDesignThree').css({'display': 'block'})
+				}
+			}
+		}
+		function changeService(service){
+			$('.countBackground').val(2)
+			$('.titleDesigTwo').css({'display': 'none'})
+			$('.titleDesignThree').css({'display': 'none'})
+			if (service == 'logo') {
+				$('.typeService').val(service)
+				$('.image_section').css({"background-image": "url('views/images/bg_logo_1.png')"})
+				$('.image_section ul li').css({'border': 'none'})
+				$('.logoLi').css({'border-bottom': 'solid 3px azure'})
+				$('.titleDesign').css({'display': 'none'})
+				$('.titleLogo').css({'display': 'block'})
+				$('.pDesign').css({'display': 'none'})
+				$('.pLogo').css({'display': 'block'})
+				$('.data_section h3').text('Diseños & refrescamiento de logo')
+				$('.data_section .price_section').text('39,990 CLP')
+			}
+			if (service == 'design') {
+				$('.typeService').val(service)
+				$('.image_section').css({"background-image": "url('views/images/bg_design.png')"})
+				$('.image_section ul li').css({'border': 'none'})
+				$('.designLi').css({'border-bottom': 'solid 3px azure'})
+				$('.titleLogo').css({'display': 'none'})
+				$('.titleDesign').css({'display': 'block'})
+				$('.pLogo').css({'display': 'none'})
+				$('.pDesign').css({'display': 'block'})
+				$('.data_section h3').text('Diseños para redes sociales')
+				$('.data_section .price_section').text('19,990 CLP')
+			}
+		}
 		function sendMail(typeMail){
 			var data = {}
 			var dataOK = 'bad'

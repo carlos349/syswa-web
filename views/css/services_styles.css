@@ -1444,3 +1444,139 @@ input[type=number] {
 	right:6%;
 	z-index: 100;
 }
+
+/* Section design */
+
+.card_design_section{
+	font-family: 'Roboto', sans-serif;
+	border-radius: 20px;
+	-webkit-box-shadow: 10px 10px 12px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 12px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 12px -9px rgba(0,0,0,0.75);
+	padding: 0px !important;
+}
+.image_section{
+	background-image: url('../images/bg_logo_3.png');
+	background-image: url('../images/bg_logo_2.png');
+	background-image: url('../images/bg_logo_1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5px 20px;
+	padding-bottom: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	transition: all 0.5s ease-out;
+}
+.menu_apple span{
+	margin-left: 10px;
+	font-size: 1em;
+}
+.menu_apple .first{
+	color: #ad353d;
+}
+.menu_apple .second{
+	color: #b6b640;
+}
+.menu_apple .third{
+	color: #51bb59;
+}
+.menu_apple .gray_one{
+	color: #d3d4d0;
+}
+.menu_apple .gray_two{
+	color: #babfd1;
+}
+.image_section ul{
+	margin-left: 20%;
+	width: 100%;
+}
+.image_section ul li{
+	display: inline;
+	padding: 0;
+	padding-bottom: 5px;
+	margin-left: 100px;
+	color: azure;
+	font-weight: 600;
+	font-size:1.2em;
+	cursor: pointer;
+}
+.image_section ul li:nth-child(1){
+	border-bottom:solid 3px azure;
+}
+.image_section button{
+	background-color: transparent;
+	border-radius: 60%;
+	padding: 2px 10px;
+	border: solid 2px azure;
+	color: azure;
+	font-size: 1em;
+	margin-top: 15%;
+	float: right;
+	cursor: pointer;
+	transition: ease all .5s;
+}
+.image_section button:hover{
+	background-color: azure;
+	color: #040203;
+}
+.image_section button:focus{
+	outline: none;
+}
+.image_section h2{
+	font-size: 2.5em;
+	color: azure;
+	margin-top: 30%;
+	width: 60%;
+	letter-spacing: .01em;
+	transition: ease all .5s;
+}
+.titleDesign{
+	display: none;
+}
+.pDesign{
+	display: none;
+}
+.titleDesigTwo{
+	display: none;
+}
+.titleDesignThree{
+	display: none;
+}
+.data_section{
+	padding: 10px;
+	padding-top: 50px;
+	background-color: azure;
+	text-align: center;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.data_section p{
+	color: #040203;
+}
+.data_section .price_section{
+	background-color: #cbc9c7;
+	padding: 5px 20px;
+	border-radius: 25px;
+	color: #040203;
+	font-weight: 900;
+	font-size: 2em;
+}
+.data_section button{
+	background-color: transparent;
+	padding: 0px 20px;
+	border:solid 1px #cbc9c7;
+	border-radius: 30px;
+	color: #040203;
+	font-weight: 700;
+	font-size: 2em;
+	letter-spacing: .03em;
+	cursor: pointer;
+	transition: ease all .5s;
+}
+.data_section button:hover{
+	background-color: #cbc9c7;
+	color: #040203;
+}
+.data_section button:focus{
+	outline: none;
+}

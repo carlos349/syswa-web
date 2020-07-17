@@ -94,7 +94,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;text-decoration: underline;">Tarifas de SYSWA WEB</h1>
+					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA WEB</h1>
 				</div>
 				<div class="col-lg-4 service_col">
 					<div class="flip-card-container" style="--hue: 220">
@@ -103,7 +103,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-2.png" alt="Brohm Lake">
-									<figcaption>Página landing - <span class="badge badge-dark landing" style="font-size: 1.2em;">150$</span> </figcaption>
+									<figcaption>Página landing - <span class="badge badge-dark landing" style="font-size: 1.2em;">120.000 CLP</span> </figcaption>
 								</figure>
 								<ul class="card-ul-flip">
 									<li class="card-li-flip">1 Pagina de inicio</li>
@@ -147,7 +147,7 @@
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-1.png" alt="Brohm Lake">
 									<figcaption>Sitio web - <span class="badge badge-dark site" style="font-size: 1.2em;">
-										350$</span></figcaption>
+										280.000 CLP</span></figcaption>
 								</figure>
 								<ul class="card-ul-flip">
 									<li class="card-li-flip">5 Secciones</li>
@@ -191,7 +191,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-3.png" alt="Brohm Lake">
-									<figcaption>E-Commerce - <span class="badge badge-dark commerce" style="font-size: 1.2em;">500$</span></figcaption>
+									<figcaption>E-Commerce - <span class="badge badge-dark commerce" style="font-size: 1.2em;">400.000 CLP</span></figcaption>
 								</figure>
 								<ul class="card-ul-flip">
 									<li class="card-li-flip">4 Secciones</li>
@@ -234,7 +234,7 @@
 		<div class="container mt-5">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;text-decoration: underline;">Tarifas de SYSWA GESTIÓN</h1>
+					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA GESTIÓN</h1>
 				</div>
 				<div class="col-lg-6 service_col">
 					<div class="flip-card-container" style="--hue: 220">
@@ -243,7 +243,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-4.png" alt="Brohm Lake">
-									<figcaption><span class="badge badge-dark basic" style="font-size: 1.2em;">Mensual 25$</span></figcaption>
+									<figcaption><span class="badge badge-dark basic" style="font-size: 1.2em;">Mensual 20.000 CLP</span></figcaption>
 									<figcaption class="mt-3">Plan básico</span></figcaption>
 								</figure>
 								<ul class="card-ul-flip" style="margin-top:-100px !important;">
@@ -287,7 +287,7 @@
 								<figure class="card-figure-flip">
 									<div class="img-bg"></div>
 									<img class="card-img-flip" src="views/images/bg-card-6.png" alt="Brohm Lake">
-									<figcaption><span class="badge badge-dark inventory" style="font-size: 1.2em;">Mensual 30$</span></figcaption>
+									<figcaption><span class="badge badge-dark inventory" style="font-size: 1.2em;">Mensual 25.000 CLP</span></figcaption>
 									<figcaption class="mt-3">Plan control de inventario</span></figcaption>
 								</figure>
 								<ul class="card-ul-flip" style="margin-top:-100px !important;">
@@ -324,6 +324,62 @@
 					</div>
 				</div>
 
+			</div>
+		</div>
+		<div class="container">
+			<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA BRANDING</h1>
+			<input type="hidden" class="typeService" value="logo">
+			<div class="row card_design_section">
+				<div class="col-md-8 image_section">
+					<div class="menu_apple mb-4">
+						<span class="first"><i class="fa fa-circle"></i></span>
+						<span class="second"><i class="fa fa-circle"></i></span>
+						<span class="third"><i class="fa fa-circle"></i></span>
+					</div>
+					<ul>
+						<li class="logoLi" onclick="changeService('logo')">
+							Logos
+						</li>
+						<li class="designLi" onclick="changeService('design')">
+							Diseños
+						</li>
+					</ul>
+					<button onclick="changePlain()"><i class="fa fa-chevron-right"></i></button>
+					<input type="hidden" class="countBackground" value="1">
+					<h2 class="titleLogo">Ayudamos a definir visualmente la identidad de tu empresa</h2>
+					<h2 class="titleDesign" style="font-size: 3.2em;">5 Diseños <br> +1 de obsequio</h2>
+					<h2 class="titleDesigTwo" style="font-size: 3.2em;">10 Diseños <br> +2 de obsequio</h2>
+					<h2 class="titleDesignThree" style="font-size: 3.2em;">20 Diseños <br> +3 de obsequio</h2>
+				</div>
+				<div class="col-md-4 data_section">
+					<h3>Diseños & refrescamiento de logo</h3>
+					<div class="menu_apple">
+						<span class="gray_one"><i class="fa fa-circle"></i></span>
+						<span class="gray_two"><i class="fa fa-circle"></i></span>
+						<span class="gray_one"><i class="fa fa-circle"></i></span>
+					</div>
+					<p class="pLogo">
+						Diseños en alta resolución <br>
+						Variantes de color <br>
+						Archivo editable <br>
+						Tipografía <br>
+						Códigos de colores <br>
+						Formatos PNG y JPG <br>
+						KIT de Social Media 
+					</p>
+					<p class="pDesign">
+						Post de Redes Sociales <br>
+						Stories <br>
+						Folletos <br>
+						Anuncios <br>
+						Portadas <br>
+						Banners<br>
+						Tarjeta de presentación 
+					</p>
+					<hr>
+					<span class="price_section">39,990 CLP</span><br>
+					<button>Contratar</button>
+				</div>
 			</div>
 		</div>
 	</div>
