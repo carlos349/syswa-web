@@ -164,7 +164,7 @@
 							<div class="team_member_title">Jefe de Área TI</div>
 							<p style="text-align:center;">Garantizar el cumplimiento de servicios, dirigir adecuadamente al personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
 							<center>
-								<div class="team_member_link"><a href="#" target="_blank">Saber más</a></div>
+								<div class="team_member_link"><a href="https://www.linkedin.com/in/simon-villasmil-80174315a/" target="_blank">Saber más</a></div>
 							</center>
 						</div>
 					</div>
@@ -193,7 +193,7 @@
 							<div class="team_member_title">Desarrollador</div>
 							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
 							<center>
-							<div class="team_member_link"><a href="#" target="_blank">Saber más</a></div>
+							<div class="team_member_link"><a href="https://www.linkedin.com/in/cristians-sanchez-1467001ab/" target="_blank">Saber más</a></div>
 							</center>
 						</div>
 					</div>
