@@ -377,7 +377,7 @@
 						Tarjeta de presentación 
 					</p>
 					<hr>
-					<span class="price_section">39,990 CLP</span><br>
+					<span class="price_section">39.990 CLP</span><br>
 					<button>Contratar</button>
 				</div>
 			</div>

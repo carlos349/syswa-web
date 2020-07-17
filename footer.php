@@ -143,19 +143,19 @@
 				console.log(countBackgrounds)
 				if (countBackgrounds == 1) {
 					$('.countBackground').val(2)
-					$('.data_section .price_section').text('19,990 CLP')
+					$('.data_section .price_section').text('19.990 CLP')
 					$('.titleDesign').css({'display': 'block'})
 					$('.titleDesigTwo').css({'display': 'none'})
 					$('.titleDesignThree').css({'display': 'none'})
 				}else if(countBackgrounds == 2){
 					$('.countBackground').val(3)
-					$('.data_section .price_section').text('39,990 CLP')
+					$('.data_section .price_section').text('39.990 CLP')
 					$('.titleDesign').css({'display': 'none'})
 					$('.titleDesigTwo').css({'display': 'block'})
 					$('.titleDesignThree').css({'display': 'none'})
 				}else{
 					$('.countBackground').val(1)
-					$('.data_section .price_section').text('79,990 CLP')
+					$('.data_section .price_section').text('79.990 CLP')
 					$('.titleDesign').css({'display': 'none'})
 					$('.titleDesigTwo').css({'display': 'none'})
 					$('.titleDesignThree').css({'display': 'block'})
@@ -176,7 +176,7 @@
 				$('.pDesign').css({'display': 'none'})
 				$('.pLogo').css({'display': 'block'})
 				$('.data_section h3').text('Diseños & refrescamiento de logo')
-				$('.data_section .price_section').text('39,990 CLP')
+				$('.data_section .price_section').text('39.990 CLP')
 			}
 			if (service == 'design') {
 				$('.typeService').val(service)
@@ -188,7 +188,7 @@
 				$('.pLogo').css({'display': 'none'})
 				$('.pDesign').css({'display': 'block'})
 				$('.data_section h3').text('Diseños para redes sociales')
-				$('.data_section .price_section').text('19,990 CLP')
+				$('.data_section .price_section').text('19.990 CLP')
 			}
 		}
 		function sendMail(typeMail){
