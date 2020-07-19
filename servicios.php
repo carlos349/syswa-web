@@ -96,7 +96,7 @@
 				<div class="col-lg-12">
 					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA WEB</h1>
 				</div>
-				<div class="col-lg-4 service_col">
+				<div class="col-lg-4 service_col mt-2">
 					<div class="flip-card-container" style="--hue: 220">
 						<div class="flip-card">
 							<div class="card-front-flip">
@@ -139,7 +139,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 service_col">
+				<div class="col-lg-4 service_col mt-2">
 					<div class="flip-card-container" style="--hue: 220">
 						<div class="flip-card">
 							<div class="card-front-flip">
@@ -184,7 +184,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 service_col">
+				<div class="col-lg-4 service_col mt-2">
 					<div class="flip-card-container" style="--hue: 220">
 						<div class="flip-card">
 							<div class="card-front-flip">
@@ -236,7 +236,7 @@
 				<div class="col-lg-12">
 					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA GESTIÓN</h1>
 				</div>
-				<div class="col-lg-6 service_col">
+				<div class="col-lg-6 service_col mt-2">
 					<div class="flip-card-container" style="--hue: 220">
 						<div class="flip-card">
 							<div class="card-front-flip">
@@ -280,7 +280,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-6 service_col">
+				<div class="col-lg-6 service_col mt-2">
 					<div class="flip-card-container" style="--hue: 220">
 						<div class="flip-card">
 							<div class="card-front-flip">
@@ -326,7 +326,7 @@
 
 			</div>
 		</div>
-		<div class="container">
+		<div class="container mt-5">
 			<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA BRANDING</h1>
 			<input type="hidden" class="typeService" value="logo">
 			<div class="row card_design_section">
@@ -337,10 +337,10 @@
 						<span class="third"><i class="fa fa-circle"></i></span>
 					</div>
 					<ul>
-						<li class="logoLi" onclick="changeService('logo')">
+						<li class="logoLi" onmouseover="changeService('logo')">
 							Logos
 						</li>
-						<li class="designLi" onclick="changeService('design')">
+						<li class="designLi" onmouseover="changeService('design')">
 							Diseños
 						</li>
 					</ul>
@@ -356,7 +356,7 @@
 					<div class="menu_apple">
 						<span class="gray_one"><i class="fa fa-circle"></i></span>
 						<span class="gray_two"><i class="fa fa-circle"></i></span>
-						<span class="gray_one"><i class="fa fa-circle"></i></span>
+						<span class="gray_three"><i class="fa fa-circle"></i></span>
 					</div>
 					<p class="pLogo">
 						Diseños en alta resolución <br>
@@ -378,7 +378,7 @@
 					</p>
 					<hr>
 					<span class="price_section">39.990 CLP</span><br>
-					<button>Contratar</button>
+					<button data-toggle="modal" data-target="#contractModal">Contratar</button>
 				</div>
 			</div>
 		</div>

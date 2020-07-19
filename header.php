@@ -42,7 +42,7 @@
 	</head>
 
 	<body>
-	<header class="header d-flex flex-row justify-content-end align-items-center trans_200">
+	<header class="header d-flex flex-row justify-content-end align-items-center trans_200" style="z-index:1000">
 		
 		<!-- Logo -->
 		<div class="logo mr-auto">
