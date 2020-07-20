@@ -54,11 +54,11 @@
 		<!-- Navigation -->
 		<nav class="main_nav justify-self-end text-right">
 			<ul>
-				<li class="active"><a href="index">Inicio</a></li>
-				<li><a href="nosotros">Nosotros</a></li>
-				<li><a href="servicios">Servicios</a></li>
-				<li><a href="portafolio">Portafolio</a></li>
-				<li><a href="contacto">Contacto</a></li>
+				<li class="active allSections" id="indexSection"><a href="index">Inicio</a></li>
+				<li class="allSections" id="aboutSection"><a href="nosotros">Nosotros</a></li>
+				<li class="allSections" id="serviceSection"><a href="servicios">Servicios</a></li>
+				<li class="allSections" id="portfoliotSection"><a href="portafolio">Portafolio</a></li>
+				<li class="allSections" id="contactSection"><a href="contacto">Contacto</a></li>
 			</ul>
 			
 			<!-- Search -->

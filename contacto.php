@@ -2,6 +2,7 @@
 	<link rel="stylesheet" type="text/css" href="views/css/contact_styles.css">
 	<link rel="stylesheet" type="text/css" href="views/css/contact_responsive.css">
 	<input class="findHome" type="text" value="nohome" hidden >
+	<input class="route" type="text" value="contactSection" hidden >
 	<div class="super_container">
 	<!-- Home -->
 
@@ -33,8 +34,8 @@
 			<div class="row">
 				<div class="col">
 					<div id="google_map">
-						<div class="map_container">
-							<div id="map"></div>
+						<div class="map_container w-100">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.1986365479837!2d-70.62006107712037!3d-33.48777709618665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d000e56caf31%3A0x76517dc45a0d0beb!2sCARLOS%20VALDOVINOS%2035!5e0!3m2!1ses-419!2sve!4v1595280714115!5m2!1ses-419!2sve" class="w-100" frameborder="0" style="border:0;height:70vh;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 				</div>

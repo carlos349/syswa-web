@@ -3,6 +3,7 @@
 <link rel="stylesheet" type="text/css" href="views/css/portfolio_styles.css">
 <link rel="stylesheet" type="text/css" href="views/css/portfolio_responsive.css">
 <input class="findHome" type="text" value="nohome" hidden >
+<input class="route" type="text" value="portfoliotSection" hidden >
 <div class="super_container">
 	<!-- Home -->
 
@@ -36,6 +37,7 @@
 							<li class="portfolio_category active is-checked" data-filter="*">Todos</li>
 							<li class="portfolio_category" data-filter=".desarrollo">SYSWA Web</li>
 							<li class="portfolio_category" data-filter=".disenoweb">SYSWA Gestión</li>
+							<li class="portfolio_category" data-filter=".branding">SYSWA Branding</li>
 						</ul>
 					</div>
 				</div>
@@ -74,6 +76,62 @@
 								<div class="card-link"><a href="albaven">Saber más</a></div>
 							</div>
 						</div>
+
+						<!-- Portfolio Item -->
+						<div class="card branding">
+							<div class="card_image">
+								<img class="card-img-top" src="views/images/bg_logo_1.png" alt="image by https://unsplash.com/@heysupersimi">
+							</div>
+							
+							<div class="card-body">
+								<div class="card-header">Diseño de logo</div>
+								<div class="card-title">Mark Reder Yera</div>
+								<div class="card-text">Diseño de un Logotipo.</div>
+							</div>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="card branding">
+							<div class="card_image">
+								<img class="card-img-top" src="views/images/bg_logo_2.png" alt="image by https://unsplash.com/@heysupersimi">
+							</div>
+							
+							<div class="card-body">
+								<div class="card-header">Diseño de logo</div>
+								<div class="card-title">El chanchito 11</div>
+								<div class="card-text">Diseño de un Imagotipo.</div>
+								<div class="card-link"><a href="albaven">Saber más</a></div>
+							</div>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="card branding">
+							<div class="card_image">
+								<img class="card-img-top" src="views/images/bg_logo_3.png" alt="image by https://unsplash.com/@heysupersimi">
+							</div>
+							
+							<div class="card-body">
+								<div class="card-header">Diseño de logo</div>
+								<div class="card-title">Crema & Azucar</div>
+								<div class="card-text">Diseño de un Isologo.</div>
+								<div class="card-link"><a href="albaven">Saber más</a></div>
+							</div>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="card branding">
+							<div class="card_image">
+								<img class="card-img-top" src="views/images/bg_design.png" alt="image by https://unsplash.com/@heysupersimi">
+							</div>
+							
+							<div class="card-body">
+								<div class="card-header">Diseño para Redes Sociales</div>
+								<div class="card-title">Diseños en general</div>
+								<div class="card-text">Creación de imagenes para redes sociales.</div>
+								<div class="card-link"><a href="albaven">Saber más</a></div>
+							</div>
+						</div>
+						
 
 						<!-- Portfolio Item -->
 						<!-- <div class="card desarrollo">

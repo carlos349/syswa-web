@@ -63,17 +63,17 @@
 						</ul>
 					</div>
 				</div>
-
+				<input type="hidden" value="CLP" id="typeCurrencyBranding">
 				<!-- Footer About -->
 				<div class="col-lg-2">
 					<div class="footer_col">
 						<div class="footer_col_title">Contacto</div>
 						<ul>
-							<li>syswainfo@gmail.com</li>
-							<li>Aragua, venezuela</li>
-							<li>+58 0424 320 3108</li>
-							<li>Santiago, Chile</li>
-							<li>+56 9 8582 6974</li>
+							<li style="font-size: 16px;font-weight: 500;color: #909090;">syswainfo@gmail.com</li>
+							<li style="font-size: 16px;font-weight: 500;color: #909090;">Aragua, venezuela</li>
+							<li style="font-size: 16px;font-weight: 500;color: #909090;">+58 0424 320 3108</li>
+							<li style="font-size: 16px;font-weight: 500;color: #909090;">Santiago, Chile</li>
+							<li style="font-size: 16px;font-weight: 500;color: #909090;">+56 9 8582 6974</li>
 						</ul>
 					</div>
 				</div>
@@ -109,21 +109,51 @@
 		}
 		function changeCLP(){
 			console.log('clp')
+			changeService('logo')
+			$('#typeCurrencyBranding').val('CLP')
 			$('.landing').text('120.000 CLP')
 			$('.site').text('280.000 CLP')
 			$('.commerce').text('400.000 CLP')
 			$('.basic').text('Mensual 20.000 CL')
 			$('.inventory').text('Mensual 25.000 CLP')
+			$('.data_section .price_section').text('39.990 CLP')
 			$('.buttonType').text('CLP $')
 		}
 		function changeUSD(){
 			console.log('clp')
+			changeService('logo')
+			$('#typeCurrencyBranding').val('USD')
 			$('.landing').text('150 $')
 			$('.site').text('350 $')
 			$('.commerce').text('500 $')
 			$('.basic').text('Mensual 25 $')
 			$('.inventory').text('Mensual 30 $')
+			$('.data_section .price_section').text('50 $')
 			$('.buttonType').text('USD $')
+		}
+		function routeIndicator(){
+			const route = $('.route').val()
+			if (route == 'serviceSection') {
+				$('#serviceSection').css({'border-bottom': 'solid 2px #172b4d'})
+				$('.allSections').removeClass('active')
+				$('#serviceSection').addClass('active')
+			}else if(route == 'contactSection'){
+				$('#contactSection').css({'border-bottom': 'solid 2px #172b4d'})
+				$('.allSections').removeClass('active')
+				$('#contactSection').addClass('active')
+			}else if(route == 'aboutSection'){
+				$('#aboutSection').css({'border-bottom': 'solid 2px #172b4d'})
+				$('.allSections').removeClass('active')
+				$('#aboutSection').addClass('active')
+			}else if(route == 'portfoliotSection'){
+				$('#portfoliotSection').css({'border-bottom': 'solid 2px #172b4d'})
+				$('.allSections').removeClass('active')
+				$('#portfoliotSection').addClass('active')
+			}else{
+				$('#indexSection').css({'border-bottom': 'solid 2px #172b4d'})
+				$('.allSections').removeClass('active')
+				$('#indexSection').addClass('active')
+			}
 		}
 		function changePlain(){
 			const type = $('.typeService').val()
@@ -156,7 +186,11 @@
 				console.log(countBackgrounds)
 				if (countBackgrounds == 1) {
 					$('.countBackground').val(2)
-					$('.data_section .price_section').text('39.990 CLP')
+					if ($('#typeCurrencyBranding').val() == 'CLP') {
+						$('.data_section .price_section').text('39.990 CLP')
+					}else{
+						$('.data_section .price_section').text('50 $')
+					}
 					$('.titleDesign').hide(1)
 					$('.titleDesigTwo').show('slow')
 					$('.titleDesignThree').hide(1)
@@ -166,7 +200,11 @@
 					$('#typeContract').val('Diseño para redes sociales - Combo #2')
 				}else if(countBackgrounds == 2){
 					$('.countBackground').val(3)
-					$('.data_section .price_section').text('79.990 CLP')
+					if ($('#typeCurrencyBranding').val() == 'CLP') {
+						$('.data_section .price_section').text('79.990 CLP')
+					}else{
+						$('.data_section .price_section').text('100 $')
+					}
 					$('.titleDesign').hide(1)
 					$('.titleDesigTwo').hide(1)
 					$('.titleDesignThree').show('slow')
@@ -176,7 +214,11 @@
 					$('#typeContract').val('Diseño para redes sociales - Combo #3')
 				}else{
 					$('.countBackground').val(1)
-					$('.data_section .price_section').text('19.990 CLP')
+					if ($('#typeCurrencyBranding').val() == 'CLP') {
+						$('.data_section .price_section').text('19.990 CLP')
+					}else{
+						$('.data_section .price_section').text('25 $')
+					}
 					$('.titleDesign').show('slow')
 					$('.titleDesigTwo').hide(1)
 					$('.titleDesignThree').hide(1)
@@ -204,7 +246,11 @@
 				$('.pDesign').hide(1)
 				$('.pLogo').show('slow')
 				$('.data_section h3').text('Diseños & refrescamiento de logo')
-				$('.data_section .price_section').text('39.990 CLP')
+				if ($('#typeCurrencyBranding').val() == 'CLP') {
+					$('.data_section .price_section').text('39.990 CLP')
+				}else{
+					$('.data_section .price_section').text('50 $')
+				}
 				$('#typeContract').val('Diseño de logo')
 			}
 			if (service == 'design') {
@@ -218,7 +264,11 @@
 				$('.pLogo').hide(1)
 				$('.pDesign').show('slow')
 				$('.data_section h3').text('Diseños para redes sociales')
-				$('.data_section .price_section').text('19.990 CLP')
+				if ($('#typeCurrencyBranding').val() == 'CLP') {
+					$('.data_section .price_section').text('19.990 CLP')
+				}else{
+					$('.data_section .price_section').text('25 $')
+				}
 			}
 		}
 		function sendMail(typeMail){
@@ -306,6 +356,7 @@
 			}
 			
 		} 
+		routeIndicator()
 	</script>
 </div>
 

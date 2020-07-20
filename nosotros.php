@@ -3,6 +3,7 @@
 	<link rel="stylesheet" type="text/css" href="views/css/about_styles.css">
 	<link rel="stylesheet" type="text/css" href="views/css/about_responsive.css">
 	<input class="findHome" type="text" value="nhome" hidden >
+	<input class="route" type="text" value="aboutSection" hidden >
 <div class="super_container">
 	<!-- Home -->
 
@@ -140,7 +141,7 @@
 			<div class="row offset-xl-1">
 				
 				<!-- Team Item -->
-				<div class="col-lg-3 col-md-6 team_col">
+				<div class="col-lg-4 col-md-6 team_col" style="margin-top:80px;">
 					<div class="team_container trans_200">
 						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
@@ -156,7 +157,7 @@
 				
 				
 				<!-- Team Item -->
-				<div class="col-lg-3 col-md-6 team_col">
+				<div class="col-lg-4 col-md-6 team_col" style="margin-top:80px;">
 					<div class="team_container trans_200">
 						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
@@ -170,12 +171,12 @@
 					</div>
 				</div>
 				
-				<div class="col-lg-3 col-md-6 team_col">
+				<div class="col-lg-4 col-md-6 team_col" style="margin-top:80px;">
 					<div class="team_container trans_200">
 						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">
-							<div class="team_member_name">Carlos Capacho</div>
-							<div class="team_member_title">Desarrollador</div>
+							<div class="team_member_name">Bryan Blanco</div>
+							<div class="team_member_title">Diseñador</div>
 							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional. </p> 
 							<center>
 							<div class="team_member_link"><a href="https://www.linkedin.com/in/carlos-capacho-a53755187" target="_blank">Saber más</a></div>
@@ -185,7 +186,23 @@
 				</div>
 				
 				<!-- Team Item -->
-				<div class="col-lg-3 col-md-6 team_col">
+				<div class="col-lg-6 col-md-6 team_col" style="margin-top:80px;">
+					<div class="team_container trans_200">
+						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
+						<div class="team_member_content">
+							<div class="team_member_name">Carlos Capacho</div>
+							<div class="team_member_title">Desarrollador</div>
+							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
+							<center>
+							<div class="team_member_link"><a href="https://www.linkedin.com/in/cristians-sanchez-1467001ab/" target="_blank">Saber más</a></div>
+							</center>
+						</div>
+					</div>
+				</div>
+				<!-- Team Item -->
+
+				<!-- Team Item -->
+				<div class="col-lg-6 col-md-6 team_col" style="margin-top:80px;">
 					<div class="team_container trans_200">
 						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
 						<div class="team_member_content">

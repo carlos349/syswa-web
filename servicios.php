@@ -2,6 +2,7 @@
 	<link rel="stylesheet" type="text/css" href="views/css/services_styles.css">
 	<link rel="stylesheet" type="text/css" href="views/css/services_responsive.css">
 	<input class="findHome" type="text" value="nohome" hidden >
+	<input class="route" type="text" value="serviceSection" hidden >
 <div class="super_container">
 	<!-- Home -->
 
