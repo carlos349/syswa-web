@@ -100,7 +100,6 @@
 								<div class="card-header">Diseño de logo</div>
 								<div class="card-title">El chanchito 11</div>
 								<div class="card-text">Diseño de un Imagotipo.</div>
-								<div class="card-link"><a href="albaven">Saber más</a></div>
 							</div>
 						</div>
 
@@ -114,7 +113,6 @@
 								<div class="card-header">Diseño de logo</div>
 								<div class="card-title">Crema & Azucar</div>
 								<div class="card-text">Diseño de un Isologo.</div>
-								<div class="card-link"><a href="albaven">Saber más</a></div>
 							</div>
 						</div>
 
@@ -128,7 +126,6 @@
 								<div class="card-header">Diseño para Redes Sociales</div>
 								<div class="card-title">Diseños en general</div>
 								<div class="card-text">Creación de imagenes para redes sociales.</div>
-								<div class="card-link"><a href="albaven">Saber más</a></div>
 							</div>
 						</div>
 						
