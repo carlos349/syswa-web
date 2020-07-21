@@ -93,9 +93,9 @@
 									<ul style="float:right;">
 										<li class="email" style="text-align:right;">syswainfo@gmail.com</li><br>
 										<li class="city" style="text-align:right;">Aragua, venezuela</li>
-										<li class="city" style="text-align:right;">+58 0424 320 3108</li>
+										<li class="city" style="text-align:right;"><a target="_blank" href="https://wa.me/5804243203108">+58 0424 320 3108</a></li>
 										<li class="city" style="text-align:right;">Santiago, Chile</li>
-										<li class="city" style="text-align:right;">+56 9 8582 6974</li>
+										<li class="city" style="text-align:right;"><a target="_blank" href="https://wa.me/56985826974">+56 9 8582 6974</a></li>
 									</ul>									
 								</div>
 							</div>
