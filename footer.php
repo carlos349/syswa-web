@@ -70,8 +70,6 @@
 						<div class="footer_col_title">Contacto</div>
 						<ul>
 							<li style="font-size: 16px;font-weight: 500;color: #909090;">syswainfo@gmail.com</li>
-							<li style="font-size: 16px;font-weight: 500;color: #909090;">Aragua, venezuela</li>
-							<li><a target="_blank" href="https://wa.me/5804243203108">+58 424 320 3108</a></li>
 							<li style="font-size: 16px;font-weight: 500;color: #909090;">Santiago, Chile</li>
 							<li><a target="_blank" href="https://wa.me/56985826974">+56 9 8582 6974</a></li>
 						</ul>

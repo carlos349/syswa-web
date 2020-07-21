@@ -54,6 +54,7 @@ $(document).ready(function()
 	initServicesSlider();
 	initParallax();
 	initScrolling();
+	initTeamSlider();
 
 	/* 
 
@@ -282,6 +283,49 @@ $(document).ready(function()
 	9. Init Services Slider
 
 	*/
+
+	function initTeamSlider(){
+		if ($('.team_slider').length) {
+			var servicesSlider = $('.team_slider');
+
+			servicesSlider.owlCarousel(
+			{
+				loop: true,
+				center: true,
+				margin: 320,
+				stagePadding: 0,
+				mouseDrag: true,
+				dots: true,
+				autoplay:true,
+    			autoplayTimeout:2500,
+				dotsSpeed: 2500,
+				responsive:
+				{
+					0:
+					{
+						items:1,
+						margin: 15,
+						center: false,
+						stagePadding: 15,
+						dots: false
+					},
+					575:
+					{
+						items:3,
+						center: true,
+						stagePadding: 350
+					},
+					1440:
+					{
+						items:4,
+						margin: 320,
+						stagePadding: 153,
+						dots: true,
+					}
+				}
+			});
+		}
+	}
 
 	function initServicesSlider()
 	{

@@ -206,9 +206,9 @@
 									<div class="service_item_icon">
 										<i class="fa fa-suitcase icon"></i>
 									</div>
-									<h2>Increibles servicios</h2>
+									<h2>Increíbles servicios</h2>
 								</div>
-								<p>En todos nuestros servicios tenemos un alto estandar, en las estrategias de desarrollo web, mercado en linea y diseño.</p>
+								<p>En todos nuestros servicios tenemos un estándar de calidad en las estrategias de desarrollo web, mercado en línea diseño.</p>
 								<div class="button service_item_button trans_200">
 									<a href="servicios" class="trans_200">Descubre más</a>
 								</div>
@@ -246,7 +246,7 @@
 									</div>
 									<h2>Evaluación</h2>
 								</div>
-								<p>En nuestro software de gestión tendrás a tu mano secciones de estadísticas para evaluar el rendimiento de tu negocio en tiempo real.</p>
+								<p>En nuestro software de gestión tendrás disponible secciones de estadísticas para evaluar el rendimiento de tu negocio en tiempo real.</p>
 								<div class="button service_item_button trans_200">
 									<a href="servicios" class="trans_200">Descubre más</a>
 								</div>
@@ -302,13 +302,13 @@
 					<!-- Features Item-->
 					<div class="features_item">
 						<h2>Responsividad</h2>
-						<p>Crea tu sitio web, adaptable a cualquier dispositivo movil.</p>
+						<p>Crea tu sitio web, adaptable a cualquier dispositivo móvil.</p>
 					</div>
 
 					<!-- Features Item-->
 					<div class="features_item">
 						<h2>Código limpio</h2>
-						<p>Tu sitio web estará libre de riesgos, por un mal desarrollo de la misma.</p>
+						<p>Tu sitio web estará libre de riesgos por un mal desarrollo de la misma.</p>
 					</div>
 
 				</div>
@@ -327,13 +327,13 @@
 					<!-- Features Item-->
 					<div class="features_item">
 						<h2>E-Commerce</h2>
-						<p>Desarrolla junto a nosotros tu tienda en linea, haz crecer tu compañía.</p>
+						<p>Desarrolla junto a nosotros tu tienda en línea, haz crecer tu compañía.</p>
 					</div>
 
 					<!-- Features Item-->
 					<div class="features_item">
 						<h2>Excelente equipo</h2>
-						<p>Alta capacidad y rendimiento eficiente, respecto a nuestro gran equipo de trabajo.</p>
+						<p> Alta capacidad y rendimiento eficiente respecto a nuestro gran equipo de trabajo.</p>
 					</div>
 					
 					<div class="button features_button_2 trans_200">
@@ -355,7 +355,7 @@
 				<div class="col-lg-5 order-lg-1 order-2">
 					<div class="cta_content">
 						<h1>Apreciamos a nuestros clientes</h1>
-						<p>Tomamos en cuenta todas tus ideas, y te ayudamos a hacerlas crecer.</p>
+						<p>Tomamos en cuenta todas tus ideas y te ayudamos a hacerlas crecer.</p>
 					</div>
 				</div>
 
@@ -384,14 +384,14 @@
 						<!-- Newsletter Title -->
 						<div class="newsletter_title">
 							<h1>Suscríbete a nuestro boletín</h1>
-							<span>Te enviaremos al correo, nuestras nuevas tecnologías.</span>
+							<span>Te enviaremos al correo nuestras nuevas tecnologías.</span>
 						</div>
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
 							<form>
 								<div class="input-group">
-									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
+									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electrónico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscríbete
 									</button>

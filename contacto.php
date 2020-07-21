@@ -48,7 +48,7 @@
 
 					<div class="reply">
 						
-						<div class="reply_title">Escribenos para información</div>
+						<div class="reply_title">Escríbenos para información</div>
 						<div class="reply_form_container">
 							
 							<!-- Reply Form -->
@@ -82,7 +82,7 @@
 						
 						<div class="contact_info_container">
 
-							<p>Apenas te comuniques con nosotros te llegará un correo, respondiendo tus inquietudes.</p>
+							<p>Apenas te comuniques con nosotros te llegará un correo respondiendo tus inquietudes.</p>
 							<div class="logo contact_logo" >
 								<img style="width: 260px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);margin-left:100px;" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
 							</div>
@@ -92,8 +92,6 @@
 								<div class="contact_info_content">
 									<ul style="float:right;">
 										<li class="email" style="text-align:right;">syswainfo@gmail.com</li><br>
-										<li class="city" style="text-align:right;">Aragua, venezuela</li>
-										<li class="city" style="text-align:right;"><a target="_blank" href="https://wa.me/5804243203108">+58 0424 320 3108</a></li>
 										<li class="city" style="text-align:right;">Santiago, Chile</li>
 										<li class="city" style="text-align:right;"><a target="_blank" href="https://wa.me/56985826974">+56 9 8582 6974</a></li>
 									</ul>									

@@ -399,15 +399,15 @@
 						<ul class="device_items">
 							<li class="device_item clearfix">
 								<span>01.</span>
-								<p>Comunícate con nosotros e infórmate sobre nuestros planes y servicios (Responderemos de inmediato).</p>
+								<p>Comunícate con nosotros e infórmate sobre nuestros planes y servicios (responderemos de inmediato).</p>
 							</li>
 							<li class="device_item clearfix">
 								<span>02.</span>
-								<p>Te enviaremos un presupuesto, acorde a tus necesidades.</p>
+								<p>Te enviaremos un presupuesto acorde a tus necesidades.</p>
 							</li>
 							<li class="device_item clearfix">
 								<span>03.</span>
-								<p>En poco tiempo, tendrás tu sitio web, que hará crecer tu negocio.</p>
+								<p>En poco tiempo tendrás tu sitio web que hará crecer tu negocio.</p>
 							</li>
 						</ul>
 
@@ -517,14 +517,14 @@
 						<!-- Newsletter Title -->
 						<div class="newsletter_title">
 							<h1>Suscríbete a nuestro boletín</h1>
-							<span>Te enviaremos al correo, nuestras nuevas tecnologías.</span>
+							<span>Te enviaremos al correo nuestras nuevas tecnologías.</span>
 						</div>
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
 							<form method="post">
 								<div class="input-group">
-									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
+									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electrónico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscríbete
 									</button>

@@ -133,91 +133,95 @@
 	<div class="team">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-10 offset-lg-1 text-lg-center text-left team_title">
+				<div class="col-lg-10 offset-lg-1 text-lg-center team_title">
 					<h1>Conoce a nuestro equipo</h1>
-					<p class="text-center">Este es el equipo de Syswa, ellos son los encargados de ayudarte en el proceso de creación, diseño y soporte en cada uno de los productos que tenemos para ofrecerte, Conócelos y familiarízate. </p>
+					<p class="text-center">Este es el equipo de Syswa, ellos son los encargados de ayudarte en el proceso de creación, diseño y soporte en cada uno de los productos que tenemos para ofrecerte. Conócelos y familiarízate. </p>
 				</div>
 			</div>
-			<div class="row offset-xl-1">
-				
-				<!-- Team Item -->
-				<div class="col-lg-4 col-md-6 team_col" style="margin-top:80px;">
-					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
-						<div class="team_member_content">
-							<div class="team_member_name">Miguel Polanco</div>
-							<div class="team_member_title">Jefe de Proyecto</div>
-							<p style="text-align:center;">Encargado de liderar y gestionar proyectos tecnológicos, para los servicios de la empresa como para los servicios del negocio.</p>
-							<center>
-								<div class="team_member_link"><a href="https://www.linkedin.com/in/miguel-angel-polanco-vilchez-b92a18127/" target="_blank">Saber más</a></div>
-							</center>
-						</div>
-					</div>
-				</div>
-				
-				
-				<!-- Team Item -->
-				<div class="col-lg-4 col-md-6 team_col" style="margin-top:80px;">
-					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
-						<div class="team_member_content">
-							<div class="team_member_name">Simon Andres</div>
-							<div class="team_member_title">Jefe de Área TI</div>
-							<p style="text-align:center;">Garantizar el cumplimiento de servicios, dirigir adecuadamente al personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
-							<center>
-								<div class="team_member_link"><a href="https://www.linkedin.com/in/simon-villasmil-80174315a/" target="_blank">Saber más</a></div>
-							</center>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-6 team_col" style="margin-top:80px;">
-					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
-						<div class="team_member_content">
-							<div class="team_member_name">Bryan Blanco</div>
-							<div class="team_member_title">Diseñador</div>
-							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional. </p> 
-							<center>
-							<div class="team_member_link"><a href="https://www.linkedin.com/in/carlos-capacho-a53755187" target="_blank">Saber más</a></div>
-							</center>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Team Item -->
-				<div class="col-lg-6 col-md-6 team_col" style="margin-top:80px;">
-					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
-						<div class="team_member_content">
-							<div class="team_member_name">Carlos Capacho</div>
-							<div class="team_member_title">Desarrollador</div>
-							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
-							<center>
-							<div class="team_member_link"><a href="https://www.linkedin.com/in/cristians-sanchez-1467001ab/" target="_blank">Saber más</a></div>
-							</center>
-						</div>
-					</div>
-				</div>
-				<!-- Team Item -->
+			
+				<div class="owl-carousel owl-theme team_slider" style="display:inline-block;height: 763px;">
 
-				<!-- Team Item -->
-				<div class="col-lg-6 col-md-6 team_col" style="margin-top:80px;">
-					<div class="team_container trans_200">
-						<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
-						<div class="team_member_content">
-							<div class="team_member_name">Cristians Sanchez</div>
-							<div class="team_member_title">Desarrollador</div>
-							<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
-							<center>
-							<div class="team_member_link"><a href="https://www.linkedin.com/in/cristians-sanchez-1467001ab/" target="_blank">Saber más</a></div>
-							</center>
+					
+
+					<!-- Team Item -->
+					<div class="owl-item team_col services_item" >
+						<div class="team_container trans_200">
+							<div class="team_member_image"><img src="views/images/bgMiguel.png" style="width: 250px;height: 250px;" alt=""></div>
+							<div class="team_member_content">
+								<div class="team_member_name">Miguel Polanco</div>
+								<div class="team_member_title">Jefe de Proyecto</div>
+								<p style="text-align:center;">Encargado de liderar y gestionar proyectos tecnológicos, para los servicios de la empresa como para los servicios del negocio.</p>
+								<center>
+									<div class="team_member_link"><a href="https://www.linkedin.com/in/miguel-angel-polanco-vilchez-b92a18127/" target="_blank">Saber más</a></div>
+								</center>
+							</div>
 						</div>
 					</div>
-				</div>
-				<!-- Team Item -->
+					
+					
+					<!-- Team Item -->
+					<div class="owl-item team_col services_item" >
+						<div class="team_container trans_200">
+							<div class="team_member_image"><img src="views/images/bgSimon.png" style="width: 250px;height: 250px;" alt=""></div>
+							<div class="team_member_content">
+								<div class="team_member_name">Simon Andres</div>
+								<div class="team_member_title">Jefe de Área TI</div>
+								<p style="text-align:center;">Garantizar el cumplimiento de servicios, dirigir adecuadamente al personal para cumplir en calidad, plazo y forma con las actividades del servicio.</p>
+								<center>
+									<div class="team_member_link"><a href="https://www.linkedin.com/in/simon-villasmil-80174315a/" target="_blank">Saber más</a></div>
+								</center>
+							</div>
+						</div>
+					</div>
+					
+					<div class="owl-item team_col services_item" >
+						<div class="team_container trans_200">
+							<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
+							<div class="team_member_content">
+								<div class="team_member_name">Bryan Blanco</div>
+								<div class="team_member_title">Diseñador</div>
+								<p style="text-align:center;" class="p-1">Diseñador & Publicista con más de 4 años de experiencia en el campo laboral. Enfocado en Branding e identidad de marca. </p> 
+								<center>
+								<div class="team_member_link"><a href="https://www.linkedin.com/in/carlos-capacho-a53755187" target="_blank">Saber más</a></div>
+								</center>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Team Item -->
+					<div class="owl-item team_col services_item" >
+						<div class="team_container trans_200">
+							<div class="team_member_image"><img src="views/images/bgCristians.png" style="width: 250px;height: 250px;" alt=""></div>
+							<div class="team_member_content">
+								<div class="team_member_name">Cristians Sanchez</div>
+								<div class="team_member_title">Desarrollador</div>
+								<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
+								<center>
+								<div class="team_member_link"><a href="https://www.linkedin.com/in/cristians-sanchez-1467001ab/" target="_blank">Saber más</a></div>
+								</center>
+							</div>
+						</div>
+					</div>
+					<!-- Team Item -->
 
-			</div>
+					<!-- Team Item -->
+					<div class="owl-item team_col services_item" >
+						<div class="team_container trans_200">
+							<div class="team_member_image"><img src="views/images/bgCarlos.png" style="width: 250px;height: 250px;" alt=""></div>
+							<div class="team_member_content">
+								<div class="team_member_name">Carlos Capacho</div>
+								<div class="team_member_title">Desarrollador</div>
+								<p style="text-align:center;">Desarrollador de sorftware, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
+								<center>
+								<div class="team_member_link"><a href="https://www.linkedin.com/in/cristians-sanchez-1467001ab/" target="_blank">Saber más</a></div>
+								</center>
+							</div>
+						</div>
+					</div>
+					<!-- Team Item -->
+					
+				</div>
+
 		</div>
 	</div>
 
@@ -279,14 +283,14 @@
 						<!-- Newsletter Title -->
 						<div class="newsletter_title">
 							<h1>Suscríbete a nuestro boletín</h1>
-							<span>Te enviaremos al correo, nuestras nuevas tecnologías.</span>
+							<span>Te enviaremos al correo nuestras nuevas tecnologías.</span>
 						</div>
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
 							<form>
 								<div class="input-group">
-									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electronico" required="required" data-error="Valid email address is required.">
+									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electrónico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscríbete
 									</button>
