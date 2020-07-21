@@ -176,13 +176,13 @@
 					
 					<div class="owl-item team_col services_item" >
 						<div class="team_container trans_200">
-							<div class="team_member_image"><img src="views/images/userGeneric.jpg" style="width: 250px;height: 250px;" alt=""></div>
+							<div class="team_member_image"><img src="views/images/bgBryan.png" style="width: 250px;height: 250px;" alt=""></div>
 							<div class="team_member_content">
 								<div class="team_member_name">Bryan Blanco</div>
 								<div class="team_member_title">Diseñador</div>
 								<p style="text-align:center;" class="p-1">Diseñador & Publicista con más de 4 años de experiencia en el campo laboral. Enfocado en Branding e identidad de marca. </p> 
 								<center>
-								<div class="team_member_link"><a href="https://www.linkedin.com/in/carlos-capacho-a53755187" target="_blank">Saber más</a></div>
+								<div class="team_member_link"><a href="https://www.linkedin.com/in/joqsua/" target="_blank">Saber más</a></div>
 								</center>
 							</div>
 						</div>
