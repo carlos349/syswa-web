@@ -69,7 +69,7 @@
 					<div class="footer_col">
 						<div class="footer_col_title">Contacto</div>
 						<ul>
-							<li style="font-size: 16px;font-weight: 500;color: #909090;">syswainfo@gmail.com</li>
+							<li style="font-size: 16px;font-weight: 500;color: #909090;"><a href="http://syswa.net/contacto#reply_form_container">syswainfo@gmail.com</a></li>
 							<li style="font-size: 16px;font-weight: 500;color: #909090;">Santiago, Chile</li>
 							<li><a target="_blank" href="https://wa.me/56985826974">+56 9 8582 6974</a></li>
 						</ul>

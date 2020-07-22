@@ -61,7 +61,7 @@
 										<option value="+34">+34</option>
 										<option value="+593">+593</option>
 									</select>
-									<input onkeyup="maxDigit()" class="input_field reply_form_number"  autocomplete="address-line1" style="width:73%" type="number" placeholder="Teléfono" name="number" min="1" max="99999999999999">
+									<input class="input_field reply_form_number" style="width:73%" type="text" placeholder="Teléfono" name="number" maxlength="15">
 								</div>
 							</div>
 							<input type="hidden" id="typeContract" name="type">
