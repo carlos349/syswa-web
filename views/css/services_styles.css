@@ -1442,7 +1442,7 @@ input[type=number] {
 .stylePosition{
 	position: fixed;
 	right:3%;
-	top: 85%;
+	top: 90%;
 	z-index: 100;
 }
 

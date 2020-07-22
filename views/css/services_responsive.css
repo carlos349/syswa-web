@@ -227,7 +227,7 @@
 10. 767px
 ************/
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 770px)
 {
 	h1
 	{
@@ -264,6 +264,16 @@
 	}
 	.image_section ul li{
 		margin-left: 20px;
+		font-size: .8em;
+	}
+	.data_section .price_web_section{
+		font-size: 1.8em;
+	}
+	.data_section .price_plain_section{
+		font-size: 1.6em;
+	}
+	.data_section .price_section{
+		font-size: 1.8em;
 	}
 	.image_section h2{
 		width: 100%;
