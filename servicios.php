@@ -50,18 +50,18 @@
 									<select name="code" id="" class="styleSelect reply_form_code" style="width:25%;">
 										<option value="+56">+56</option>
 										<option value="+58">+58</option>
-										<option value="+420">+55</option>
+										<option value="+420">+420</option>
 										<option value="+54">+54</option>
-										<option value="+61">+56</option>
-										<option value="+55">+58</option>
-										<option value="+591">+55</option>
-										<option value="+506">+54</option>
-										<option value="+57">+56</option>
-										<option value="+53">+58</option>
-										<option value="+34">+55</option>
-										<option value="+593">+54</option>
+										<option value="+61">+61</option>
+										<option value="+55">+55</option>
+										<option value="+591">+591</option>
+										<option value="+506">+506</option>
+										<option value="+57">+57</option>
+										<option value="+53">+53</option>
+										<option value="+34">+34</option>
+										<option value="+593">+593</option>
 									</select>
-									<input class="input_field reply_form_number" autocomplete="address-line1" style="width:73%" type="number" placeholder="Teléfono" name="number">
+									<input onkeyup="maxDigit()" class="input_field reply_form_number"  autocomplete="address-line1" style="width:73%" type="number" placeholder="Teléfono" name="number" min="1" max="99999999999999">
 								</div>
 							</div>
 							<input type="hidden" id="typeContract" name="type">
@@ -80,19 +80,23 @@
 		</div>
 	</div>
 
+	<input type="hidden" value="Pagina web landing" id="typeContractWeb">
+	<input type="hidden" value="Plan de gestión básica" id="typeContractPlain">
+	<input type="hidden" value="Diseño de logo" id="typeContractBranding">
 	<!-- Service Boxes -->
 
 	<div class="service_boxes" style="margin-top:-20px;">
-		<div class="btn-group stylePosition" >
-			<button type="button" class="btn btn-dark dropdown-toggle buttonType" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;">
-				USD $
+		<div class="btn-group dropup stylePosition" >
+			<button type="button" class="btn btn-secondary dropdown-toggle buttonType" style="color: #172b4d;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;">
+				<span class="clp"><img src="views/images/chile.png" alt=""> $</span>
+				<span class="usd" ><img src="views/images/united-states.png" alt=""> $</span>
 			</button>
 			<div class="dropdown-menu">
-				<a class="dropdown-item" onclick="changeCLP()" style="cursor:pointer;">CLP $</a>
-			<a class="dropdown-item" onclick="changeUSD()" style="cursor:pointer;">USD $</a>
+				<a class="dropdown-item" onclick="changeCLP()" style="cursor:pointer;"><img src="views/images/chile.png" alt=""> $</a>
+				<a class="dropdown-item" onclick="changeUSD()" style="cursor:pointer;"><img src="views/images/united-states.png" alt=""> $</a>
 			</div>
 		</div>
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA WEB</h1>
@@ -230,10 +234,136 @@
 					</div>
 				</div>
 			</div>
+		</div> -->
+		<div class="container">
+			<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA WEB</h1>
+			<input type="hidden" class="typeWebService" value="basic">
+			<div class="row card_design_section">
+				<div class="col-md-8 image_section" id="imageWeb">
+					<div class="menu_apple mb-4">
+						<span class="first"><i class="fa fa-circle"></i></span>
+						<span class="second"><i class="fa fa-circle"></i></span>
+						<span class="third"><i class="fa fa-circle"></i></span>
+					</div>
+					<ul>
+						<li class="landingLi" onmouseover="changeTypeWeb('landing')">
+							Página landing
+						</li>
+						<li class="siteLi" onmouseover="changeTypeWeb('site')">
+							Sitio web
+						</li>
+						<li class="ecommerceLi" onmouseover="changeTypeWeb('ecommerce')">
+							E-commerce
+						</li>
+					</ul>
+					<button onclick="changeImagesSites()"><i class="fa fa-chevron-right"></i></button>
+					<input type="hidden" class="countWebBackground" value="1">
+					<h2 class="titleWeb">Crea una página web landing</h2>
+				</div>
+				<div class="col-md-4 data_section">
+					<h3>Página Web Landing</h3>
+					<div class="menu_apple">
+						<span class="gray_one"><i class="fa fa-circle"></i></span>
+						<span class="gray_two"><i class="fa fa-circle"></i></span>
+						<span class="gray_three"><i class="fa fa-circle"></i></span>
+					</div>
+					<p class="pLanding">
+						1 Pagina de inicio <br>
+						1 Correo <br>
+						Dominio 1 año Gratis <br>
+						Hosting 1 año Gratis <br>
+						Ancho de banda limitado (100 GB) <br>
+						Certificado SSL gratis <br>
+						Caché LiteSpeed <br>
+						Soporte 24/7 <br>
+						Copias de seguridad semanales
+					</p>
+					<p class="pSite">
+						5 Secciones <br>
+						Cuentas de correos ilimitados <br>
+						Dominio 1 año Gratis <br>
+						Hosting 1 año Gratis <br>
+						Ancho de banda ilimitado <br>
+						Certificado SSL gratis <br>
+						Caché LiteSpeed <br>
+						Soporte 24/7 <br>
+						Copias de seguridad semanales
+					</p>
+					<p class="pEcommerce">
+						4 Secciones <br>
+						Cuentas de correos ilimitados <br>
+						Dominio 1 año Gratis <br>
+						Hosting 1 año Gratis <br>
+						Sección administrativa <br>
+						Pasarela de pago <br>
+						Ancho de banda ilimitado <br>
+						Certificado SSL gratis <br>
+						Soporte 24/7 <br>
+						Copias de seguridad semanales
+					</p>
+					<hr>
+					<span class="price_web_section">120.000 CLP</span><br>
+					<button data-toggle="modal" data-target="#contractModal" onclick="contractSite()">Contratar</button>
+				</div>
+			</div>
 		</div>
-
+		
 		<div class="container mt-5">
-			<div class="row">
+				<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA GESTIÓN</h1>
+				<input type="hidden" class="typePlainService" value="basic">
+				<div class="row card_design_section">
+					<div class="col-md-8 image_section" id="imagePlain">
+						<div class="menu_apple mb-4">
+							<span class="first"><i class="fa fa-circle"></i></span>
+							<span class="second"><i class="fa fa-circle"></i></span>
+							<span class="third"><i class="fa fa-circle"></i></span>
+						</div>
+						<ul>
+							<li class="basicLi" onmouseover="changeTypePlain('basic')">
+								Plan básico
+							</li>
+							<li class="invetoryLi" onmouseover="changeTypePlain('inventory')">
+								Plan control de inventario
+							</li>
+						</ul>
+						<button onclick="changeImages()"><i class="fa fa-chevron-right"></i></button>
+						<input type="hidden" class="countPlainBackground" value="1">
+						<h2 class="titlePlain">Gestiona tu negocio con nuestro plan básico</h2>
+					</div>
+					<div class="col-md-4 data_section">
+						<h3>Plan de gestión básica</h3>
+						<div class="menu_apple">
+							<span class="gray_one"><i class="fa fa-circle"></i></span>
+							<span class="gray_two"><i class="fa fa-circle"></i></span>
+							<span class="gray_three"><i class="fa fa-circle"></i></span>
+						</div>
+						<p class="pBasic">
+							Sección de Métricas <br>
+							Sección de Ventas <br>
+							Sección de Servicios <br>
+							Sección de clientes <br>
+							Sección de Gastos <br>
+							Sección de Agendamiento <br>
+							Sección de Caja <br>
+							Sin inventario
+						</p>
+						<p class="pInventory">
+							Sección de Métricas <br>
+							Sección de Ventas <br>
+							Sección de Servicios <br>
+							Sección de clientes <br>
+							Sección de Gastos <br>
+							Sección de Agendamiento <br>
+							Sección de Caja <br>
+							Sección de Inventario
+						</p>
+						<hr>
+						<span class="price_plain_section">Mensual 20.000 CLP</span><br>
+						<button data-toggle="modal" data-target="#contractModal" onclick="contractPlain()">Contratar</button>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="row">
 				<div class="col-lg-12">
 					<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA GESTIÓN</h1>
 				</div>
@@ -325,13 +455,12 @@
 					</div>
 				</div>
 
-			</div>
-		</div>
+			</div> -->
 		<div class="container mt-5">
 			<h1 style="color: #fff; text-align: center;padding-bottom: 20px;">Tarifas de SYSWA BRANDING</h1>
 			<input type="hidden" class="typeService" value="logo">
 			<div class="row card_design_section">
-				<div class="col-md-8 image_section">
+				<div class="col-md-8 image_section" id="imageBranding">
 					<div class="menu_apple mb-4">
 						<span class="first"><i class="fa fa-circle"></i></span>
 						<span class="second"><i class="fa fa-circle"></i></span>
@@ -379,7 +508,7 @@
 					</p>
 					<hr>
 					<span class="price_section">39.990 CLP</span><br>
-					<button data-toggle="modal" data-target="#contractModal">Contratar</button>
+					<button data-toggle="modal" data-target="#contractModal" onclick="contractDesign()">Contratar</button>
 				</div>
 			</div>
 		</div>

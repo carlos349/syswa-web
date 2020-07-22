@@ -58,7 +58,7 @@
 									<input id="reply_form_name" class="input_field reply_form_name" type="text" placeholder="Nombre" required="required" data-error="Nombre es requerido." name="nombre">
 									<input id="reply_form_email" class="input_field reply_form_email" type="email" placeholder="Correo" required="required" data-error="Correo valido es requerido." name="correo">
 									<input id="reply_form_subject" class="input_field reply_form_subject" type="text" placeholder="Asunto" required="required" data-error="Asunto es requerido." name="asunto">
-									<textarea id="reply_form_message" class="text_field reply_form_message" name="mensaje"  placeholder="Mansaje" rows="4" required data-error="Es requerido, redactar un mensaje." name="mensaje"></textarea>
+									<textarea id="reply_form_message" class="text_field reply_form_message" name="mensaje"  placeholder="Déjanos tu consulta y te contactaremos a la brevedad." rows="4" required data-error="Es requerido, redactar un mensaje." name="mensaje"></textarea>
 								</div>
 								<div>
 									<button id="reply_form_submit" type="button" class="reply_submit_btn trans_300" onclick="sendMail(3)">
@@ -81,22 +81,13 @@
 						<div class="contact_title">Información de contacto</div>
 						
 						<div class="contact_info_container">
-
-							<p>Apenas te comuniques con nosotros te llegará un correo respondiendo tus inquietudes.</p>
-							<div class="logo contact_logo" >
-								<img style="width: 260px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);margin-left:100px;" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
-							</div>
-
-							<div class="address_container clearfix">
-								<div class="contact_info_icon">i</div>
-								<div class="contact_info_content">
-									<ul style="float:right;">
-										<li class="email" style="text-align:right;">syswainfo@gmail.com</li><br>
-										<li class="city" style="text-align:right;">Santiago, Chile</li>
-										<li class="city" style="text-align:right;"><a target="_blank" href="https://wa.me/56985826974">+56 9 8582 6974</a></li>
-									</ul>									
-								</div>
-							</div>
+							<p >Apenas te comuniques con nosotros te llegará un correo respondiendo tus inquietudes.</p>
+							<br>
+							<ul>
+								<li class="email">syswainfo@gmail.com</li>
+								<li class="city">Santiago, Chile</li>
+								<li class="city"><a target="_blank" href="https://wa.me/56985826974">+56 9 8582 6974</a></li>
+							</ul>										
 						</div>
 					</div>
 

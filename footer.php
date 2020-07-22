@@ -109,25 +109,26 @@
 			console.log('clp')
 			changeService('logo')
 			$('#typeCurrencyBranding').val('CLP')
-			$('.landing').text('120.000 CLP')
-			$('.site').text('280.000 CLP')
-			$('.commerce').text('400.000 CLP')
-			$('.basic').text('Mensual 20.000 CL')
-			$('.inventory').text('Mensual 25.000 CLP')
 			$('.data_section .price_section').text('39.990 CLP')
-			$('.buttonType').text('CLP $')
+			$('.data_section .price_web_section').text('120.000 CLP')
+			$('.data_section .price_plain_section').text('Mensual 20.000 CLP')
+			$('.usd').hide('fast')
+			$('.clp').show('slow')
 		}
 		function changeUSD(){
 			console.log('clp')
 			changeService('logo')
 			$('#typeCurrencyBranding').val('USD')
-			$('.landing').text('150 $')
-			$('.site').text('350 $')
-			$('.commerce').text('500 $')
-			$('.basic').text('Mensual 25 $')
-			$('.inventory').text('Mensual 30 $')
-			$('.data_section .price_section').text('50 $')
-			$('.buttonType').text('USD $')
+			$('.data_section .price_section').text('50,00 $')
+			$('.data_section .price_web_section').text('150,00 $')
+			$('.data_section .price_plain_section').text('Mensual 25 $')
+			$('.clp').hide('fast')
+			$('.usd').show('slow')
+		}
+		function maxDigit(){
+			if ($('.reply_form_number').length >= 15) {
+				$('.reply_form_number').disabled('true')
+			}
 		}
 		function routeIndicator(){
 			const route = $('.route').val()
@@ -153,6 +154,224 @@
 				$('#indexSection').addClass('active')
 			}
 		}
+		function changeTypePlain(plain){
+			if (plain == 'basic') {
+				$('.typePlainService').val(plain)
+				$('#imagePlain').css({"background-image": "url('views/images/bg_basic_1.png')"})
+				$('#imagePlain ul li').css({'border': 'none'})
+				$('.basicLi').css({'border-bottom': 'solid 3px azure'})
+				$('.titlePlain').text('Gestiona tu negocio con nuestro plan básico')
+				$('.pInventory').hide(1)
+				$('.pBasic').show('slow')
+				$('.data_section h3').text('Plan de gestión básica')
+				if ($('#typeCurrencyBranding').val() == 'CLP') {
+					$('.data_section .price_plain_section').text('Mensual 20.000 CLP')
+				}else{
+					$('.data_section .price_plain_section').text('Mensual 25,00 $')
+				}
+				$('#typeContractPlain').val('Plan gestión básico')
+			}
+			if (plain == 'inventory') {
+				$('.typePlainService').val(plain)
+				$('#imagePlain').css({"background-image": "url('views/images/bg_inventory_1.png')"})
+				$('#imagePlain ul li').css({'border': 'none'})
+				$('.invetoryLi').css({'border-bottom': 'solid 3px azure'})
+				$('.titlePlain').text('Gestiona tu negocio con nuestro plan control de inventario')
+				$('.pBasic').hide(1)
+				$('.pInventory').show('slow')
+				$('.data_section h3').text('Plan de gestión de control de inventario')
+				if ($('#typeCurrencyBranding').val() == 'CLP') {
+					$('.data_section .price_plain_section').text('Mensual 25.000 CLP')
+				}else{
+					$('.data_section .price_plain_section').text('Mensual 30,00 $')
+				}
+				$('#typeContractPlain').val('Plan gestión Control de inventario')
+			}
+		}
+		function changeTypeWeb(web){
+			$('.countWebBackground').val(1)
+			if (web == 'landing') {
+				$('.typeWebService').val(web)
+				$('#imageWeb').css({"background-image": "url('views/images/bg_landing_1.png')"})
+				$('#imageWeb ul li').css({'border': 'none'})
+				$('.landingLi').css({'border-bottom': 'solid 3px azure'})
+				$('.titleWeb').text('Crea una página web landing')
+				$('.pSite').hide(1)
+				$('.pEcommerce').hide(1)
+				$('.pLanding').show('slow')
+				$('.data_section h3').text('Página Web Landing')
+				if ($('#typeCurrencyBranding').val() == 'CLP') {
+					$('.data_section .price_web_section').text('120.000 CLP')
+				}else{
+					$('.data_section .price_web_section').text('150,00 $')
+				}
+				$('#typeContractWeb').val('Página web landing')
+			}
+			if (web == 'site') {
+				$('.typeWebService').val(web)
+				$('#imageWeb').css({"background-image": "url('views/images/bg_site_1.png')"})
+				$('#imageWeb ul li').css({'border': 'none'})
+				$('.siteLi').css({'border-bottom': 'solid 3px azure'})
+				$('.titleWeb').text('Crea un Sitio Web completo')
+				$('.pLanding').hide(1)
+				$('.pEcommerce').hide(1)
+				$('.pSite').show('slow')
+				$('.data_section h3').text('Sitio web')
+				if ($('#typeCurrencyBranding').val() == 'CLP') {
+					$('.data_section .price_web_section').text('280.000 CLP')
+				}else{
+					$('.data_section .price_web_section').text('350,00 $')
+				}
+				$('#typeContractWeb').val('Sitio web')
+			}
+			if (web == 'ecommerce') {
+				$('.typeWebService').val(web)
+				$('#imageWeb').css({"background-image": "url('views/images/bg_ecommerce_1.png')"})
+				$('#imageWeb ul li').css({'border': 'none'})
+				$('.ecommerceLi').css({'border-bottom': 'solid 3px azure'})
+				$('.titleWeb').text('Crea tu propia tienda en linea')
+				$('.pLanding').hide(1)
+				$('.pSite').hide(1)
+				$('.pEcommerce').show('slow')
+				$('.data_section h3').text('Sitio web E-commerce')
+				if ($('#typeCurrencyBranding').val() == 'CLP') {
+					$('.data_section .price_web_section').text('400.000 CLP')
+				}else{
+					$('.data_section .price_web_section').text('500,00 $')
+				}
+				$('#typeContractWeb').val('Sitio web E-commerce')
+			}
+		}
+		function changeImagesSites(){
+			const type = $('.typeWebService').val()
+			var countWebBackground = $('.countWebBackground').val()
+			console.log(countWebBackground)
+			if (type == 'landing') {
+				if (countWebBackground == 1 || countWebBackground == 2) {
+					var count = parseFloat(countWebBackground)+parseFloat(1)
+					$('.countWebBackground').val(count)
+					$('#imageWeb').css({"background-image": "url('views/images/bg_landing_"+count+".png')"})
+					if (countWebBackground == 1) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#babfd1'})
+						$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+					}
+					if (countWebBackground == 2) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_three').css({'color': '#babfd1'})
+					}
+				}else{
+					var count = 1
+					$('.countWebBackground').val(count)
+					$('#imageWeb').css({"background-image": "url('views/images/bg_landing_"+count+".png')"})
+					$('.menu_apple .gray_one').css({'color': '#babfd1'})
+					$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+					$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+				}
+			}
+			if (type == 'site') {
+				if (countWebBackground == 1 || countWebBackground == 2) {
+					var count = parseFloat(countWebBackground)+parseFloat(1)
+					$('.countWebBackground').val(count)
+					$('#imageWeb').css({"background-image": "url('views/images/bg_site_"+count+".png')"})
+					if (countWebBackground == 1) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#babfd1'})
+						$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+					}
+					if (countWebBackground == 2) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_three').css({'color': '#babfd1'})
+					}
+				}else{
+					var count = 1
+					$('.countWebBackground').val(count)
+					$('#imageWeb').css({"background-image": "url('views/images/bg_site_"+count+".png')"})
+					$('.menu_apple .gray_one').css({'color': '#babfd1'})
+					$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+					$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+				}
+			}
+			if (type == 'ecommerce') {
+				if (countWebBackground == 1 || countWebBackground == 2) {
+					var count = parseFloat(countWebBackground)+parseFloat(1)
+					$('.countWebBackground').val(count)
+					$('#imageWeb').css({"background-image": "url('views/images/bg_ecommerce_"+count+".png')"})
+					if (countWebBackground == 1) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#babfd1'})
+						$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+					}
+					if (countWebBackground == 2) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_three').css({'color': '#babfd1'})
+					}
+				}else{
+					var count = 1
+					$('.countWebBackground').val(count)
+					$('#imageWeb').css({"background-image": "url('views/images/bg_ecommerce_"+count+".png')"})
+					$('.menu_apple .gray_one').css({'color': '#babfd1'})
+					$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+					$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+				}
+			}
+		}
+		function changeImages(){
+			const type = $('.typePlainService').val()
+			var countPlainBackground = $('.countPlainBackground').val()
+			console.log(countPlainBackground)
+			if (type == 'basic') {
+				if (countPlainBackground == 1 || countPlainBackground == 2) {
+					var count = parseFloat(countPlainBackground)+parseFloat(1)
+					$('.countPlainBackground').val(count)
+					$('#imagePlain').css({"background-image": "url('views/images/bg_basic_"+count+".png')"})
+					if (countPlainBackground == 1) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#babfd1'})
+						$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+					}
+					if (countPlainBackground == 2) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_three').css({'color': '#babfd1'})
+					}
+				}else{
+					var count = 1
+					$('.countPlainBackground').val(count)
+					$('#imagePlain').css({"background-image": "url('views/images/bg_basic_"+count+".png')"})
+					$('.menu_apple .gray_one').css({'color': '#babfd1'})
+					$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+					$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+				}
+			}
+			if (type == 'inventory') {
+				if (countPlainBackground == 1 || countPlainBackground == 2) {
+					var count = parseFloat(countPlainBackground)+parseFloat(1)
+					$('.countPlainBackground').val(count)
+					$('#imagePlain').css({"background-image": "url('views/images/bg_inventory_"+count+".png')"})
+					if (countPlainBackground == 1) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#babfd1'})
+						$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+					}
+					if (countPlainBackground == 2) {
+						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+						$('.menu_apple .gray_three').css({'color': '#babfd1'})
+					}
+				}else{
+					var count = 1
+					$('.countPlainBackground').val(count)
+					$('#imagePlain').css({"background-image": "url('views/images/bg_inventory_"+count+".png')"})
+					$('.menu_apple .gray_one').css({'color': '#babfd1'})
+					$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
+					$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
+				}
+			}
+		}
 		function changePlain(){
 			const type = $('.typeService').val()
 			var countBackgrounds = $('.countBackground').val()
@@ -160,7 +379,7 @@
 				if (countBackgrounds == 1 || countBackgrounds == 2) {
 					var count = parseFloat(countBackgrounds)+parseFloat(1)
 					$('.countBackground').val(count)
-					$('.image_section').css({"background-image": "url('views/images/bg_logo_"+count+".png')"})
+					$('#imageBranding').css({"background-image": "url('views/images/bg_logo_"+count+".png')"})
 					if (countBackgrounds == 1) {
 						$('.menu_apple .gray_one').css({'color': '#d3d4d0'})
 						$('.menu_apple .gray_two').css({'color': '#babfd1'})
@@ -174,7 +393,7 @@
 				}else{
 					var count = 1
 					$('.countBackground').val(count)
-					$('.image_section').css({"background-image": "url('views/images/bg_logo_"+count+".png')"})
+					$('#imageBranding').css({"background-image": "url('views/images/bg_logo_"+count+".png')"})
 					$('.menu_apple .gray_one').css({'color': '#babfd1'})
 					$('.menu_apple .gray_two').css({'color': '#d3d4d0'})
 					$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
@@ -187,7 +406,7 @@
 					if ($('#typeCurrencyBranding').val() == 'CLP') {
 						$('.data_section .price_section').text('39.990 CLP')
 					}else{
-						$('.data_section .price_section').text('50 $')
+						$('.data_section .price_section').text('50,00 $')
 					}
 					$('.titleDesign').hide(1)
 					$('.titleDesigTwo').show('slow')
@@ -201,7 +420,7 @@
 					if ($('#typeCurrencyBranding').val() == 'CLP') {
 						$('.data_section .price_section').text('79.990 CLP')
 					}else{
-						$('.data_section .price_section').text('100 $')
+						$('.data_section .price_section').text('100,00 $')
 					}
 					$('.titleDesign').hide(1)
 					$('.titleDesigTwo').hide(1)
@@ -215,7 +434,7 @@
 					if ($('#typeCurrencyBranding').val() == 'CLP') {
 						$('.data_section .price_section').text('19.990 CLP')
 					}else{
-						$('.data_section .price_section').text('25 $')
+						$('.data_section .price_section').text('25,00 $')
 					}
 					$('.titleDesign').show('slow')
 					$('.titleDesigTwo').hide(1)
@@ -236,8 +455,8 @@
 			$('.menu_apple .gray_three').css({'color': '#d3d4d0'})
 			if (service == 'logo') {
 				$('.typeService').val(service)
-				$('.image_section').css({"background-image": "url('views/images/bg_logo_1.png')"})
-				$('.image_section ul li').css({'border': 'none'})
+				$('#imageBranding').css({"background-image": "url('views/images/bg_logo_1.png')"})
+				$('#imageBranding ul li').css({'border': 'none'})
 				$('.logoLi').css({'border-bottom': 'solid 3px azure'})
 				$('.titleDesign').hide(1)
 				$('.titleLogo').show('slow')
@@ -247,15 +466,15 @@
 				if ($('#typeCurrencyBranding').val() == 'CLP') {
 					$('.data_section .price_section').text('39.990 CLP')
 				}else{
-					$('.data_section .price_section').text('50 $')
+					$('.data_section .price_section').text('50,00 $')
 				}
-				$('#typeContract').val('Diseño de logo')
+				$('#typeContractBranding').val('Diseño de logo')
 			}
 			if (service == 'design') {
 				$('#typeContract').val('Diseño para redes sociales - Combo #1')
 				$('.typeService').val(service)
-				$('.image_section').css({"background-image": "url('views/images/bg_design.png')"})
-				$('.image_section ul li').css({'border': 'none'})
+				$('#imageBranding').css({"background-image": "url('views/images/bg_design.png')"})
+				$('#imageBranding ul li').css({'border': 'none'})
 				$('.designLi').css({'border-bottom': 'solid 3px azure'})
 				$('.titleLogo').hide(1)
 				$('.titleDesign').show('slow')
@@ -265,9 +484,22 @@
 				if ($('#typeCurrencyBranding').val() == 'CLP') {
 					$('.data_section .price_section').text('19.990 CLP')
 				}else{
-					$('.data_section .price_section').text('25 $')
+					$('.data_section .price_section').text('25,00 $')
 				}
+				$('#typeContractBranding').val('Diseño para redes sociales')
 			}
+		}
+		function contractSite(){
+			$('#typeContract').val($('#typeContractWeb').val())
+			console.log($('#typeContract').val())
+		}
+		function contractPlain(){
+			$('#typeContract').val($('#typeContractPlain').val())
+			console.log($('#typeContract').val())
+		}
+		function contractDesign(){
+			$('#typeContract').val($('#typeContractBranding').val())
+			console.log($('#typeContract').val())
 		}
 		function sendMail(typeMail){
 			var data = {}

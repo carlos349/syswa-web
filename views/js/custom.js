@@ -299,6 +299,7 @@ $(document).ready(function()
 				autoplay:true,
     			autoplayTimeout:2500,
 				dotsSpeed: 2500,
+				autoplayHoverPause: true,
 				responsive:
 				{
 					0:
@@ -344,6 +345,7 @@ $(document).ready(function()
 				autoplay:true,
     			autoplayTimeout:3500,
 				dotsSpeed: 2500,
+				autoplayHoverPause: true,
 				responsive:
 				{
 					0:
