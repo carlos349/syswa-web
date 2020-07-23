@@ -34,10 +34,10 @@
 				<div class="col">
 					<div class="portfolio_categories button-group filters-button-group">
 						<ul>
-							<li class="portfolio_category active is-checked" data-filter="*">Todos</li>
-							<li class="portfolio_category" data-filter=".desarrollo">SYSWA Web</li>
-							<li class="portfolio_category" data-filter=".disenoweb">SYSWA Gestión</li>
-							<li class="portfolio_category" data-filter=".branding">SYSWA Branding</li>
+							<li class="portfolio_category active is-checked thisSelect" onclick="addSelector('firstSelector')" id="firstSelector" data-filter="*">Todos</li>
+							<li class="portfolio_category" onclick="addSelector('secondSelector')" id="secondSelector" data-filter=".desarrollo">SYSWA Web</li>
+							<li class="portfolio_category" onclick="addSelector('thirthSelector')" id="thirthSelector" data-filter=".disenoweb">SYSWA Gestión</li>
+							<li class="portfolio_category" onclick="addSelector('fourthSelector')" id="fourthSelector" data-filter=".branding">SYSWA Branding</li>
 						</ul>
 					</div>
 				</div>

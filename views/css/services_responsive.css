@@ -337,7 +337,11 @@
 	.header.scrolled
 	{
 		height: 50px;
-		background: rgba(27, 11, 51, 0.92);
+		background: #fff;
+	}
+	.header.scrolled .responsiveLogo{
+		width: 180px;
+		height:40px;
 	}
 	.logo a
 	{

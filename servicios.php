@@ -247,7 +247,7 @@
 					</div>
 					<ul>
 						<li class="landingLi" onmouseover="changeTypeWeb('landing')">
-							Página landing
+							Landing page
 						</li>
 						<li class="siteLi" onmouseover="changeTypeWeb('site')">
 							Sitio web
@@ -258,10 +258,10 @@
 					</ul>
 					<button onclick="changeImagesSites()"><i class="fa fa-chevron-right"></i></button>
 					<input type="hidden" class="countWebBackground" value="1">
-					<h2 class="titleWeb">Crea una página web landing</h2>
+					<h2 class="titleWeb">Crea una Landing page</h2>
 				</div>
 				<div class="col-md-4 data_section">
-					<h3>Página Web Landing</h3>
+					<h3>Landing page</h3>
 					<div class="menu_apple">
 						<span class="gray_one"><i class="fa fa-circle"></i></span>
 						<span class="gray_two"><i class="fa fa-circle"></i></span>

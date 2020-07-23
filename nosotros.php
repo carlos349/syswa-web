@@ -213,7 +213,7 @@
 								<div class="team_member_title">Desarrollador</div>
 								<p style="text-align:center;">Desarrollador de software, experimentado con mas de 4 años de experiencia, en la rama del desarrollo web, con un alto nivel profesional.</p>
 								<center>
-								<div class="team_member_link"><a href="https://www.linkedin.com/in/cristians-sanchez-1467001ab/" target="_blank">Saber más</a></div>
+								<div class="team_member_link"><a href="https://www.linkedin.com/in/carlos-capacho-a53755187/" target="_blank">Saber más</a></div>
 								</center>
 							</div>
 						</div>

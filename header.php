@@ -47,7 +47,7 @@
 		<!-- Logo -->
 		<div class="logo mr-auto">
 			<a href="index" >
-			<img style="width: 260px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
+			<img class="responsiveLogo trans_300" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
 			</a>
 		</div>
 
@@ -110,7 +110,7 @@
 
 		<!-- Hamburger -->
 		<div class="hamburger_container bez_1">
-			<i class="fas fa-bars trans_200"></i>
+			<i class="fas fa-bars trans_200" style="color:#172b4d;"></i>
 		</div>
 		
 	</header>
@@ -119,7 +119,7 @@
 
 	<div class="menu_container">
 		<div class="menu menu_mm text-right">
-			<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
+			<div class="menu_close"><i class="far fa-times-circle trans_200" ></i></div>
 			<ul class="menu_mm">
 				<li class="menu_mm active"><a href="index">Inicio</a></li>
 				<li class="menu_mm"><a href="nosotros">Nosotros</a></li>

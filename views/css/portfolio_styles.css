@@ -68,6 +68,13 @@ ul
 	list-style: none;
 	margin-bottom: 0px;
 }
+.portfolio_categories ul{
+	width: 55%;
+    margin: auto;
+}
+.thisSelect{
+	border-bottom: solid 2px #172b4d;
+}
 p
 {
 	font-family: 'Poppins', sans-serif;
@@ -115,7 +122,7 @@ p a:hover::after
 ::selection
 {
 	background: #ffd9bf;
-	color: #ff6b09;
+	color: #172b4d;
 }
 p::selection
 {
@@ -473,7 +480,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ff6b09;
+	color: #172b4d;
 }
 
 /*********************************
@@ -521,8 +528,9 @@ section
 }
 .next_section_scroll:hover i
 {
-	color: #ff6b09;
+	color: #172b4d;
 }
+
 
 /*********************************
 4. Menu
@@ -567,7 +575,7 @@ section
 }
 .menu_close:hover i
 {
-	color: #ff6b09;
+	color: #172b4d;
 }
 .menu ul
 {
@@ -592,7 +600,7 @@ section
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
-	background: #ff6b09;
+	background: #172b4d;
 	content: '';
 }
 .menu ul li.active a
@@ -610,7 +618,7 @@ section
 }
 .menu ul li a:hover
 {
-	color: #ff6b09;
+	color: #172b4d;
 }
 
 /*********************************
@@ -816,7 +824,7 @@ section
 .footer_col ul li a
 {
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	color: #909090;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -827,4 +835,8 @@ section
 .footer_col ul li a:hover
 {
 	color: #28262d;
+}
+.footer_col ul li
+{
+	line-height: 1.8;
 }

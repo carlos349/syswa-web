@@ -3,26 +3,32 @@
 	<footer class="footer" >
 		<div class="container" >
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 					<!-- Footer Intro -->
 					<div class="footer_intro">
 						<!-- Logo -->
-						<div class="logo footer_logo">
-							<a href="http://syswa.net" >
-								<img style="width: 260px;height:60px;filter: drop-shadow(rgba(0, 0, 0, 0.2) 1px 1px 1px) drop-shadow(rgba(0, 0, 0, 0.2) 0px 0px 2px);margin-left:-40px;" src="views/images/syswa-imagotipo-2.png" alt="Logo syswa">
+						<div class="logo footer_logo" style="margin-bottom:5px;">
+							<a href="http://syswa.net" style="color:#172b4d;">
+								SYSWA 
 							</a>
 						</div>
 						<p>Digitaliza tu idea.</p>
 						<!-- Social -->
 						<div class="footer_social">
 							<ul>
-								<li><a href="https://www.instagram.com/syswanet/?hl=es-la" target="_blank"> <i class="fab fa-instagram"> @syswanet</i> </a>
+								<li>
+									<a href="https://www.instagram.com/syswanet/?hl=es-la" target="_blank"> <i style="font-size:22px;color:#000;" class="fab fa-instagram"></i> </a>
 								</li> 
-								<li><a href="https://www.linkedin.com/company/syswa" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+								<li>
+									<a href="https://www.linkedin.com/company/syswa" target="_blank"><i style="font-size:22px;color:#000;" class="fab fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/company/syswa" target="_blank"><i style="font-size:22px;color:#000;" class="fab fa-linkedin"></i></a>
+								</li>
 							</ul>
 						</div>
 						<!-- Copyright -->
-						<div class="footer_cr">Copyright &copy;Todos los derechos reservados </div>
+						
 					</div>
 				</div>
 				
@@ -31,9 +37,9 @@
 					<div class="footer_col">
 						<div class="footer_col_title">Servicios</div>
 						<ul>
-							<li><a href="servicios">Desarrollo Web</a></li>
-							<li><a href="servicios">Diseño web</a></li>
-							<li><a href="servicios">SYSWA Gestión</a></li>
+							<li><a href="servicios">SYSWA WEB</a></li>
+							<li><a href="servicios">SYSWA GESTIÓN</a></li>
+							<li><a href="servicios">SYSWA BRANDING</a></li>
 						</ul>
 					</div>
 				</div>
@@ -41,7 +47,7 @@
 				<!-- Footer Menu -->
 				<div class="col-lg-2">
 					<div class="footer_col">
-						<div class="footer_col_title">Menu</div>
+						<div class="footer_col_title">Menú</div>
 						<ul>
 							<li><a href="index">Inicio</a></li>
 							<li><a href="nosotros">Nosotros</a></li>
@@ -65,17 +71,17 @@
 				</div>
 				<input type="hidden" value="CLP" id="typeCurrencyBranding">
 				<!-- Footer About -->
-				<div class="col-lg-2">
+				<div class="col-lg-3">
 					<div class="footer_col">
 						<div class="footer_col_title">Contacto</div>
 						<ul>
-							<li style="font-size: 16px;font-weight: 500;color: #909090;"><a href="http://syswa.net/contacto#reply_form_container">syswainfo@gmail.com</a></li>
-							<li style="font-size: 16px;font-weight: 500;color: #909090;">Santiago, Chile</li>
-							<li><a target="_blank" href="https://wa.me/56985826974">+56 9 8582 6974</a></li>
+							<li style="font-size: 16px;font-weight: 400;color: #909090;"><i style="color:#000;" class="fa fa-map-marker-alt"></i>&nbsp;  Santiago, Chile</li>
+							<li style="font-size: 16px;font-weight: 400;color: #909090;"><i style="color:#000;" class="fa fa-envelope"></i> <a href="http://syswa.net/contacto#reply_form_container">&nbsp; syswainfo@gmail.com</a></li>
+							<li style="font-size: 16px;font-weight: 400;color: #909090;"><i style="color:#000;" class="fab fa-whatsapp"></i><a target="_blank" href="https://wa.me/56985826974"> &nbsp; +56 9 8582 6974</a></li>
 						</ul>
 					</div>
 				</div>
-
+				<div class="footer_cr mx-auto">Copyright &copy;Todos los derechos reservados </div>
 				<!-- Footer Community -->
 				
 
@@ -101,6 +107,10 @@
 	<script src="views/js/portfolio_custom.js"></script>
 	<script src="views/js/portfolio_item_custom.js"></script>
 	<script>
+		function addSelector(Selector){
+			$('.portfolio_category').removeClass('thisSelect')
+			$('#'+Selector+'').addClass('thisSelect')
+		}
 		function selectContract (plain){
 			console.log(plain)
 			document.getElementById('typeContract').value = plain
@@ -195,24 +205,24 @@
 				$('#imageWeb').css({"background-image": "url('views/images/bg_landing_1.png')"})
 				$('#imageWeb ul li').css({'border': 'none'})
 				$('.landingLi').css({'border-bottom': 'solid 3px azure'})
-				$('.titleWeb').text('Crea una página web landing')
+				$('.titleWeb').text('Crea una Landing page')
 				$('.pSite').hide(1)
 				$('.pEcommerce').hide(1)
 				$('.pLanding').show('slow')
-				$('.data_section h3').text('Página Web Landing')
+				$('.data_section h3').text('Landing page')
 				if ($('#typeCurrencyBranding').val() == 'CLP') {
 					$('.data_section .price_web_section').text('120.000 CLP')
 				}else{
 					$('.data_section .price_web_section').text('150,00 $')
 				}
-				$('#typeContractWeb').val('Página web landing')
+				$('#typeContractWeb').val('Landing page')
 			}
 			if (web == 'site') {
 				$('.typeWebService').val(web)
 				$('#imageWeb').css({"background-image": "url('views/images/bg_site_1.png')"})
 				$('#imageWeb ul li').css({'border': 'none'})
 				$('.siteLi').css({'border-bottom': 'solid 3px azure'})
-				$('.titleWeb').text('Crea un Sitio Web completo')
+				$('.titleWeb').text('Crea un Sitio Web')
 				$('.pLanding').hide(1)
 				$('.pEcommerce').hide(1)
 				$('.pSite').show('slow')
@@ -229,7 +239,7 @@
 				$('#imageWeb').css({"background-image": "url('views/images/bg_ecommerce_1.png')"})
 				$('#imageWeb ul li').css({'border': 'none'})
 				$('.ecommerceLi').css({'border-bottom': 'solid 3px azure'})
-				$('.titleWeb').text('Crea tu propia tienda en linea')
+				$('.titleWeb').text('Crea tu propia tienda en línea')
 				$('.pLanding').hide(1)
 				$('.pSite').hide(1)
 				$('.pEcommerce').show('slow')
