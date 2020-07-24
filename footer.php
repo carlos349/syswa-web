@@ -146,22 +146,27 @@
 				$('#serviceSection').css({'border-bottom': 'solid 2px #172b4d'})
 				$('.allSections').removeClass('active')
 				$('#serviceSection').addClass('active')
+				$('#serviceSectionPhone').addClass('active')
 			}else if(route == 'contactSection'){
 				$('#contactSection').css({'border-bottom': 'solid 2px #172b4d'})
 				$('.allSections').removeClass('active')
 				$('#contactSection').addClass('active')
+				$('#contactSectionPhone').addClass('active')
 			}else if(route == 'aboutSection'){
 				$('#aboutSection').css({'border-bottom': 'solid 2px #172b4d'})
 				$('.allSections').removeClass('active')
 				$('#aboutSection').addClass('active')
+				$('#aboutSectionPhone').addClass('active')
 			}else if(route == 'portfoliotSection'){
 				$('#portfoliotSection').css({'border-bottom': 'solid 2px #172b4d'})
 				$('.allSections').removeClass('active')
 				$('#portfoliotSection').addClass('active')
+				$('#portfoliotSectionPhone').addClass('active')
 			}else{
 				$('#indexSection').css({'border-bottom': 'solid 2px #172b4d'})
 				$('.allSections').removeClass('active')
 				$('#indexSection').addClass('active')
+				$('#indexSectionPhone').addClass('active')
 			}
 		}
 		function changeTypePlain(plain){

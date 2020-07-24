@@ -121,11 +121,11 @@
 		<div class="menu menu_mm text-right">
 			<div class="menu_close"><i class="far fa-times-circle trans_200" ></i></div>
 			<ul class="menu_mm">
-				<li class="menu_mm active"><a href="index">Inicio</a></li>
-				<li class="menu_mm"><a href="nosotros">Nosotros</a></li>
-				<li class="menu_mm"><a href="servicios">Servicios</a></li>
-				<li class="menu_mm"><a href="portafolio">Portafolio</a></li>
-				<li class="menu_mm"><a href="contacto">Contacto</a></li>
+				<li class="menu_mm allSections active" id="indexSectionPhone"><a href="index">Inicio</a></li>
+				<li class="menu_mm allSections" id="aboutSectionPhone"><a href="nosotros">Nosotros</a></li>
+				<li class="menu_mm allSections" id="serviceSectionPhone"><a href="servicios">Servicios</a></li>
+				<li class="menu_mm allSections" id="portfoliotSectionPhone"><a href="portafolio">Portafolio</a></li>
+				<li class="menu_mm allSections" id="contactSectionPhone"><a href="contacto">Contacto</a></li>
 			</ul>
 		</div>
 	</div>

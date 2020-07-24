@@ -290,7 +290,7 @@
 						<div class="newsletter_form_container">
 							<form>
 								<div class="input-group">
-									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electrónico" required="required" data-error="Valid email address is required.">
+									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Correo electrónico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscríbete
 									</button>

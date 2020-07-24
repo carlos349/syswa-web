@@ -122,7 +122,9 @@
 
 @media only screen and (max-width: 1024px)
 {
-	
+	.portfolio_categories ul{
+		width: 70%;
+	}
 }
 
 /************
@@ -177,7 +179,9 @@
 
 @media only screen and (max-width: 768px)
 {
-	
+	.portfolio_categories ul{
+		width: 100%;
+	}
 }
 
 /************
@@ -295,12 +299,22 @@
 	}
 	.portfolio_category
 	{
-		margin-right: 20px;
+		margin-right: 5px;
 	}
 	.portfolio_category a
 	{
 		font-size: 13px;
 	}
+	.portfolio_category_device{
+		display: none;
+	}
+	.portfolio_category_phone{
+		display: block;
+	}
+	.portfolio_categories ul{
+		width: 100%;
+	}
+	
 }
 
 /************

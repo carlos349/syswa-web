@@ -292,7 +292,9 @@
 
 @media only screen and (max-width: 880px)
 {
-	
+	.ImageSliderIndex{
+		height: 50vh;
+	}
 }
 
 /************
@@ -406,19 +408,25 @@
 	.service_item_icon .icon{ 
 		color:#fff;
 	}
+	.service_item_icon{
+		margin-left: 45%;
+	}
 	.service_item_button
 	{
 		bottom: -84px;
 		visibility: visible;
 		opacity: 1;
+		margin-left: 30%;
 	}
 	.services_item_inner h2
 	{
 		color: #fff;
+		text-align: center;
 	}
 	.services_item_inner p
 	{
 		color: #fff;
+		text-align: center;
 	}
 	.services_slider .owl-item.center
 	{
@@ -585,6 +593,10 @@
 		font-size: 14px;
 		line-height: 1.7;
 	}
+	.ImageSliderIndex{
+		height: 30vh;
+	}
+	
 }
 
 /************

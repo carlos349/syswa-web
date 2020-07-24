@@ -33,11 +33,17 @@
 				
 				<div class="col">
 					<div class="portfolio_categories button-group filters-button-group">
-						<ul>
+						<ul class="portfolio_category_device">
 							<li class="portfolio_category active is-checked thisSelect" onclick="addSelector('firstSelector')" id="firstSelector" data-filter="*">Todos</li>
 							<li class="portfolio_category" onclick="addSelector('secondSelector')" id="secondSelector" data-filter=".desarrollo">SYSWA Web</li>
 							<li class="portfolio_category" onclick="addSelector('thirthSelector')" id="thirthSelector" data-filter=".disenoweb">SYSWA Gestión</li>
 							<li class="portfolio_category" onclick="addSelector('fourthSelector')" id="fourthSelector" data-filter=".branding">SYSWA Branding</li>
+						</ul>
+						<ul class="portfolio_category_phone">
+							<li class="portfolio_category active is-checked thisSelect" onclick="addSelector('firstSelectorPhone')" id="firstSelectorPhone" data-filter="*">Todos</li>
+							<li class="portfolio_category" onclick="addSelector('secondSelectorPhone')" id="secondSelectorPhone" data-filter=".desarrollo">Web</li>
+							<li class="portfolio_category" onclick="addSelector('thirthSelectorPhone')" id="thirthSelectorPhone" data-filter=".disenoweb">Gestión</li>
+							<li class="portfolio_category" onclick="addSelector('fourthSelectorPhone')" id="fourthSelectorPhone" data-filter=".branding">Branding</li>
 						</ul>
 					</div>
 				</div>

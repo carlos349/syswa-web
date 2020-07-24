@@ -125,7 +125,7 @@
 
 				<div class="col-lg-6 v_slider_section_image">
 					<div class="v_slider_image">
-						<img style="height: 580px;" src="views/images/portfolio6.png" alt="">
+						<img class="ImageSliderIndex" src="views/images/portfolio6.png" alt="">
 					</div>
 				</div>
 
@@ -391,7 +391,7 @@
 						<div class="newsletter_form_container">
 							<form>
 								<div class="input-group">
-									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Aquí tu correo electrónico" required="required" data-error="Valid email address is required.">
+									<input type="email" name="mailSuscription" class="newsletter_email" placeholder="Correo electrónico" required="required" data-error="Valid email address is required.">
 									<button id="newsletter_form_submit" type="button" class="button newsletter_submit_button trans_200" onclick="sendMail(1)">
 										Suscríbete
 									</button>

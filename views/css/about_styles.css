@@ -270,7 +270,7 @@ section
 	height: 54px;
 	width: 174px;
 	text-align: center;
-	border: solid 2px #172b4d;
+	border: solid 2px #fff;
 	background: transparent;
 }
 .button a
@@ -1097,7 +1097,7 @@ section
 }
 .footer_col ul li
 {
-	margin-bottom: 4px;
+	margin-bottom: 1px;
 }
 .footer_col ul li a
 {

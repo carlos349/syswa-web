@@ -148,7 +148,7 @@
 		top: 0;
 	    left: 0;
 	    width: 100%;
-	    background: #452b78;
+	    background: #172b4d;
 	    z-index: -1;
 	}
 	.device_image_container
@@ -253,6 +253,9 @@
 		border-radius: 0px;
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
+	}
+	.image_section h2{
+		font-size: 1.8em;
 	}
 	.data_section{
 		border-radius: 0px;
