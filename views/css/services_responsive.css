@@ -227,7 +227,7 @@
 10. 767px
 ************/
 
-@media only screen and (max-width: 770px)
+@media only screen and (max-width: 764px)
 {
 	h1
 	{
@@ -237,6 +237,7 @@
 	{
 		padding-left: 30px;
 	}
+
 	.device_image_container
 	{
 		width: 100%;
@@ -248,6 +249,10 @@
 	.cta_2_content span
 	{
 		font-size: 16px;
+	}
+	.card_design_section{
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 	.image_section{
 		border-radius: 0px;
