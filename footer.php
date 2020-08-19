@@ -554,7 +554,7 @@
 				}
 			}
 			if (dataOK == 'ok') {
-				fetch('http://kkprettynails.syswa.net:4200/clients/sendEmailsSyswa', {
+				fetch('https://kkprettynailsback.syswa.net/clients/sendEmailsSyswa', {
 					method: 'POST',
 					body: JSON.stringify(data),
 					headers:{
